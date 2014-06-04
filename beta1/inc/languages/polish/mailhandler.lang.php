@@ -1,17 +1,18 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+ 
+$l['error_no_connection'] = 'Wystąpił błąd w czasie zestawiania połączenia z serwerem: ';
+$l['error_no_message'] = 'Nie podano treści wiadomości.';
+$l['error_no_subject'] = 'Nie podano tematu wiadomości.';
+$l['error_no_recipient'] = 'Nie podano odbiorcy wiadomości.';
+$l['error_not_sent'] = 'Wystąpił błąd w czasie próby wysłania wiadomości za pomocą funkcji mail() w PHP.';
+$l['error_status_missmatch'] = 'Serwer zwrócił nieoczekiwany wynik: ';
+$l['error_data_not_sent'] = 'Przesyłanie danych do serwera nie powiodło się: ';
 
-$l['error_no_connection'] = 'There was an error establishing a connection through the server: ';
-$l['error_no_message'] = 'There was no message specified.';
-$l['error_no_subject'] = 'There was no subject specified.';
-$l['error_no_recipient'] = 'There was no recipient specified.';
-$l['error_not_sent'] = 'There was a error while trying to send the mail through php mail function.';
-$l['error_status_missmatch'] = 'The status from server mismatches expected result, returning: ';
-$l['error_data_not_sent'] = 'This data could not be sent to server: ';
-
-$l['error_occurred'] = 'One or more errors have occurred. Please correct the following errors before continuing.<br />';
+$l['error_occurred'] = 'Wystąpił jeden lub więcej błędów. Napraw je, zanim będziesz kontynuować.<br />';
 ?>
