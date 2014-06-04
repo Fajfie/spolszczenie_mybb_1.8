@@ -1,17 +1,18 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['archive_fullversion'] = "Full Version:";
-$l['archive_replies'] = "Replies";
-$l['archive_reply'] = "Reply";
-$l['archive_pages'] = "Pages:";
-$l['archive_note'] = "You're currently viewing a stripped down version of our content. <a href=\"{1}\">View the full version</a> with proper formatting.";
-$l['archive_nopermission'] = "Sorry, you do not have permission to access this resource.";
-$l['error_nothreads'] = "There are currently no threads in this forum.";
-$l['error_unapproved_thread'] = "This thread is unapproved. Please <a href=\"{1}\">view the full version</a> to view the contents of this thread.";
-$l['archive_not_found'] = "The requested page was not found on this server.";
+$l['archive_fullversion'] = "Pełna wersja:";
+$l['archive_replies'] = "Odpowiedzi";
+$l['archive_reply'] = "Odpowiedź";
+$l['archive_pages'] = "Stron:";
+$l['archive_note'] = "Aktualnie przeglądasz uproszczoną wersję forum. <a href=\"{1}\">Kliknij tutaj, by zobaczyć wersję z pełnym formatowaniem</a>.";
+$l['archive_nopermission'] = "Nie masz uprawnień do przeglądania tego zasobu.";
+$l['error_nothreads'] = "Aktualnie nie ma wątków w tym dziale.";
+$l['error_unapproved_thread'] = "Ten wątek nie został zatwierdzony. Odwiedź <a href=\"{1}\">wersję z pełnym formatowaniem</a> aby zobaczyć jego treść.";
+$l['archive_not_found'] = "<h1>Błąd 404</h1><p>Określony dokument (plik) nie został znaleziony na serwerze.";
 ?>

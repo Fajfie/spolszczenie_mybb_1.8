@@ -1,15 +1,16 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
 /*
- * Custom Help Section Translation Format
+ * Przykładowy format tłumaczenia dla rodziałów Pomocy
  *
- * // Help Section {sid}
- * $l['s{sid}_name'] = "Section name";
- * $l['s{sid}_desc'] = "Section description";
+ * // Identyfikator rozdziały Pomocy {sid}
+ * $l['s{sid}_name'] = "Nazwa sekcji";
+ * $l['s{sid}_desc'] = "Opis sekcji";
  */
 ?>

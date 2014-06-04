@@ -1,17 +1,18 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_announcements'] = "Forum Announcement";
-$l['announcements'] = "Announcement";
-$l['forum_announcement'] = "Forum Announcement: {1}";
-$l['error_invalidannouncement'] = "The announcement specified is invalid.";
+$l['nav_announcements'] = "Ogłoszenia";
+$l['announcements'] = "Ogłoszenia";
+$l['forum_announcement'] = "Ogłoszenie: {1}";
+$l['error_invalidannouncement'] = "Wybrane ogłoszenie jest nieprawidłowe.";
 
-$l['announcement_edit'] = "Edit this announcement";
-$l['announcement_qdelete'] = "Delete this announcement";
-$l['announcement_quickdelete_confirm'] = "Are you sure you want to delete this announcement?";
+$l['announcement_edit'] = "Edytuj to ogłoszenie";
+$l['announcement_qdelete'] = "Usuń to ogłoszenie";
+$l['announcement_quickdelete_confirm'] = "Czy na pewno chcesz usunąć to ogłoszenie?";
 
 ?>

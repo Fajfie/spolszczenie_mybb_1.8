@@ -1,41 +1,42 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['userdata_missing_username'] = 'You did not enter a username. Please enter one.';
-$l['userdata_banned_username'] = 'The username you entered may not be registered. Please enter a different username.';
-$l['userdata_bad_characters_username'] = 'The username you entered contains bad characters. Please enter a different username.';
-$l['userdata_invalid_username_length'] = 'The username you entered is of invalid length. Please enter a username between {1} and {2} characters.';
-$l['userdata_invalid_usertitle_length'] = 'The custom user title you entered is of invalid length. Please enter a title no longer than {1} characters.';
-$l['userdata_username_exists'] = 'The username you entered already exists. Please enter a different username.';
+$l['userdata_missing_username'] = "Nie podano loginu. Wprowadź go.";
+$l['userdata_banned_username'] = "Wprowadzony login nie może zostać użyty. Podaj inny login.";
+$l['userdata_bad_characters_username'] = "Wprowadzony login zawiera niedozwolone znaki. Podaj inny login.";
+$l['userdata_invalid_username_length'] = "Wprowadzono login niepoprawnej długości. Podaj login o długości od {1} do {2} znaków.";
+$l['userdata_invalid_usertitle_length'] = "Wprowadzony tytuł użytkownika jest zbyt długi. Podaj tytuł użytkownika nie dłuższy niż {1} znaków.";
+$l['userdata_username_exists'] = "Wprowadzony login już istnieje. Podaj inny login.";
 
-$l['userdata_invalid_password_length'] = 'The password you entered is of invalid length. Please enter a password between {1} and {2} characters.';
-$l['userdata_no_complex_characters'] = 'The password you entered is not complex enough. Please enter a password that is at least {1} characters long, and contains an upper case letter, lower case letter and a number.';
-$l['userdata_passwords_dont_match'] = 'The password you entered as confirmation does not match the original one. Please confirm your password correctly.';
-$l['userdata_bad_password_security'] = 'The password you entered is the same as either your username or email address. Please enter a stronger password.';
+$l['userdata_invalid_password_length'] = "Wprowadzone hasło ma nieodpowiednią ilość znaków. Podaj hasło o długości od {1} do {2} znaków.";
+$l['userdata_no_complex_characters'] = 'Podane hasło nie zawiera jednego lub więcej złożonych znaków. Podaj hasło, które zawiera jeden lub wiecej znaków złożonych.';
+$l['userdata_passwords_dont_match'] = "Wprowadzone hasła nie są identyczne. Wpisz je ponownie.";
+$l['userdata_bad_password_security'] = 'Wprowadzone hasło jest takie samo jak login lub adres e-mail. Wybierz inne hasło.';
 
-$l['userdata_missing_email'] = 'You did not enter an email address. Please enter one.';
-$l['userdata_invalid_email_format'] = 'The email address you entered is invalid. Please enter a valid email address.';
-$l['userdata_emails_dont_match'] = 'The email address you entered as confirmation does not match the original one. Please confirm your email address correctly.';
-$l['userdata_banned_email'] = "The email address you have entered is currently disallowed from being used. Please enter a different email address.";
-$l['userdata_email_already_in_use'] = "You have entered an email address that is already in use by another member. Please enter a different email address.";
+$l['userdata_missing_email'] = "Nie podano adresu e-mail. Wprowadź go.";
+$l['userdata_invalid_email_format'] = "Wprowadzony adres e-mail nie jest prawidłowy. Wpisz poprawny adres.";
+$l['userdata_emails_dont_match'] = "Wprowadzone adresy e-mail nie pasują do siebie. Wpisz je ponownie.";
+$l['userdata_banned_email'] = "Wprowadzony adres e-mail został zablokowany. Użyj innego adresu.";
+$l['userdata_email_already_in_use'] = "Wprowadzony adres e-mail jest już używany przez innego użytkownika. Podaj inny adres e-mail.";
 
-$l['userdata_dob_required'] = "You did not select your date of birth. Please select your date of birth to continue - you can hide your birthday and age from other users, however.";
-$l['userdata_invalid_website'] = 'The website address you entered is invalid. Please enter a valid website address or leave the field empty.';
-$l['userdata_invalid_icq_number'] = 'The ICQ number you entered is invalid. Please enter a valid ICQ number or leave the field empty.';
-$l['userdata_invalid_birthday'] = 'The birthday you entered is invalid. Please enter a valid birthday or leave the field empty.';
-$l['userdata_invalid_birthday_coppa'] = 'To verify your age, please enter the year you were born. You may hide your Age and Date of Birth in your profile options.';
-$l['userdata_invalid_birthday_coppa2'] = 'You must be at least 13 years of age to be a member of this message board. Please contact an Administrator.';
-$l['userdata_invalid_birthday_privacy'] = 'Please choose a valid birthday privacy option.';
-$l['userdata_invalid_referrer'] = 'The referrer you entered does not exist. Please enter an existing referrer or leave the field empty.';
-$l['userdata_invalid_language'] = 'The language you selected does not exist. Please select an existing language.';
-$l['userdata_missing_returndate'] = 'The Return Date you specified is missing one or more fields. Please make sure you have filled in the day, month, and year fields.';
-$l['userdata_missing_required_profile_field'] = 'You did not enter an option for the "{1}" field. Please fill in or select a value for this field.';
-$l['userdata_bad_profile_field_values'] = 'You did not select a valid option for the "{1}" field. Please select a value from the presented choices.';
-$l['userdata_max_limit_reached'] = 'You entered an invalid number of characters for the "{1}" field. Please fill in this field with no more than {2} characters.';
-$l['userdata_invalid_checkfield'] = "It has been detected that this form has been submitted by a spam bot. If this is in error, please contact the administrator.";
-$l['userdata_invalid_postnum'] = "The post count you entered is invalid. Please enter a valid post count, or leave the field empty.";
+$l['userdata_dob_required'] = "Nie wprowadzono daty urodzenia. Podaj ją, aby kontynuować - możesz ją ukryć przed innymi użytkownikami.";
+$l['userdata_invalid_website'] = "Wprowadzony adres WWW jest nieprawidłowy. Podaj poprawny adres lub pozostaw to pole puste.";
+$l['userdata_invalid_icq_number'] = "Wprowadzony numer ICQ jest nieprawidłowy. Podaj poprawny numer lub pozostaw to pole puste.";
+$l['userdata_invalid_birthday'] = "Wprowadzona data urodzin jest nieprawidłowa. Podaj poprawną datę lub pozostaw to pole puste.";
+$l['userdata_invalid_birthday_coppa'] = 'Podaj rok urodzenia w celu weryfikacji wieku. Swój wiek i datę urodzenia możesz ukryć w panelu użytkownika.';
+$l['userdata_invalid_birthday_coppa2'] = 'Musisz mieć ukończone 13 lat by zostać użytkownikiem tego forum. Skontaktuj się z administratorem.';
+$l['userdata_invalid_birthday_privacy'] = 'Wybierz właściwe ustawienia prywatności dotyczące daty urodzin.';
+$l['userdata_invalid_referrer'] = "Wprowadzony login polecającego nie istnieje. Podaj poprawny login lub pozostaw to pole puste.";
+$l['userdata_invalid_language'] = "Nie ma takiego języka. Wybierz istniejący język.";
+$l['userdata_missing_returndate'] = "Podana data powrotu jest nieprawidłowa. Wypełnij ponownie pola: dzień, miesiąc, rok.";
+$l['userdata_missing_required_profile_field'] = "Nie wprowadzono prawidłowej wartości do pola \"{1}\". Podaj poprawną wartość.";
+$l['userdata_bad_profile_field_values'] = "Nie wprowadzono prawidłowej wartości do pola \"{1}\". Sprawdź poprawność danych wpisanych w tym polu.";
+$l['userdata_max_limit_reached'] = 'Wpisałeś nieprawidłową liczbę znaków w polu "{1}". Wprowadź nie więcej niż {2} znaków.';
+$l['userdata_invalid_checkfield'] = "Wykryto, że formularz został wypełniony przez \"automat spamujący\". Jeśli nie jesteś \"spambotem\", skontaktuj się z administratorem.";
+$l['userdata_invalid_postnum'] = "Wprowadzona liczba postów jest nieprawidłowa. Podaj prawidłową liczbę postów lub pozostaw to pole puste.";
 ?>

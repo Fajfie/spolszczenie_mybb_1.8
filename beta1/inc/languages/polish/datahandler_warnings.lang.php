@@ -5,5 +5,5 @@
  *
  */
 
-$l['warnings_reached_max_warnings_day'] = 'You cannot warn anyone as you have reached your limit on the number of warnings you can give out per day.<br /><br />The maximum number of warnings you can give out per day is {1}."';
+$l['warnings_reached_max_warnings_day'] = 'Nie możesz ostrzec żadnego użytkownika, bo przekroczono już dzienny limit dodanych ostrzeżeń.<br /><br />Możesz dodać maksymalnie {1} ostrzeżeń dziennie.';
 ?>

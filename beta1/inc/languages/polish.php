@@ -1,18 +1,19 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
 // The friendly name of the language
-$langinfo['name'] = "English (American)";
+$langinfo['name'] = "Polski";
 
 // The author of the language
-$langinfo['author'] = "MyBB Group";
+$langinfo['author'] = "Polski Support MyBB";
 
 // The language authors website
-$langinfo['website'] = "http://www.mybb.com/";
+$langinfo['website'] = "http://www.mybboard.pl/";
 
 // Compatible version of MyBB
 $langinfo['version'] = "1700";
@@ -24,7 +25,7 @@ $langinfo['admin'] = 1;
 $langinfo['rtl'] = 0;
 
 // Sets the lang in the <html> on all pages
-$langinfo['htmllang'] = "en";
+$langinfo['htmllang'] = "pl";
 
 // Sets the character set, blank uses the default.
 $langinfo['charset'] = "UTF-8";

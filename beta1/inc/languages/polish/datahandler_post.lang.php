@@ -1,26 +1,27 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['postdata_invalid_user_id'] = 'The user id does not exist. Please supply a valid user id.';
-$l['postdata_firstpost_no_subject'] = 'The thread does not have a subject. Please enter a subject.';
-$l['postdata_missing_subject'] = 'The subject is missing. Please enter a subject.';
-$l['postdata_missing_message'] = 'The message is missing. Please enter a message.';
-$l['postdata_message_too_long'] = 'The message is too long. Please enter a message shorter than {1} characters (currently {2}).';
-$l['postdata_message_too_short'] = 'The message is too short. Please enter a message longer than {1} characters.';
-$l['postdata_subject_too_long'] = 'The subject is too long. Please enter a subject shorter than 85 characters (currently {1}).';
-$l['postdata_post_flooding'] = 'You are trying to post a message too quickly after posting a previous message. Please wait {1} more seconds.';
-$l['postdata_post_flooding_one_second'] = 'You are trying to post a message too quickly after posting a previous message. Please wait 1 more second.';
-$l['postdata_too_many_images'] = 'The message you entered contained {1} images, while only {2} images per message are allowed. Please lower the image count in your message to meet the limit.';
-$l['postdata_too_many_videos'] = 'The message you entered contained {1} videos, while only {2} videos per message are allowed. Please lower the video count in your message to meet the limit.';
-$l['postdata_invalid_prefix'] = 'The selected prefix is invalid. Please select a valid prefix.';
+$l['postdata_invalid_user_id'] = "Nieprawidłowy ID użytkownika. Podaj prawidłowy ID.";
+$l['postdata_firstpost_no_subject'] = "Nie wprowadzono tematu. Wprowadź temat wątku.";
+$l['postdata_missing_subject'] = "Nie wprowadzono nazwy posta. Uzupełnij ją.";
+$l['postdata_missing_message'] = "Tekst wiadomości jest wymagany. Uzupełnij go.";
+$l['postdata_message_too_long'] = 'Wiadomość jest za długa. Wpisz wiadomość krótszą niż {1} znaków (aktualna długość to {2} znaków).';
+$l['postdata_message_too_short'] = 'Wiadomość jest zbyt krótka. Wpisz wiadomość dłuższą niż {1} znaków.';
+$l['postdata_subject_too_long'] = 'Tytuł wątku jest zbyt długi. Wpisz tytuł nie dłuższy niż 85 znaków (aktualna długość to {1} znaków).';
+$l['postdata_post_flooding'] = "Przed chwilą napisano inną wiadomość. Przed wysłaniem kolejnej musisz odczekać przynajmniej {1} sekund.";
+$l['postdata_post_flooding_one_second'] = "Przed chwilą napisano inną wiadomość. Przed wysłaniem kolejnej musisz odczekać przynajmniej sekundę.";
+$l['postdata_too_many_images'] = "Wprowadzona wiadomość zawiera {1} obrazków, a administrator ustalił limit {2} obrazków na wiadomość. Usuń niektóre obrazki z wiadomości.";
+$l['postdata_too_many_videos'] = "Wprowadzona wiadomość zawiera {1} plików wideo, a administrator ustalił limit {2} plików wideo na wiadomość. Usuń niektóre pliki wideo z wiadomości.";
+$l['postdata_invalid_prefix'] = 'Wybrany został nieprawidłowy prefiks. Wybierz poprawny prefiks.';
 
-$l['thread_closed'] = "Thread Closed";
-$l['thread_opened'] = "Thread Opened";
-$l['thread_stuck'] = "Thread Stuck";
-$l['thread_unstuck'] = "Thread Unstuck";
+$l['thread_closed'] = "Wątek zamknięty";
+$l['thread_opened'] = "Wątek otwarty";
+$l['thread_stuck'] = "Wątek przypięty";
+$l['thread_unstuck'] = "Wątek odpięty";
 
 ?>

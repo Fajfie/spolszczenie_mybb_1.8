@@ -1,23 +1,24 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['contact'] = 'Contact Us';
-$l['nav_contact'] = 'Contact Us';
-$l['contact_no_message'] = 'You have not provided a message to send.';
-$l['contact_no_subject'] = 'You are required to enter a subject.';
-$l['contact_no_email'] = 'You must enter a valid email address.';
-$l['contact_success_message'] = 'Your message has been successfully sent to the Administrator.';
-$l['contact_subject'] = 'Subject';
-$l['contact_message'] = 'Message';
-$l['contact_email'] = 'Email';
-$l['contact_email_desc'] = 'Enter your email so we can contact you back.';
-$l['contact_send'] = 'Send';
-$l['image_verification'] = "Image Verification";
-$l['verification_note'] = "Please enter the text contained within the image into the text box below it. This process is used to prevent automated messages.";
-$l['verification_subnote'] = "(case insensitive)";
-$l['invalid_captcha'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
+$l['contact'] = 'Kontakt';
+$l['nav_contact'] = 'Kontakt';
+$l['contact_no_message'] = 'Nie wpisano treści wiadomości.';
+$l['contact_no_subject'] = 'Nie wpisano tematu wiadomości.';
+$l['contact_no_email'] = 'Nie wpisano poprawnego adresu e-mail.';
+$l['contact_success_message'] = 'Wiadomość została wysłana do administratora.';
+$l['contact_subject'] = 'Temat';
+$l['contact_message'] = 'Treść';
+$l['contact_email'] = 'Adres e-mail';
+$l['contact_email_desc'] = 'Wpisz adres e-mail, aby administrator mógł odpowiedzieć na twoją wiadomość.';
+$l['contact_send'] = 'Wyślij';
+$l['image_verification'] = "Potwierdzenie";
+$l['verification_note'] = "Przepisz tekst z obrazka do poniższego pola tekstowego. Taki proces jest niezbędny, by zapobiec wysyłaniu wiadomości przez automaty.";
+$l['verification_subnote'] = "(wielkość liter nie ma znaczenia)";
+$l['invalid_captcha'] = "Wprowadzony kod z obrazka jest nieprawidłowy. Przepisz kod identyczny jak ten na obrazku.";
 ?>
