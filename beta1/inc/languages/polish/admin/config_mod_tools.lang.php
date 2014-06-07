@@ -1,128 +1,129 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+ 
+$l['mod_tools'] = "Narzędzia moderacji";
 
-$l['mod_tools'] = "Moderator Tools";
+$l['thread_tools'] = "Narzędzia wątków";
+$l['thread_tools_desc'] = "Dodatkowe narzędzia moderacji pozwalają na tworzenie kombinacji poleceń moderatorskich dla postów i wątków. Tutaj zarządzasz dodatkowymi narzędziami moderacji dla wątków.";
 
-$l['thread_tools'] = "Thread Tools";
-$l['thread_tools_desc'] = "Custom moderator tools allows you to create combinations of moderator actions that can be used on both threads and posts. These can then be used like the default tools when managing your forum. Here you can manage your custom thread tools.";
+$l['add_thread_tool'] = "Nowe narzędzie wątków";
+$l['add_new_thread_tool'] = "Nowe narzędzie wątków";
+$l['add_thread_tool_desc'] = "Konfiguruj dodatkowe narzędzia moderacji wątków. Te narzędzia będą dostępne wewnątrz wątków, na liście standardowych narzędzi moderacji.";
 
-$l['add_thread_tool'] = "Add Thread Tool";
-$l['add_new_thread_tool'] = "Add New Thread Tool";
-$l['add_thread_tool_desc'] = "Here you can add a new custom thread moderation tool. This tool will be accessible from both inline thread moderation and from within threads themselves, listed with the default moderation tools.";
+$l['post_tools'] = "Narzędzia postów";
+$l['post_tools_desc'] = "Dodatkowe narzędzia moderacji pozwalają na tworzenie kombinacji poleceń moderatorskich dla postów i wątków. Tutaj zarządzasz dodatkowymi narzędziami moderacji dla postów.";
 
-$l['post_tools'] = "Post Tools";
-$l['post_tools_desc'] = "Custom moderator tools allows you to create combinations of moderator actions that can be used on both threads and posts. These can then be used like the default tools when managing your forum. Here you can manage your custom post tools.";
+$l['add_post_tool'] = "Nowe narzędzie postów";
+$l['add_new_post_tool'] = "Nowe narzędzie postów";
+$l['add_post_tool_desc'] = "Konfiguruj dodatkowe narzędzia moderacji postów. Te narzędzia będą dostępne wewnątrz wątków, na liście standardowych narzędzi moderacji.";
 
-$l['add_post_tool'] = "Add Post Tool";
-$l['add_new_post_tool'] = "Add New Post Tool";
-$l['add_post_tool_desc'] = "Here you can add a new custom post moderation tool. This tool will be accessible from within threads themselves, listed with the default moderation tools.";
+$l['edit_post_tool'] = "Edytuj narzędzie moderowania postów";
+$l['edit_post_tool_desc'] = "Edytuj ustawienia i akcje narzędzia moderowania postów.";
+$l['edit_thread_tool'] = "Edytuj narzędzie moderowania wątków";
+$l['edit_thread_tool_desc'] = "Edytuj ustawienia i akcje narzędzia moderowania wątków.";
 
-$l['edit_post_tool'] = "Edit Post Tool";
-$l['edit_post_tool_desc'] = "Here you can edit the post tool's settings and actions.";
-$l['edit_thread_tool'] = "Edit Thread Tool";
-$l['edit_thread_tool_desc'] = "Here you can edit the thread tool's settings and actions.";
+$l['no_thread_tools'] = "Nie ma narzędzi moderacji wątków.";
+$l['no_post_tools'] = "Nie ma narzędzi moderacji postów.";
 
-$l['no_thread_tools'] = "There are no thread tools setup on your forum.";
-$l['no_post_tools'] = "There are no post tools setup on your forum.";
+$l['confirm_thread_tool_deletion'] = "Czy na pewno chcesz usunąć to narzędzie moderacji wątków?";
+$l['confirm_post_tool_deletion'] = "Czy na pewno chcesz usunąć to narzędzie moderacji postów?";
 
-$l['confirm_thread_tool_deletion'] = "Are you sure you want to delete this thread tool?";
-$l['confirm_post_tool_deletion'] = "Are you sure you want to delete this post tool?";
+$l['success_post_tool_deleted'] = "Wybrane narzędzie moderacji postów zostało usunięte.";
+$l['success_thread_tool_deleted'] = "Wybrane narzędzie moderacji wątków zostało usunięte.";
 
-$l['success_post_tool_deleted'] = "The selected post moderation tool has been deleted successfully.";
-$l['success_thread_tool_deleted'] = "The selected thread moderation tool has been deleted successfully.";
+$l['error_invalid_post_tool'] = "Wybrane narzędzie moderacji postów nie istnieje.";
+$l['error_invalid_thread_tool'] = "Wybrane narzędzie moderacji wątków nie istnieje.";
 
-$l['error_invalid_post_tool'] = "The specified post tool does not exist.";
-$l['error_invalid_thread_tool'] = "The specified thread tool does not exist.";
+$l['general_options'] = "Podstawowe informacje";
+$l['short_description'] = "Opis";
+$l['available_in_forums'] = "Dostępne w działach";
+$l['save_thread_tool'] = "Zapisz narzędzie moderacji wątków";
 
-$l['general_options'] = "General Options";
-$l['short_description'] = "Short Description";
-$l['available_in_forums'] = "Available in forums";
-$l['save_thread_tool'] = "Save Thread Tool";
+$l['title'] = "Tytuł";
 
-$l['title'] = "Title";
+$l['thread_moderation'] = "Moderacja wątków";
+$l['approve_unapprove'] = "Zatwierdzić | Ukryć wątek?";
 
-$l['thread_moderation'] = "Thread Moderation";
-$l['approve_unapprove'] = "Approve/Unapprove thread?";
+$l['no_change'] = "Bez zmian";
+$l['approve'] = "Zatwierdź";
+$l['unapprove'] = "Ukryj";
+$l['stick'] = "Przypnij";
+$l['unstick'] = "Odepnij";
+$l['open'] = "Otwórz";
+$l['close'] = "Zamknij";
+$l['stick'] = "Przyklej";
+$l['unstick'] = "Odklej";
+$l['toggle'] = "Przełącz";
+$l['days'] = "dni";
+$l['no_prefix'] = "Bez prefiksu";
+$l['restore'] = "Przywróć";
+$l['softdelete'] = "Usuń nietrwale";
 
-$l['no_change'] = "No Change";
-$l['approve'] = "Approve";
-$l['unapprove'] = "Unapprove";
-$l['stick'] = "Stick";
-$l['unstick'] = "Unstick";
-$l['open'] = "Open";
-$l['close'] = "Close";
-$l['stick'] = "Stick";
-$l['unstick'] = "Unstick";
-$l['toggle'] = "Toggle";
-$l['days'] = "Days";
-$l['no_prefix'] = "No Prefix";
-$l['restore'] = "Restore";
-$l['softdelete'] = "Soft delete";
+$l['forum_to_move_to'] = "Przenieś do działu:";
+$l['leave_redirect'] = "Pozostawić przekierowanie?";
+$l['delete_redirect_after'] = "Usuń przekierowanie po";
+$l['do_not_move_thread'] = "Nie przenoś wątku";
+$l['do_not_copy_thread'] = "Nie kopiuj wątku";
+$l['move_thread'] = "Przenieść wątek?";
+$l['move_thread_desc'] = "Jeżeli przenosisz wątek, pole \"Usuń przekierowanie po... dniach\" musi zostać wypełnione tylko gdy pozostawiasz przekierowanie.";
+$l['forum_to_copy_to'] = "Skopiuj do działu:";
+$l['copy_thread'] = "Kopiować wątek?";
+$l['open_close_thread'] = "Zamknąć | Otworzyć wątek?";
+$l['stick_unstick_thread'] = "Przykleić/odkleić wątek?";
+$l['softdelete_restore_thread'] = "Usunąć nietrwale/przywrócić wątek?";
+$l['delete_thread'] = "Usunąć wątek?";
+$l['merge_thread'] = "Połączyć wątki?";
+$l['merge_thread_desc'] = "Tylko gdy użyta jest moderacja liniowa.";
+$l['delete_poll'] = "Usunąć ankietę?";
+$l['delete_redirects'] = "Usunąć przekierowania?";
+$l['remove_subscriptions'] = "Cofnąć subskrypcję wątku?";
+$l['apply_thread_prefix'] = "Zastosować prefiks do wątku?";
+$l['new_subject'] = "Nowy temat";
+$l['new_subject_desc'] = "{subject} reprezentuje oryginalny temat. {username} reprezentuje login moderatora.";
 
-$l['forum_to_move_to'] = "Forum to move to:";
-$l['leave_redirect'] = "Leave redirect?";
-$l['delete_redirect_after'] = "Delete redirect after";
-$l['do_not_move_thread'] = "Do not move thread";
-$l['do_not_copy_thread'] = "Do not copy thread";
-$l['move_thread'] = "Move thread?";
-$l['move_thread_desc'] = "If moving the thread(s), the \"delete redirect after... days\" is only to be filled in if a redirect will be left.";
-$l['forum_to_copy_to'] = "Forum to copy to:";
-$l['copy_thread'] = "Copy thread?";
-$l['open_close_thread'] = "Open/close thread?";
-$l['stick_unstick_thread'] = "Stick/unstick thread?";
-$l['softdelete_restore_thread'] = "Soft delete/restore thread?";
-$l['delete_thread'] = "Delete thread permanently?";
-$l['merge_thread'] = "Merge thread?";
-$l['merge_thread_desc'] = "Only if used in inline moderation.";
-$l['delete_poll'] = "Delete poll?";
-$l['delete_redirects'] = "Delete redirects?";
-$l['remove_subscriptions'] = "Remove thread subscriptions?";
-$l['apply_thread_prefix'] = "Apply thread prefix?";
-$l['new_subject'] = "New subject?";
-$l['new_subject_desc'] = "{subject} represents the original subject. {username} represents the moderator's username.";
+$l['add_new_reply'] = "Napisz odpowiedź";
+$l['add_new_reply_desc'] = "Pozostaw puste, jeżeli nie chcesz udzielać odpowiedzi.";
+$l['reply_subject'] = "Temat odpowiedzi.";
+$l['reply_subject_desc'] = "Używane tylko podczas dodawania odpowiedzi.<br />{subject} reprezentuje oryginalny temat, a {username} reprezentuje login moderatora.";
 
-$l['add_new_reply'] = "Add New Reply";
-$l['add_new_reply_desc'] = "Leave blank for no reply.";
-$l['reply_subject'] = "Reply subject.";
-$l['reply_subject_desc'] = "Only used if a reply was made.<br />{subject} represents the original subject. {username} represents the moderator's username.";
+$l['success_mod_tool_created'] = "Narzędzie moderacji zostało utworzone.";
+$l['success_mod_tool_updated'] = "Narzędzie moderacji zostało zaktualizowane.";
 
-$l['success_mod_tool_created'] = "The moderation tool has been created successfully.";
-$l['success_mod_tool_updated'] = "The moderation tool has been updated successfully.";
+$l['inline_post_moderation'] = "Liniowa moderacja postów";
+$l['delete_posts'] = "Usunąć posty?";
+$l['merge_posts'] = "Połączyć posty?";
+$l['merge_posts_desc'] = "Używane tylko z moderacji liniowej.";
+$l['approve_unapprove_posts'] = "Akceptować | Odrzucić post(y)?";
+$l['softdelete_restore_posts'] = "Usunąć nietrwale/przywrócić posty?";
 
-$l['inline_post_moderation'] = "Inline Post Moderation";
-$l['delete_posts'] = "Delete posts permanently?";
-$l['merge_posts'] = "Merge posts?";
-$l['merge_posts_desc'] = "Only if used from inline moderation.";
-$l['approve_unapprove_posts'] = "Approve/unapprove posts?";
-$l['softdelete_restore_posts'] = "Soft delete/restore posts?";
+$l['split_posts'] = "Oddziel posty";
+$l['split_posts2'] = "Oddzielić posty?";
+$l['do_not_split'] = "Nie oddzielaj postów";
+$l['split_to_same_forum'] = "Oddziel i pozostaw w tym dziale";
+$l['close_split_thread'] = "Zamknąć oddzielony wątek?";
+$l['stick_split_thread'] = "Przypiąć oddzielony wątek?";
+$l['unapprove_split_thread'] = "Odrzucić oddzielony wątek?";
+$l['split_thread_subject'] = "Temat oddzielonego wątku";
+$l['split_thread_subject_desc'] = "{subject} reprezentuje oryginalny temat. Wymagane tylko podczas oddzielania postów.";
+$l['add_new_split_reply'] = "Napisz odpowiedź do łączonego wątku";
+$l['add_new_split_reply_desc'] = "Pozostaw puste, jeżeli nie chcesz udzielać odpowiedzi.";
+$l['split_reply_subject'] = "Temat odpowiedzi";
+$l['split_reply_subject_desc'] = "Używane tylko gdy pozostawiasz odpowiedź";
+$l['save_post_tool'] = "Zapisz narzędzie postów";
 
-$l['split_posts'] = "Split Posts";
-$l['split_posts2'] = "Split posts?";
-$l['do_not_split'] = "Do not split posts";
-$l['split_to_same_forum'] = "Split to same forum";
-$l['close_split_thread'] = "Close split thread?";
-$l['stick_split_thread'] = "Stick split thread?";
-$l['unapprove_split_thread'] = "Unapprove split thread?";
-$l['split_thread_subject'] = "Split thread subject";
-$l['split_thread_subject_desc'] = "{subject} represents the original subject. Only required if splitting posts.";
-$l['add_new_split_reply'] = "Add reply to split thread";
-$l['add_new_split_reply_desc'] = "Leave blank for no reply.";
-$l['split_reply_subject'] = "Reply subject";
-$l['split_reply_subject_desc'] = "Only used if a reply is made";
-$l['save_post_tool'] = "Save Post Tool";
+$l['send_private_message'] = 'Wyślij prywatną wiadomość';
+$l['private_message_message'] = 'Wiadomość';
+$l['private_message_message_desc'] = 'Wiadomość do autora wątku. Pozostaw puste, żeby wyłączyć tę funkcję.';
+$l['private_message_subject'] = 'Temat';
+$l['private_message_subject_desc'] = 'Wpisz temat prywatnej wiadomości.';
 
-$l['send_private_message'] = 'Send Private Message';
-$l['private_message_message'] = 'Message';
-$l['private_message_message_desc'] = 'Message to send to the author of the thread. Leave empty to disable this feature.';
-$l['private_message_subject'] = 'Subject';
-$l['private_message_subject_desc'] = 'Enter the subject of the Private Message.';
-
-$l['error_missing_title'] = "Please enter a name for this tool.";
-$l['error_missing_description'] = "Please enter a short description for this tool.";
-$l['error_no_forums_selected'] = "Please select the forums in which this tool will be available.";
-$l['error_forum_is_category'] = "You can't pick a category-type forum as a destination forum.";
+$l['error_missing_title'] = "Wpisz nazwę dla tego narzędzia.";
+$l['error_missing_description'] = "Krótko opisz to narzędzie.";
+$l['error_no_forums_selected'] = "Wybierz działy, w których będzie dostępne to narzędzie.";
+$l['error_forum_is_category'] = "Nie można wybrać kategorii jako działu docelowego.";
 ?>

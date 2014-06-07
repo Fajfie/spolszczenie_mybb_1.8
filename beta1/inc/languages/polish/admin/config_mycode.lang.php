@@ -1,58 +1,59 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['custom_mycode'] = "Custom MyCode";
+$l['custom_mycode'] = "Dodatkowe tagi MyCode";
 $l['mycode'] = "MyCode";
-$l['mycode_desc'] = "Custom MyCode allows you to create additional MyCode for your members to use in their messages.";
-$l['add_new_mycode'] = "Add New MyCode";
-$l['add_new_mycode_desc'] = "Here you can add a new custom MyCode to your forum. You can use the MyCode Sandbox below the form to test your regular expression and replacement before saving.";
-$l['edit_mycode_desc'] = "Here you can edit a custom MyCode. You can use the MyCode Sandbox below the form to test your regular expression and replacement before saving your changes.";
+$l['mycode_desc'] = "Twórz dodatkowe tagi MyCode, których będzie można używać w postach.";
+$l['add_new_mycode'] = "Nowy MyCode";
+$l['add_new_mycode_desc'] = "Utwórz dodatkowy MyCode dla forum. Możesz użyć formularza \"piaskownicy\" poniżej, aby przetestować wyrażenie regularne i zamianę przed zapisaniem.";
+$l['edit_mycode_desc'] = "Edytuj dodatkowy MyCode. Możesz użyć formularza \"piaskownicy\" poniżej aby przetestować wyrażenie regularne i zamianę przed zapisaniem zmian.";
 
-$l['title'] = "Title";
-$l['short_description'] = "Short Description";
-$l['regular_expression'] = "Regular Expression";
-$l['regular_expression_desc'] = "Enter a regular expression that will search for a specific combination of characters.  You must make sure the regular expression is valid and safe&mdash;no validation is performed.";
-$l['replacement'] = "Replacement";
-$l['replacement_desc'] = "Enter a replacement for the regular expression.";
-$l['example'] = "Example:";
-$l['enabled'] = "Enabled?";
-$l['parse_order'] = "Parse Order";
-$l['parse_order_desc'] = "MyCodes will be parsed in ascending order relative to other MyCodes.";
-$l['edit_mycode'] = "Edit MyCode";
-$l['activate_mycode'] = "Activate MyCode";
-$l['deactivate_mycode'] = "Deactivate MyCode";
-$l['delete_mycode'] = "Delete MyCode";
-$l['no_mycode'] = "No custom MyCodes exist at this time.";
-$l['save_mycode'] = "Save MyCode";
-$l['add_mycode'] = "Add MyCode";
-$l['changes_not_saved'] = "Your changes have not yet been saved.";
+$l['title'] = "Tytuł";
+$l['short_description'] = "Krótki opis";
+$l['regular_expression'] = "Wyrażenie regularne";
+$l['regular_expression_desc'] = "Wpisz wyrażenie regularne, którego skrypt będzie szukał w wypowiedzi. Musisz się upewnić, że wyrażenie regularne jest poprawne i bezpieczne — nie przeprowadzana jest żadna walidacja.";
+$l['replacement'] = "Zamiana";
+$l['replacement_desc'] = "Wpisz na co ma zostać zamienione wyrażenie regularne.";
+$l['example'] = "Przykład:";
+$l['enabled'] = "Włączony?";
+$l['parse_order'] = "Kolejność przetwarzania";
+$l['parse_order_desc'] = "Dodatkowe tagi MyCode będą przetwarzane w kolejności rosnącej w stosunku do innych tagów MyCode.";
+$l['edit_mycode'] = "Edytuj MyCode";
+$l['activate_mycode'] = "Aktywuj MyCode";
+$l['deactivate_mycode'] = "Dezaktywuj MyCode";
+$l['delete_mycode'] = "Usuń MyCode";
+$l['no_mycode'] = "W tym momencie nie ma dodatkowych tagów MyCode.";
+$l['save_mycode'] = "Zapisz MyCode";
+$l['add_mycode'] = "Nowy MyCode";
+$l['changes_not_saved'] = "Zmiany nie zostały jeszcze zapisane.";
 
-$l['sandbox'] = "Sandbox";
-$l['sandbox_desc'] = "You can use this area to test the regular expression and replacement above before saving your changes.";
-$l['test_value'] = "Test Value";
-$l['test_value_desc'] = "Enter in text to be tested in the box below.";
-$l['result_html'] = "HTML Result";
-$l['result_html_desc'] = "The text area below shows the resulting HTML using the regular expression on the test value.";
-$l['result_actual'] = "Actual Result";
-$l['result_actual_desc'] = "The area below shows the actual result when the HTML is rendered.";
-$l['test'] = "Test MyCode";
+$l['sandbox'] = "Piaskownica";
+$l['sandbox_desc'] = "Możesz użyć tego pola aby przetestować wyrażenie regularne i zamianę przed zapisaniem zmian.";
+$l['test_value'] = "Testowa wartość";
+$l['test_value_desc'] = "Wpisz tekst, do przetestowania w pole poniżej.";
+$l['result_html'] = "Wynik HTML";
+$l['result_html_desc'] = "Pole tekstowe poniżej pokazuje wynikowy kod HTML, który został utworzony na podstawie użycia wyrażenia regularnego na testowej frazie.";
+$l['result_actual'] = "Aktualny wynik";
+$l['result_actual_desc'] = "Pole poniżej pokazuje aktualny wynik kiedy kod HTML jest renderowany.";
+$l['test'] = "Testuj MyCode";
 
-$l['error_missing_title'] = "You did not enter a title.";
-$l['error_missing_regex'] = "You did not enter a regular expression.";
-$l['error_missing_replacement'] = "You did not enter a replacement.";
-$l['error_invalid_mycode'] = "The specified MyCode does not exist.";
+$l['error_missing_title'] = "Nie wpisano tytułu.";
+$l['error_missing_regex'] = "Nie wpisano regularnego wyrażenia.";
+$l['error_missing_replacement'] = "Nie wpisano wyrażenia do zamiany.";
+$l['error_invalid_mycode'] = "Podany MyCode nie istnieje.";
 
-$l['success_added_mycode'] = "The MyCode has been added successfully.";
-$l['success_deleted_mycode'] = "The selected MyCode has been deleted successfully.";
-$l['success_updated_mycode'] = "The MyCode has been updated successfully.";
-$l['success_deactivated_mycode'] = "The selected MyCode has been deactivated successfully.";
-$l['success_activated_mycode'] = "The selected MyCode has been activated successfully.";
+$l['success_added_mycode'] = "Tag MyCode został dodany.";
+$l['success_deleted_mycode'] = "Tag MyCode został usunięty.";
+$l['success_updated_mycode'] = "Tag MyCode został zaktualizowany.";
+$l['success_deactivated_mycode'] = "Tag MyCode został zdezaktywowany.";
+$l['success_activated_mycode'] = "Tag MyCode został aktywowany.";
 
-$l['confirm_mycode_deletion'] = "Are you sure you wish to delete this MyCode?";
+$l['confirm_mycode_deletion'] = "Czy na pewno chcesz usunąć ten tag MyCode?";
 
-$l['mycode_sandbox_test_error'] = 'There was an error fetching the test results.';
+$l['mycode_sandbox_test_error'] = 'Wystąpił błąd podczas zwracania wyników testu.';
 ?>
