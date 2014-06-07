@@ -43,8 +43,8 @@ $l['error_already_delete'] = "Wybrany post został już usunięty.";
 
 $l['thread_deleted'] = "Usunięto wątek";
 $l['post_deleted'] = "Usunięto post";
-$l['thread_soft_deleted'] = "Przeniesiono wątek do kosza";
-$l['post_soft_deleted'] = "Przeniesiono post do kosza";
+$l['thread_soft_deleted'] = "Nietrwale usunięto wątek";
+$l['post_soft_deleted'] = "Nietrwale usunięto post";
 
 $l['error_already_deleted'] = 'Wybrany post został już usunięty.';
 ?>
