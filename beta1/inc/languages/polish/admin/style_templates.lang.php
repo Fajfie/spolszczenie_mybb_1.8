@@ -1,177 +1,179 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['template_sets'] = "Template Sets";
-$l['template_set'] = "Template Set";
-$l['templates'] = "Templates";
+$l['template_sets'] = "Paczki szablonów";
+$l['template_set'] = "Paczka szablonów";
+$l['templates'] = "Szablony";
 
-$l['manage_template_sets'] = "Manage Template Sets";
-$l['manage_template_sets_desc'] = "Here you can manage template sets, view the templates using these sets, and begin customizing your board's layout.";
-$l['add_set'] = "Add Set";
-$l['add_set_desc'] = "Here you can create a new template set. A new template set creates a copy of the master MyBB templates and allows you to edit them without interfering with changes in any other template sets you may already have";
-$l['add_template'] = "Add Template";
-$l['add_template_desc'] = "Here you can create a new template.";
-$l['add_template_group'] = "Add Template Group";
-$l['add_template_group_desc'] = "Add a template group to collate templates together.";
-$l['search_replace'] = "Search/Replace";
-$l['search_replace_desc'] = "This tool will allow you to search for template titles or templates that contain certain text, and optionally replace it with another text automatically.";
-$l['find_updated'] = "Find Updated Templates";
-$l['find_updated_desc'] = "Allows you to find changed templates in new versions of MyBB so you can properly apply the changes.";
-$l['edit_template'] = "Edit Template";
-$l['editing_template'] = "Editing Template: {1}";
-$l['edit_template_desc'] = "Here you can edit the template's code, title or set.";
-$l['edit_set'] = "Edit Set";
-$l['edit_set_desc'] = "Here you can edit the properties for this template set.";
-$l['manage_templates'] = "Manage Templates";
-$l['manage_templates_desc'] = "Here you can manage the templates for this template set. To edit a template click on it's link or select \"Full Edit\" to edit all properties on a separate page.";
-$l['diff_report'] = "Diff Report";
-$l['diff_report_desc'] = "Performs a difference analysis between the templates and shows you exactly what changes have been made between your customized copy and the latest master copy.";
+$l['manage_template_sets'] = "Paczki szablonów";
+$l['manage_template_sets_desc'] = "Przeglądaj swoje paczki szablonów, zarządzaj nimi i dostosuj wygląd forum według swoich upodobań.";
+$l['add_set'] = "Nowa paczka";
+$l['add_set_desc'] = "Utwórz nową paczkę szablonów, która będzie kopią istniejącej. Dzięki temu będzie możliwość wprowadzania dalszych zmian w wyglądzie forum bez obaw o dotychczasowe efekty swojej pracy.";
+$l['add_template'] = "Nowy szablon";
+$l['add_template_desc'] = "Utwórz nowy szablon.";
+$l['add_template_group'] = "Nowa grupa szablonów";
+$l['add_template_group_desc'] = "Utwórz nową grupę szablonów, aby je uporządkować.";
+$l['search_replace'] = "Znajdź i zamień";
+$l['search_replace_desc'] = "Znajdź szablony zawierające dany ciąg znaków i ewentualnie automatycznie zamień go na inny.";
+$l['find_updated'] = "Znajdź zmienione";
+$l['find_updated_desc'] = "Wyszukuj szablony, które zmieniły się wraz z wydaniem nowej wersji MyBB, abyś mógł dokonać właściwych zmian.";
+$l['edit_template'] = "Edytuj szablon";
+$l['edit_template_desc'] = "Zmień tytuł szablonu, zmodyfikuj jego kod lub przypisz go do innej paczki.";
+$l['editing_template'] = "Edytowanie szablonu: {1}";
+$l['edit_template_desc'] = "Zmień tytuł szablonu, zmodyfikuj jego kod lub przypisz go do innej paczki.";
+$l['edit_set'] = "Edytuj paczkę";
+$l['edit_set_desc'] = "Edytuj właściwości wybranej paczki szablonów.";
+$l['manage_templates'] = "Zarządzaj szablonami";
+$l['manage_templates_desc'] = "Zarządzaj szablonami należącymi do tej paczki. Wybierz opcję \"Edytuj\" lub kliknij nazwę szablonu by wprowadzić w nim zmiany.";
+$l['diff_report'] = "Podgląd różnic";
+$l['diff_report_desc'] = "Zobacz różnice występujące pomiędzy zmodyfikowanym przez Ciebie szablonem a jego domyślną wersją.";
 
-$l['title'] = "Title";
-$l['save'] = "Save";
-$l['search_for'] = "Search For";
-$l['replace_with'] = "Replace With (Optional)";
-$l['reset'] = "Reset";
-$l['find_templates'] = "Find Templates";
-$l['find_and_replace'] = "Find and Replace";
-$l['search_template_names'] = "Search Template Titles";
-$l['ungrouped_templates'] = "Ungrouped Templates";
+$l['title'] = "Tytuł";
+$l['save'] = "Zapisz";
+$l['search_for'] = "Znajdź";
+$l['replace_with'] = "Zamień na (opcjonalnie)";
+$l['reset'] = "Wyczyść";
+$l['find_templates'] = "Znajdź szablony";
+$l['find_and_replace'] = "Znajdź i zamień";
+$l['search_template_names'] = "Szukaj wg tytułu";
+$l['ungrouped_templates'] = "Niezgrupowane szablony";
 
-$l['search_noneset'] = "You did not enter a search string.";
-$l['search_results'] = "Template Search Results";
-$l['search_header'] = "Searching For \"{1}\" in {2}";
-$l['search_updated'] = "Updated {1}";
-$l['search_found'] = "Found in {1}";
-$l['search_created_custom'] = "Created custom template for {1}";
-$l['search_edit'] = "edit";
-$l['search_change_original'] = "change original";
-$l['search_noresults'] = "No templates were found containing the string '<strong>{1}</strong>'";
-$l['search_noresults_title'] = "No templates were found with the title '<strong>{1}</strong>'";
-$l['default_templates'] = "Default Templates";
+$l['search_noneset'] = "Nie podano ciągu znaków do wyszukania.";
+$l['search_results'] = "Wyniki wyszukiwania szablonów";
+$l['search_header'] = "Wyszukiwanie \"{1}\" w {2}";
+$l['search_updated'] = "Zaktualizowano szablon {1}";
+$l['search_found'] = "Znaleziono w szablonie {1}";
+$l['search_created_custom'] = "Podmieniono oryginał szablonu {1}";
+$l['search_edit'] = "edytuj";
+$l['search_change_original'] = "zmień oryginał";
+$l['search_noresults'] = "Nie znaleziono szablonów zawierających ciąg znaków \"<strong>{1}</strong>\"";
+$l['search_noresults_title'] = "Nie znaleziono szablonów o tytule \"<strong>{1}</strong>\"";
+$l['default_templates'] = "Szablony domyślne";
 
-$l['edit_template_breadcrumb'] = "Edit Template: ";
+$l['edit_template_breadcrumb'] = "Edycja szablonu: ";
 
-$l['global_templates'] = "Global Templates";
-$l['master_templates'] = "Master Templates";
+$l['global_templates'] = "Szablony globalne";
+$l['master_templates'] = "Szablony główne";
 
-$l['not_used_by_any_themes'] = "Not used by any themes";
-$l['used_by'] = "Used by: ";
-$l['used_by_all_themes'] = "Used by all themes";
+$l['not_used_by_any_themes'] = "Nieużywany przez żaden styl";
+$l['used_by'] = "Używany przez: ";
+$l['used_by_all_themes'] = "Używany przez wszystkie style";
 
-$l['expand_templates'] = "Expand Templates";
-$l['edit_template_set'] = "Edit Template Set";
-$l['delete_template_set'] = "Delete Template Set";
-$l['empty_template_set'] = "<em>There are no templates in this set.</em>";
+$l['expand_templates'] = "Wyświetl szablony";
+$l['edit_template_set'] = "Edytuj paczkę";
+$l['delete_template_set'] = "Usuń paczkę";
+$l['empty_template_set'] = "<em>Ta paczka nie zawiera szablonów.</em>";
 
-$l['inline_edit'] = "Inline Edit";
-$l['full_edit'] = "Full Edit";
-$l['revert_to_orig'] = "Revert to Original";
-$l['delete_template'] = "Delete Template";
-$l['edit_in'] = "Edit in";
+$l['inline_edit'] = "Szybka edycja"; // towyleci w rc (komentarz z tłumaczenia 1.6.x)
+$l['full_edit'] = "Edytuj"; // a to sie pewnie zmieni (j.w.)
+$l['revert_to_orig'] = "Przywróć oryginał";
+$l['delete_template'] = "Usuń szablon";
+$l['edit_in'] = "Edytuj w";
 
-$l['group_calendar'] = "Calendar";
-$l['group_forumdisplay'] = "Forum Display";
-$l['group_index'] = "Index Page";
-$l['group_error'] = "Error Message";
-$l['group_memberlist'] = "Member List";
-$l['group_multipage'] = "Multipage Pagination";
-$l['group_private'] = "Private Messaging";
-$l['group_portal'] = "Portal";
-$l['group_postbit'] = "Post Bit";
-$l['group_redirect'] = "Redirect";
-$l['group_showthread'] = "Show Thread";
-$l['group_usercp'] = "User Control Panel";
-$l['group_online'] = "Who's Online";
-$l['group_forumbit'] = "Forum Bit";
-$l['group_editpost'] = "Edit Post";
-$l['group_forumjump'] = "Forum Jump";
-$l['group_moderation'] = "Moderation";
-$l['group_nav'] = "Navigation";
-$l['group_search'] = "Search";
-$l['group_showteam'] = "Show Forum Team";
-$l['group_reputation'] = "Reputation";
-$l['group_newthread'] = "New Thread";
-$l['group_newreply'] = "New Reply";
-$l['group_member'] = "Member";
-$l['group_warning'] = "Warning System";
-$l['group_global'] = "Global";
-$l['group_header'] = "Header";
-$l['group_managegroup'] = "Manage Group";
-$l['group_misc'] = "Miscellaneous";
-$l['group_modcp'] = "Moderator Control Panel";
-$l['group_announcement'] = "Announcement";
-$l['group_polls'] = "Poll";
-$l['group_post'] = "Post";
-$l['group_printthread'] = "Print Thread";
-$l['group_report'] = "Report";
-$l['group_smilieinsert'] = "Smilie Inserter";
-$l['group_stats'] = "Statistics";
-$l['group_xmlhttp'] = "XMLHTTP";
-$l['group_footer'] = "Footer";
-$l['group_video'] = "Video MyCode";
+$l['group_calendar'] = "Kalendarz -";
+$l['group_forumdisplay'] = "Widok działu -";
+$l['group_index'] = "Strona główna -";
+$l['group_error'] = "Informacja o błędzie -";
+$l['group_memberlist'] = "Lista użytkowników -";
+$l['group_multipage'] = "Stronicowanie -";
+$l['group_private'] = "Prywatne wiadomości -";
+$l['group_portal'] = "Portal -";
+$l['group_postbit'] = "Opis posta -";
+$l['group_redirect'] = "Przekierowania -";
+$l['group_showthread'] = "Widok wątku -";
+$l['group_usercp'] = "Panel użytkownika -";
+$l['group_online'] = "Kto jest online -";
+$l['group_forumbit'] = "Opis działu -";
+$l['group_editpost'] = "Edycja posta -";
+$l['group_forumjump'] = "Skocz do... -";
+$l['group_moderation'] = "Moderacja -";
+$l['group_nav'] = "Nawigacja -";
+$l['group_search'] = "Wyszukiwarka -";
+$l['group_showteam'] = "Ekipa forum -";
+$l['group_reputation'] = "Reputacja -";
+$l['group_newthread'] = "Nowy wątek -";
+$l['group_newreply'] = "Nowa odpowiedź -";
+$l['group_member'] = "Podgląd profilu -";
+$l['group_warning'] = "System ostrzeżeń -";
+$l['group_global'] = "Globalne";
+$l['group_header'] = "Nagłówek -";
+$l['group_managegroup'] = "Zarządzanie grupami -";
+$l['group_misc'] = "Różne";
+$l['group_modcp'] = "Panel moderatora -";
+$l['group_announcement'] = "Ogłoszenie -";
+$l['group_polls'] = "Ankieta -";
+$l['group_post'] = "Post -";
+$l['group_printthread'] = "Wydruk tematu -";
+$l['group_report'] = "Raport -";
+$l['group_smilieinsert'] = "Okno z emotikonami -";
+$l['group_stats'] = "Statystyki -";
+$l['group_xmlhttp'] = "XMLHTTP -";
+$l['group_footer'] = "Stopka -";
+$l['group_video'] = "MyCode wideo -";
 
-$l['expand'] = "Expand";
-$l['collapse'] = "Collapse";
+$l['expand'] = "Rozwiń";
+$l['collapse'] = "Zwiń";
 
-$l['save_continue'] = "Save and Continue Editing";
-$l['save_close'] = "Save and Return to Listing";
+$l['save_continue'] = "Zapisz i kontynuuj edycję";
+$l['save_close'] = "Zapisz i wróć do listy";
 
-$l['template_name'] = "Template Name";
-$l['template_name_desc'] = "Name of the template. If you change this on the default template, it will save the template as a custom template under the new name.";
-$l['template_set_desc'] = "Which template set should this template be in?";
+$l['template_name'] = "Nazwa szablonu";
+$l['template_name_desc'] = "Nazwa szablonu. Jeżeli zmienisz ją domyślnemu szablonowi, twoja wersja zostanie zapisana jako kopia o zmienionej nazwie.";
+$l['template_set_desc'] = "W której paczce ma się znajdować ten szablon?";
 
-$l['template_group_prefix'] = "Template Group Prefix";
-$l['template_group_prefix_desc'] = "The prefix name to group templates. This must not already exist. For example, to group templates <em>hello_world</em>, <em>hello_foobar</em> and <em>hello_foo</em>, enter <strong>hello</strong> here.";
-$l['template_group_title'] = "Template Group Title";
-$l['template_group_title_desc'] = "The title of the prefix group. This will be shown in the templates list. For example, for our <em>hello</em> templates, enter <strong>Hello</strong> here.";
+$l['template_group_prefix'] = "Prefiks grupy szablonów";
+$l['template_group_prefix_desc'] = "Prefiks którym będą poprzedzone nazwy wszystkich szablonów z tej grupy. Nie może się pokrywać z istniejącą grupą szablonów. Przykładowo, jeżeli szablony mają się nazywać <em>hello_world</em>, <em>hello_foobar</em> i <em>hello_foo</em>, jako prefiks wpisz <strong>hello</strong>.";
+$l['template_group_title'] = "Nazwa grupy szablonów";
+$l['template_group_title_desc'] = "Wpisz nazwę dla tej grupy szablonów. Będzie ona pokazywana na liście szablonów. Przykładowo, jeżeli prefiksem grupy szablonów jest <em>hello</em>, możesz tu wpisać <strong>Hello</strong>.";
 
-$l['edit_template_group'] = "Edit Template Group";
-$l['editing_template_group'] = "Editing Template Group {1}";
-$l['delete_template_group'] = "Delete Template Group";
-$l['save_template_group'] = "Save Template Group";
+$l['edit_template_group'] = "Edytuj grupę szablonów";
+$l['editing_template_group'] = "Editowanie grupy szablonów: {1}";
+$l['delete_template_group'] = "Usuń grupę szablonów";
+$l['save_template_group'] = "Zapisz grupę szablonów";
 
-$l['templates_the_same'] = "The two templates you've selected are both the same and cannot be compared.";
-$l['master_updated_ins'] = "Changes that have been made between your previous version and this one are highlighted like this.";
-$l['master_updated_del'] = "Any customizations you've made to your templates (the old ones) are highlighted like this.";
-$l['template_diff_analysis'] = "Template Difference Analysis";
-$l['search_names_header'] = "Searching template names containing \"{1}\"";
+$l['templates_the_same'] = "Wskazane przez Ciebie szablony są identyczne.";
+$l['master_updated_ins'] = "W ten sposób oznaczono różnice pomiędzy poprzednią a aktualną wersją.";
+$l['master_updated_del'] = "W ten sposób oznaczono miejsca, w których usunięto dokonane przez Ciebie zmiany.";
+$l['template_diff_analysis'] = "Analiza różnic w szablonach";
+$l['search_names_header'] = "Wyszukiwanie szablonów o nazwach zawierających \"{1}\"";
 
-$l['updated_template_welcome1'] = "Edit - Allows you to edit the current template for this template set to incorporate updates made between the versions.";
-$l['updated_template_welcome2'] = "Revert - Will revert the customized template back to the master revision, however you'll lose any custom changes you have made.";
-$l['updated_template_welcome3'] = "Diff - Performs a difference analysis between the templates and shows you exactly what changes have been made between your customized copy and the latest master copy.";
+$l['updated_template_welcome1'] = "Edycja - pozwala na modyfikację wybranego szablonu celem dostosowania go do nowej wersji systemu.";
+$l['updated_template_welcome2'] = "Przywracanie - powoduje utratę wszelkich wprowadzonych zmian, ale pozwala na przywrócenie domyślnego wyglądu szablonu w przypadku awarii.";
+$l['updated_template_welcome3'] = "Podgląd różnic - wyświetla wszystkie zmiany, jakich dokonano w danym szablonie.";
 
-$l['no_global_templates'] = "There are currently no global templates.";
-$l['no_updated_templates'] = "There are currently no templates which have been updated since you last upgraded.";
+$l['no_global_templates'] = "Aktualnie nie ma globalnych szablonów.";
+$l['no_updated_templates'] = "Żaden szablon nie był modyfikowany od czasu ostatniej aktualizacji.";
 
-$l['confirm_template_set_deletion'] = "Are you sure you want to delete this template set?";
-$l['confirm_template_group_delete'] = "Are you sure you want to delete this template group? This action does not remove the templates in the group.";
-$l['confirm_template_deletion'] = "Are you sure you want to delete this template?";
-$l['confirm_template_revertion'] = "Are you sure you want to revert this template?";
+$l['confirm_template_set_deletion'] = "Czy na pewno chcesz usunąć tę paczkę szablonów?";
+$l['confirm_template_group_delete'] = "Czy na pewno chcesz usunąć tę grupę szablonów? Nie spowoduje to usunięcia szablonów należących do tej grupy.";
+$l['confirm_template_deletion'] = "Czy na pewno chcesz usunąć ten szablon?";
+$l['confirm_template_revertion'] = "Czy na pewno chcesz przywrócić ten szablon do stanu domyślnego?";
 
-$l['error_security_problem'] = "A potential security issue was found in the template. Please review your changes or contact the MyBB Group for support.";
-$l['error_missing_input'] = "Please make sure you have all the input required to edit this template (tid and sid)";
-$l['error_already_exists'] = "The template title is already in use. Please use a different title.";
-$l['error_invalid_template'] = "Please select a valid template.";
-$l['error_missing_set_title'] = "Please select a template set title.";
-$l['error_invalid_input'] = "Please make sure you have the correct template set ID.";
-$l['error_invalid_set'] = "Please select a valid template set.";
-$l['error_invalid_template_set'] = "Invalid template set selected.";
-$l['error_themes_attached_template_set'] = "This template set cannot be deleted as there are themes attached to this template set.";
-$l['error_missing_group_prefix'] = "Please enter a prefix for the template group.";
-$l['error_missing_group_title'] = "Please enter a title for the template group.";
-$l['error_duplicate_group_prefix'] = "A template group already exists with this prefix. Please enter another prefix.";
-$l['error_missing_template_group'] = "The template group could not be found.";
-$l['error_default_template_group'] = "You cannot edit or remove a default template group.";
+$l['error_security_problem'] = "W tym szablonie została wykryta potencjalna luka bezpieczeństwa. Zweryfikuj szablon lub skontaktuj się z twórcami MyBB w celu uzyskania pomocy.";
+$l['error_missing_input'] = "Upewnij się, że wprowadzono wszystkie dane potrzebne do tej operacji (tid, sid)";
+$l['error_already_exists'] = "Podany tytuł szablonu jest już w użyciu. Podaj inny tytuł.";
+$l['error_invalid_template'] = "Wybierz poprawny szablon.";
+$l['error_missing_set_title'] = "Podaj nazwę paczki.";
+$l['error_invalid_input'] = "Upewnij się, że podano poprawne ID szablonu.";
+$l['error_invalid_set'] = "Wybierz poprawną paczkę.";
+$l['error_invalid_template_set'] = "Wybrano niepoprawną paczkę.";
+$l['error_themes_attached_template_set'] = "Ta paczka nie może zostać usunięta - znajdują się w niej szablony, które są aktualnie w użyciu.";
+$l['error_missing_group_prefix'] = "Podaj prefiks dla grupy szablonów.";
+$l['error_missing_group_title'] = "Podaj nazwę dla tej grupy szablonów.";
+$l['error_duplicate_group_prefix'] = "Podany prefiks jest już w użyciu. Podaj inny prefiks.A template group already exists with this prefix. Please enter another prefix.";
+$l['error_missing_template_group'] = "Nie znaleziono grupy szablonów o podanej nazwie.";
+$l['error_default_template_group'] = "Nie możesz edytować i usuwać domyślnych grup szablonów.";
 
-$l['success_template_saved'] = "The selected template has successfully been saved.";
-$l['success_template_deleted'] = "The selected template has successfully been deleted.";
-$l['success_template_reverted'] = "The selected template has successfully been reverted.";
-$l['success_template_set_saved'] = "The selected template set has successfully been saved.";
-$l['success_template_set_deleted'] = "The selected template set has successfully been deleted.";
-$l['success_template_group_saved'] = "The selected template group has successfully been saved.";
-$l['success_template_group_deleted'] = "The selected template group has successfully been deleted.";
+$l['success_template_saved'] = "Szablon został zapisany.";
+$l['success_template_deleted'] = "Szablon został usunięty.";
+$l['success_template_reverted'] = "Szablon został przywrócony.";
+$l['success_template_set_saved'] = "Paczka szablonów została zapisana.";
+$l['success_template_set_deleted'] = "Paczka szablonów została usunięta.";
+$l['success_template_group_saved'] = "Grupa szablonów została zapisana.";
+$l['success_template_group_deleted'] = "Grupa szablonów zostałą usunięta.";
 ?>

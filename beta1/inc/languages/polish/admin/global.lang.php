@@ -28,7 +28,7 @@ $l['view_board'] = "Pokaż forum";
 $l['logout'] = "Wyloguj";
 
 // Footer language strings
-$l['generated_in'] = "Strona wygenerowana w ciągu {1} sekund, przy użyciu {2} zapytań. Użycie pamięci: {3}";
+$l['generated_in'] = "Strona wygenerowana w ciągu {1}, przy użyciu  <a href=\"{2}\" target=\"_blank\">{3} zapytań. Użycie pamięci: {4}";
 
 // Login page
 $l['enter_username_and_password'] = "Aby kontynuować, podaj swój login oraz hasło.";

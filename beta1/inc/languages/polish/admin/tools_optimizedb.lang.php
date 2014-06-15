@@ -1,21 +1,22 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['optimize_database'] = "Optimize Database";
+$l['optimize_database'] = "Optymalizacja bazy";
 
-$l['table_selection'] = "Table Selection";
-$l['tables_select_desc'] = "You may select the database tables you wish to perform this action on here. Hold down CTRL to select multiple tables.";
-$l['select_all'] = "Select All";
-$l['deselect_all'] = "Deselect All";
-$l['select_forum_tables'] = "Select Forum Tables";
-$l['optimize_selected_tables'] = "Optimize Selected Tables";
+$l['table_selection'] = "Wybór tabel";
+$l['tables_select_desc'] = "Zaznacz tabele do optymalizacji. Przytrzymaj klawisz CTRL i klikaj w tabele, aby zaznaczyć więcej niż jedną tabelę.";
+$l['select_all'] = "Zaznacz wszystkie";
+$l['deselect_all'] = "Odznacz wszystkie";
+$l['select_forum_tables'] = "Zaznacz tabele należące do forum";
+$l['optimize_selected_tables'] = "Optymalizuj wybrane tabele";
 
-$l['error_no_tables_selected'] = "You did not select any database tables to optimize.";
+$l['error_no_tables_selected'] = "Nie wybrano żadnych tabel do optymalizacji.";
 
-$l['success_tables_optimized'] = "The selected tables have been optimized and analyzed successfully.";
+$l['success_tables_optimized'] = "Wybrane tabele zostały przeanalizowane i zoptymalizowane.";
 
 ?>

@@ -1,16 +1,17 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+ 
+$l['templates_and_style'] = "Style i szablony";
 
-$l['templates_and_style'] = "Templates &amp; Style";
+$l['themes'] = "Style";
+$l['templates'] = "Szablony";
 
-$l['themes'] = "Themes";
-$l['templates'] = "Templates";
-
-$l['can_manage_themes'] = "Can manage themes?";
-$l['can_manage_templates'] = "Can manage templates?";
+$l['can_manage_themes'] = "Może zarządzać stylami?";
+$l['can_manage_templates'] = "Może zarządzać szablonami?";
 
 ?>

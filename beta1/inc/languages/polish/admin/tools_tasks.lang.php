@@ -1,77 +1,78 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['task_manager'] = "Task Manager";
-$l['add_new_task'] = "Add New Task";
-$l['add_new_task_desc'] = "Here you can create new scheduled tasks which are automatically run on your board.";
-$l['edit_task'] = "Edit Task";
-$l['edit_task_desc'] = "Below you can edit the various settings for this scheduled task.";
-$l['task_logs'] = "Task Logs";
-$l['view_task_logs'] = "View Task Logs";
-$l['view_task_logs_desc'] = "When a task is run and logging is enabled, any results or errors will be listed below. Entries older than 30 days are automatically deleted.";
-$l['scheduled_tasks'] = "Scheduled Tasks";
-$l['scheduled_tasks_desc'] = "Here you can manage tasks which are automatically run on your board. To run a task now click the icon to the right of the task.";
+$l['task_manager'] = "Menadżer zadań";
+$l['add_new_task'] = "Nowe zadanie";
+$l['add_new_task_desc'] = "Planuj zadania, które będą automatycznie wykonywane przez MyBB.";
+$l['edit_task'] = "Edytuj zadanie";
+$l['edit_task_desc'] = "Modyfikuj opcje dla planowanych zadań.";
+$l['task_logs'] = "Logi zadań";
+$l['view_task_logs'] = "Logi zadań";
+$l['view_task_logs_desc'] = "Wszystkie informacje o wynikach oraz błędach napotkanych podczas wykonywania zadań będą znajdować się na poniższej liście pod warunkiem, że włączono opcję zapisywania logów dla danego zadania. Wpisy starsze niż 30 dni są automatycznie usuwane.";
+$l['scheduled_tasks'] = "Zaplanowane zadania";
+$l['scheduled_tasks_desc'] = "Zarządzaj zaplanowanymi zadaniami, które będą wykonywane przez MyBB. Aby uruchomić zadanie, kliknij ikonę znajdującą się po prawej stronie nazwy zadania.";
 
-$l['title'] = "Title";
-$l['short_description'] = "Short Description";
-$l['task_file'] = "Task File";
-$l['task_file_desc'] = "Select the task file you wish this task to run.";
-$l['time_minutes'] = "Time: Minutes";
-$l['time_minutes_desc'] = "Enter a comma separated list of minutes (0-59) for which this task should run on. Enter '*' if this task should run on every minute.";
-$l['time_hours'] = "Time: Hours";
-$l['time_hours_desc'] = "Enter a comma separated list of hours (0-23) for which this task should run on. Enter '*' if this task should run on every hour.";
-$l['time_days_of_month'] = "Time: Days of Month";
-$l['time_days_of_month_desc'] = "Enter a comma separated list of days (1-31) for which this task should run on. Enter '*' if this task should run on every day or you wish to specify a weekday below.";
-$l['every_weekday'] = "Every Weekday";
-$l['sunday'] = "Sunday";
-$l['monday'] = "Monday";
-$l['tuesday'] = "Tuesday";
-$l['wednesday'] = "Wednesday";
-$l['thursday'] = "Thursday";
-$l['friday'] = "Friday";
-$l['saturday'] = "Saturday";
-$l['time_weekdays'] = "Time: Weekdays";
-$l['time_weekdays_desc'] = "Select which weekdays this task should run on. Holding down CTRL selects multiple weekdays. Select 'Every weekday' if you want this task to run each weekday or you have entered a predefined day above.";
-$l['every_month'] = "Every Month";
-$l['time_months'] = "Time: Months";
-$l['time_months_desc'] = "Select which months this task should run on. Holding down CTRL selects multiple months. Select 'Every month' if you want this task to run each month.";
-$l['enabled'] = "Task enabled?";
-$l['enable_logging'] = "Enable Logging?";
-$l['save_task'] = "Save Task";
-$l['task'] = "Task";
-$l['date'] = "Date";
-$l['data'] = "Data";
-$l['no_task_logs'] = "There are currently no log entries for any of the scheduled tasks.";
-$l['next_run'] = "Next Run";
-$l['run_task_now'] = "Run this task now";
-$l['disable_task'] = "Disable Task";
-$l['run_task'] = "Run Task";
-$l['enable_task'] = "Enable Task";
-$l['delete_task'] = "Delete Task";
+$l['title'] = "Nazwa";
+$l['short_description'] = "Opis";
+$l['task_file'] = "Plik zadania";
+$l['task_file_desc'] = "Wybierz plik zadania, które ma być wykonywane.";
+$l['time_minutes'] = "Czas - minuty";
+$l['time_minutes_desc'] = "Wpisz listę minut w których zadanie ma być uruchamiane, oddzielając poszczególne wartości (0-59) przecinkiem. Wpisz \"*\" jeżeli chcesz, by zadanie było uruchamiane w każdej minucie.";
+$l['time_hours'] = "Czas - godziny";
+$l['time_hours_desc'] = "Wpisz listę godzin w których zadanie ma być uruchamiane, oddzielając poszczególne wartości (0-23) przecinkiem. Wpisz \"*\" jeżeli chcesz, by zadanie było uruchamiane w każdej godzinie.";
+$l['time_days_of_month'] = "Czas - dni miesiąca";
+$l['time_days_of_month_desc'] = "Wpisz listę dni miesiąca w których zadanie ma być uruchamiane, oddzielając poszczególne wartości (1-31) przecinkiem. Wpisz \"*\" jeżeli chcesz, by zadanie było uruchamiane niezależnie od dnia miesiąca.";
+$l['every_weekday'] = "Każdy dzień tygodnia";
+$l['sunday'] = "Niedziela";
+$l['monday'] = "Poniedziałek";
+$l['tuesday'] = "Wtorek";
+$l['wednesday'] = "Środa";
+$l['thursday'] = "Czwartek";
+$l['friday'] = "Piątek";
+$l['saturday'] = "Sobota";
+$l['time_weekdays'] = "Czas - dni tygodnia";
+$l['time_weekdays_desc'] = "Wybierz dni tygodnia, w których zadanie ma być uruchamiane. Przytrzymaj CTRL klikając, by zaznaczyć więcej niż jedno pole. Wybierz \"Każdy dzień tygodnia\" jeżeli chcesz, by zadanie było wykonywane niezależnie od dnia tygodnia.";
+$l['every_month'] = "Każdy miesiąc";
+$l['time_months'] = "Czas - miesiące";
+$l['time_months_desc'] = "Wybierz miesiące, w których zadanie ma być uruchamiane. Przytrzymaj CTRL klikając, by zaznaczyć więcej niż jedno pole. Wybierz \"Każdy miesiąc\" jeżeli chcesz, by zadanie było wykonywane w każdym miesiącu.";
+$l['enabled'] = "Zadanie włączone?";
+$l['enable_logging'] = "Zapisywać logi?";
+$l['save_task'] = "Zapisz zadanie";
+$l['task'] = "Zadanie";
+$l['date'] = "Data";
+$l['data'] = "Dane";
+$l['no_task_logs'] = "Nie ma logów dla żadnego z zaplanowanych zadań.";
+$l['next_run'] = "Następne wykonanie";
+$l['run_task_now'] = "Wykonaj teraz to zadanie";
+$l['disable_task'] = "Wyłącz zadanie";
+$l['run_task'] = "Wykonaj zadanie";
+$l['enable_task'] = "Włącz zadanie";
+$l['delete_task'] = "Usuń zadanie";
 
-$l['error_invalid_task'] = "The specified task does not exist.";
-$l['error_missing_title'] = "You did not enter a title for this scheduled task";
-$l['error_missing_description'] = "You did not enter a description for this scheduled task";
-$l['error_invalid_task_file'] = "The task file you selected does not exist.";
-$l['error_invalid_minute'] = "The minute you've entered is invalid.";
-$l['error_invalid_hour'] = "The hour you've entered is invalid.";
-$l['error_invalid_day'] = "The day you've entered is invalid.";
-$l['error_invalid_weekday'] = "The weekday you've selected is invalid.";
-$l['error_invalid_month'] = "The month you've selected is invalid.";
+$l['error_invalid_task'] = "Wskazane zadanie nie istnieje.";
+$l['error_missing_title'] = "Nie wpisano nazwy dla planowanego zadania";
+$l['error_missing_description'] = "Nie wpisano opisu dla planowanego zadania";
+$l['error_invalid_task_file'] = "Wybrany plik zadania nie istnieje.";
+$l['error_invalid_minute'] = "Wpisane minuty są nieprawidłowe.";
+$l['error_invalid_hour'] = "Wpisane godziny są nieprawidłowe.";
+$l['error_invalid_day'] = "Wpisane dni są nieprawidłowe.";
+$l['error_invalid_weekday'] = "Wybrane dni tygodnia są nieprawidłowe.";
+$l['error_invalid_month'] = "Wybrane miesiące są nieprawidłowe.";
 
-$l['success_task_created'] = "The task has been created successfully.";
-$l['success_task_updated'] = "The selected task has been updated successfully.";
-$l['success_task_deleted'] = "The selected task has been deleted successfully.";
-$l['success_task_enabled'] = "The selected task has been enabled successfully.";
-$l['success_task_disabled'] = "The selected task has been disabled successfully.";
-$l['success_task_run'] = "The selected task has been run successfully.";
+$l['success_task_created'] = "Zadanie zostało utworzone.";
+$l['success_task_updated'] = "Zadanie zostało zaktualizowane.";
+$l['success_task_deleted'] = "Zadanie zostało usunięte.";
+$l['success_task_enabled'] = "Zadanie zostało włączone.";
+$l['success_task_disabled'] = "Zadanie zostało wyłączone.";
+$l['success_task_run'] = "Zadanie zostało wykonane.";
 
-$l['confirm_task_deletion'] = "Are you sure you wish to delete this scheduled task?";
-$l['confirm_task_enable'] = "<strong>WARNING:</strong> You are about to enable a task that is only meant to be run via cron (Please see the <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">MyBB Docs</a> for more information). Continue?";
-$l['no_tasks'] = "There are no tasks on your forum at this time.";
+$l['confirm_task_deletion'] = "Czy na pewno chcesz usunąć to zadanie?";
+$l['confirm_task_enable'] = "<strong>UWAGA:</strong> Chcesz aktywować zadanie, które powinno być uruchamiane tylko i wyłącznie za pomocą cron (zobacz <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">Dokumentację MyBB</a> - po angielsku). Kontynuować?";
+$l['no_tasks'] = "Nie ma zaplanowanych zadań na tym forum.";
 
 ?>

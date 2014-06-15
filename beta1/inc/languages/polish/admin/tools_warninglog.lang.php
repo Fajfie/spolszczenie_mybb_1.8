@@ -1,37 +1,38 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
 
-$l['warning_logs'] = "Warning Logs";
-$l['warning_logs_desc'] = "This section allows you to view a history of warnings issued to users.";
-$l['warned_user'] = "Warned User";
-$l['warning'] = "Warning";
-$l['date_issued'] = "Date Issued";
-$l['expires'] = "Expires";
-$l['expiry_date'] = "Expiry Date";
-$l['issued_date'] = "Issued Date";
-$l['issued_by'] = "Issued By";
-$l['details'] = "Details";
-$l['filter_warning_logs'] = "Filter Warning Logs";
-$l['filter_warned_user'] = "Warned user:";
-$l['filter_issued_by'] = "Warning issued by:";
-$l['filter_reason'] = "Reason contains:";
-$l['sort_by'] = "Sort By:";
-$l['results_per_page'] = "Results Per Page:";
-$l['view'] = "View";
-$l['no_warning_logs'] = "There are no warning logs to view.";
-$l['revoked'] = "Revoked ";
+$l['warning_logs'] = "Logi ostrzeżeń";
+$l['warning_logs_desc'] = "Przeglądaj historię nadawania ostrzeżeń użytkownikom.";
+$l['warned_user'] = "Ostrzeżenie dla";
+$l['warning'] = "Tekst ostrzeżenia";
+$l['date_issued'] = "Data nadania";
+$l['expires'] = "Przedawnia się";
+$l['expiry_date'] = "Data przedawnienia";
+$l['issued_date'] = "Data nadania";
+$l['issued_by'] = "Ostrzeżenie od";
+$l['details'] = "Szczegóły";
+$l['filter_warning_logs'] = "Filtruj logi";
+$l['filter_warned_user'] = "Ostrzeżenie dla:";
+$l['filter_issued_by'] = "Ostrzeżenie od:";
+$l['filter_reason'] = "Powód zawiera:";
+$l['sort_by'] = "Sortowanie:";
+$l['results_per_page'] = "Wyników na stronę:";
+$l['view'] = "Wyświetl";
+$l['no_warning_logs'] = "Nie ma logów ostrzeżeń.";
+$l['revoked'] = "Odwołane ";
 $l['post'] = "Post";
 
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
+$l['asc'] = "rosnącej";
+$l['desc'] = "malejącej";
 
-$l['in'] = "in";
-$l['order'] = "order";
+$l['in'] = "w";
+$l['order'] = "kolejności";
 
 $l['warning_details'] = "Warning Details";
 $l['warning_note'] = "Administrative Notes";

@@ -1,25 +1,26 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+ 
+$l['home'] = "Start";
 
-$l['home'] = "Home";
+$l['dashboard'] = "Informacje";
+$l['preferences'] = "Ustawienia ACP";
+$l['mybb_credits'] = "MyBB - podziękowania";
 
-$l['dashboard'] = "Dashboard";
-$l['preferences'] = "Preferences";
-$l['mybb_credits'] = "MyBB Credits";
-
-$l['add_new_forum'] = "Add New Forum";
-$l['search_for_users'] = "Search for Users";
-$l['themes'] = "Themes";
-$l['templates'] = "Templates";
-$l['plugins'] = "Plugins";
-$l['database_backups'] = "Database Backups";
-$l['quick_access'] = "Quick Access";
-$l['online_admins'] = "Online Admins";
-$l['ipaddress'] = "IP Address:";
-$l['mybb_documentation'] = "MyBB Documentation";
+$l['add_new_forum'] = "Nowy dział";
+$l['search_for_users'] = "Szukaj użytkowników";
+$l['themes'] = "Style";
+$l['templates'] = "Szablony";
+$l['plugins'] = "Pluginy";
+$l['database_backups'] = "Kopie bazy danych";
+$l['quick_access'] = "Szybki dostęp";
+$l['online_admins'] = "Zalogowani administratorzy";
+$l['ipaddress'] = "Adres IP:";
+$l['mybb_documentation'] = "Dokumentacja MyBB";
 
 ?>

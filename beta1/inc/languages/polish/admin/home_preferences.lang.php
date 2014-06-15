@@ -1,23 +1,24 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2011 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['preferences_and_personal_notes'] = "Preferences &amp; Personal Notes";
-$l['prefs_and_personal_notes_description'] = "Here you can manage your Admin Control Panel preferences and leave personal notes for yourself.";
+$l['preferences_and_personal_notes'] = "Ustawienia ACP i prywatne notatki";
+$l['prefs_and_personal_notes_description'] = "Zmieniaj ustawienia dla panelu administratora i zapisuj notatki.";
 
-$l['preferences'] = "Preferences";
-$l['global_preferences'] = "Global Preferences";
-$l['acp_theme'] = "Admin Control Panel Theme";
-$l['select_acp_theme'] = "Please select a theme to use in the Admin Control Panel";
-$l['notes_not_shared'] = "These notes are not shared with other Administrators.";
-$l['save_notes_and_prefs'] = "Save Personal Notes & Preferences";
-$l['personal_notes'] = "Personal Notes";
-$l['codemirror'] = "Turn on / off Code Mirror";
-$l['use_codemirror_desc'] = "This preference allows you to turn off Code Mirror (used in template editing and stylesheet editing for syntax highlighting) if you are experiencing issues / slow loading.";
+$l['preferences'] = "Ustawienia ACP";
+$l['global_preferences'] = "Preferencje globalne";
+$l['acp_theme'] = "Styl panelu administratora";
+$l['select_acp_theme'] = "Wybierz styl, który będzie używany w panelu administratora";
+$l['notes_not_shared'] = "Poniższe notatki są widoczne wyłącznie dla Ciebie. Nikt inny nie ma do nich dostępu.";
+$l['save_notes_and_prefs'] = "Zapisz notatki i ustawienia";
+$l['personal_notes'] = "Prywatne notatki";
+$l['codemirror'] = "Włączyć Code Mirror?";
+$l['use_codemirror_desc'] = "Zaznacz \"Nie\", by wyłączyć Code Mirror (narzędzie służące do podświetlania składni podczas edycji stylów i szablonów), jeżeli masz problemy z wydajnym działaniem skryptu.";
 
-$l['success_preferences_updated'] = "The preferences have been successfully updated.";
+$l['success_preferences_updated'] = "Ustawienia zostały zaktualizowane.";
 
 ?>

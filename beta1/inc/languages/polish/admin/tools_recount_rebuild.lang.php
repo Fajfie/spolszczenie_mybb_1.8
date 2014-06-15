@@ -1,41 +1,43 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['recount_rebuild'] = "Recount &amp; Rebuild";
-$l['recount_rebuild_desc'] = "Here you can recount &amp; rebuild data to fix any synchronization errors in your forum.";
+$l['recount_rebuild'] = "Przeliczanie i przebudowa";
+$l['recount_rebuild_desc'] = "Przeliczaj i przebudowuj dane, by naprawić błędy synchronizacji na Twoim forum.";
 
-$l['data_per_page'] = "Data Entries Per Page";
-$l['recount_stats'] = "Recount Statistics";
-$l['recount_stats_desc'] = "This will recount and update your forum statistics on the forum index and statistics pages.";
-$l['recount_reputation'] = "Recount Reputation";
-$l['recount_reputation_desc'] = "This will recount the reputation of each user.";
-$l['recount_warning'] = "Recount Warning Points";
-$l['recount_warning_desc'] = "This will recount the active warning points of each user.";
-$l['recount_private_messages'] = "Recount Private Messages";
-$l['recount_private_messages_desc'] = "This will recount the private message count for each user.";
-$l['rebuild_forum_counters'] = "Rebuild Forum Counters";
-$l['rebuild_forum_counters_desc'] = "When this is run, the post/thread counters and last post of each forum will be updated to reflect the correct values.";
-$l['rebuild_thread_counters'] = "Rebuild Thread Counters";
-$l['rebuild_thread_counters_desc'] = "When this is run, the post/view counters and last post of each thread will be updated to reflect the correct values.";
-$l['recount_user_posts'] = "Recount User Post Counts";
-$l['recount_user_posts_desc'] = "When this is run, the post count for each user will be updated to reflect its current live value based on the posts in the database, and forums that have post count disabled.";
-$l['rebuild_attachment_thumbs'] = "Rebuild Attachment Thumbnails";
-$l['rebuild_attachment_thumbs_desc'] = "This will rebuild attachment thumbnails to ensure they're using the current width and height dimensions and will also rebuild missing thumbnails.";
+$l['data_per_page'] = "Ilość wpisów na stronę";
+$l['recount_stats'] = "Aktualizacja statystyk";
+$l['recount_stats_desc'] = "Po uruchomieniu: statystyki Twojego forum na stronie głównej zostaną przeliczone i uaktualnione.";
+$l['recount_reputation'] = "Aktualizacja liczników punktów reputacji";
+$l['recount_reputation_desc'] = "Po uruchomieniu: punkty reputacji użytkowników zostaną przeliczone, a następnie liczniki reputacji w profilach i na forum zostaną uaktualnione do właściwych wartości.";
+$l['recount_warning'] = "Aktualizacja liczników punktów ostrzeżeń";
+$l['recount_warning_desc'] = "Po uruchomieniu: punkty ostrzeżeń zostaną przeliczone, a następnie liczniki wyświetlane w profilach i na forum zostaną uaktualnione do właściwych wartości.";
+$l['recount_private_messages'] = "Aktualizacja liczników prywatnych wiadomości";
+$l['recount_private_messages_desc'] = "Po uruchomieniu: prywatne wiadomości zostaną przeliczone.";
+$l['rebuild_forum_counters'] = "Aktualizacja liczników działów";
+$l['rebuild_forum_counters_desc'] = "Po uruchomieniu: posty i wątki w działach zostaną przeliczone, a następnie liczniki forów zostaną uaktualnione do właściwych wartości.";
+$l['rebuild_thread_counters'] = "Aktualizacja liczników wątków";
+$l['rebuild_thread_counters_desc'] = "Po uruchomieniu: posty i ich wyświetlenia w wątkach zostaną przeliczone, a następnie liczniki wątków zostaną uaktualnione do właściwych wartości.";
+$l['recount_user_posts'] = "Aktualizacja liczników postów użytkowników";
+$l['recount_user_posts_desc'] = "Po uruchomieniu: posty użytkowników zostaną przeliczone, a następnie liczniki postów zostaną uaktualnione do właściwych wartości (zgodnie z ilością postów w bazie danych oraz z pominięciem działów, gdzie licznik postów został wyłączony).";
+$l['rebuild_attachment_thumbs'] = "Przebudowa miniatur załączników";
+$l['rebuild_attachment_thumbs_desc'] = "Po uruchomieniu: miniatury załączników zostaną przebudowane i sprawdzone (czy mają odpowiednie rozmiary). Zostaną również odzyskane brakujące miniatury.";
 
-$l['success_rebuilt_forum_counters'] = "The forum counters have been rebuilt successfully.";
-$l['success_rebuilt_thread_counters'] = "The thread counters have been rebuilt successfully.";
-$l['success_rebuilt_user_counters'] = "The user posts count have been recounted successfully.";
-$l['success_rebuilt_attachment_thumbnails'] = "The attachment thumbnails have been rebuilt successfully.";
-$l['success_rebuilt_forum_stats'] = "The forum statistics have been rebuilt successfully.";
-$l['success_rebuilt_reputation'] = "The user reputation has been rebuilt successfully.";
-$l['success_rebuilt_warning'] = "The user warning points have been rebuilt successfully.";
-$l['success_rebuilt_private_messages'] = "The user private message count has been recounted successfully.";
+$l['success_rebuilt_forum_counters'] = "Liczniki działów zostały zaktualizowane.";
+$l['success_rebuilt_thread_counters'] = "Liczniki wątków zostały zaktualizowane.";
+$l['success_rebuilt_user_counters'] = "Posty użytkowników zostały przeliczone.";
+$l['success_rebuilt_attachment_thumbnails'] = "Miniatury załączników zostały przebudowane.";
+$l['success_rebuilt_forum_stats'] = "Statystyki forum na stronie głównej zostały zaktualizowane.";
+$l['success_rebuilt_reputation'] = "Liczniki punktów reputacji zostały zaktualizowane.";
+$l['success_rebuilt_warning'] = "Liczniki punktów ostrzeżeń zostały zaktualizowane.";
+$l['success_rebuilt_private_messages'] = "Liczniki prywatnych wiadomości zostały zaktualizowane.";";
 
-$l['confirm_proceed_rebuild'] = "Click \"Proceed\" to continue the recount and rebuild process.";
-$l['automatically_redirecting'] = "Automatically Redirecting...";
+
+$l['confirm_proceed_rebuild'] = "Kliknij \"Kontynuuj\", aby kontynuować proces przeliczania i przebudowy.";
+$l['automatically_redirecting'] = "Automatyczne przekierowanie...";
 
 ?>

@@ -1,21 +1,22 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+ 
+$l['file_verification'] = "Weryfikacja plików";
+$l['checking'] = "Wyniki sprawdzenia";
+$l['file_verification_message'] = "Ten proces sprawdzi wszystkie domyślne pliki MyBB czy nie zostały zmodyfikowane. Naciśnij Tak, aby kontynuować.<br /> <small>Zauważ, że ten proces nie odróżnia zmian dokonanych przez Ciebie i uszkodzenia plików. Rozważ nadpisanie plików oznaczonych jako uszkodzone.</small>";
 
-$l['file_verification'] = "File Verification";
-$l['checking'] = "Checking...";
-$l['file_verification_message'] = "This process will check all MyBB default files to check for validity. Press Yes to continue.<br /> <small>Please note, this process can not differentiate between custom modifications and actual corruption in files. Therefore you should take caution in reverting files this process returns as \"corrupt\".</small>";
-
-$l['error_communication'] = "There was a problem communicating with the MyBB server. Please try again in a few minutes.";
-$l['file'] = "File";
-$l['no_corrupt_files_found'] = "Congratulations! No corrupt files have been found on your installation.";
-$l['found_problems'] = "Found Problems";
-$l['no_problems_found'] = "No Problems Detected";
-$l['changed'] = "Changed";
-$l['missing'] = "Missing";
+$l['error_communication'] = "Wystąpił problem z komunikacją z serwerem MyBB. Spróbuj ponownie za kilka minut.";
+$l['file'] = "Plik";
+$l['no_corrupt_files_found'] = "Nie znaleziono uszkodzonych plików.";
+$l['found_problems'] = "Wykryte problemy";
+$l['no_problems_found'] = "Nie wykryto żadnych problemów";
+$l['changed'] = "Zmodyfikowany";
+$l['missing'] = "Usunięty";
 $l['status'] = "Status";
 
 ?>

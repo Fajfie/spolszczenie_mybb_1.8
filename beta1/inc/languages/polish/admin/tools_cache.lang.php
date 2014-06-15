@@ -1,23 +1,24 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['cache'] = "Cache:";
-$l['cache_manager'] = "Cache Manager";
-$l['cache_manager_description'] = "Here you can manage caches which are used as a method of optimizing MyBB. Rebuilding a cache will take all the necessary data used to create the cache and re-synchronize it. Reloading a cache will reload it into the selected cache handler (disk, eaccelerator, memcache, etc). Reloading is useful when switching from the database or file system to xcache, eaccelerator, or another cache handler.";
-$l['rebuild_cache'] = "Rebuild Cache";
-$l['reload_cache'] = "Reload Cache";
-$l['rebuild_reload_all'] = "(Rebuild & Reload All)";
+$l['cache'] = "Pamięć podręczna:";
+$l['cache_manager'] = "Menadżer pamięci podręcznej";
+$l['cache_manager_description'] = "Zarządzaj pamięcią podręczną używaną do optymalizacji działania silnika MyBB. Przebudowanie pamięci podręcznej zbierze i zsynchronizuje potrzebne dane oraz spowoduje zapisanie ich w odpowiednim magazynie pamięci podręcznej (system plików, eaccelerator, memcache, itd.). Przebudowa jest przydatna przy zmianie silnika bazy danych lub zmianie sposobu przechowywania pamięci podręcznej na xcache, eaccelerator, lub inny magazyn pamięci podręcznej.";
+$l['rebuild_cache'] = "Przebuduj pamięć podręczną";
+$l['reload_cache'] = "Przeładuj pamięć podręczną";
+$l['rebuild_reload_all'] = "(Przebuduj i przeładuj wszystkie)";
 
-$l['error_cannot_rebuild'] = "This cache cannot be rebuilt.";
-$l['error_empty_cache'] = "Cache is empty.";
-$l['error_incorrect_cache'] = "Incorrect cache specified.";
-$l['error_no_cache_specified'] = "You did not specify a cache to view.";
+$l['error_cannot_rebuild'] = "Przebudowa pamięci podręcznej nie powiodła się.";
+$l['error_empty_cache'] = "Pamięć podręczna jest pusta.";
+$l['error_incorrect_cache'] = "Wybrano nieprawidłowy dział pamięci podręcznej.";
+$l['error_no_cache_specified'] = "Nie wybrano działu pamięci podręcznej.";
 
-$l['success_cache_rebuilt'] = "The cache has been rebuilt successfully.";
-$l['success_cache_reloaded'] = "The cache has been reloaded successfully.";
+$l['success_cache_rebuilt'] = "Pamięć podręczna została przebudowana.";
+$l['success_cache_reloaded'] = "Pamięć podręczna została przeładowana.";
 
 ?>

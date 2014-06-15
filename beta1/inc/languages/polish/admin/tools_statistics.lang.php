@@ -1,28 +1,29 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['statistics'] = "Statistics";
-$l['overall_statistics'] = "Overall Statistics";
-$l['overall_statistics_desc'] = "Here you can view overall statistics on your forum. All times are in UTC.";
+$l['statistics'] = "Statystyki";
+$l['overall_statistics'] = "Ogólne statystyki";
+$l['overall_statistics_desc'] = "Przeglądaj ogólne statystyki Twojego forum. Czas podany jest w UTC (uniwersalny czas koordynowany).";
 
-$l['date_range'] = "Date Range";
+$l['date_range'] = "Zakres";
 
-$l['date'] = "Date";
-$l['users'] = "Users";
-$l['threads'] = "Threads";
-$l['posts'] = "Posts";
+$l['date'] = "Data";
+$l['users'] = "Użytkowników";
+$l['threads'] = "Wątków";
+$l['posts'] = "Postów";
 
-$l['from'] = "From";
-$l['to'] = "to";
+$l['from'] = "Od";
+$l['to'] = "do";
 
-$l['increase'] = "Increase";
-$l['no_change'] = "No Change";
-$l['decrease'] = "Decrease";
+$l['increase'] = "Wzrost";
+$l['no_change'] = "brak zmian";
+$l['decrease'] = "Spadek";
 
-$l['error_no_results_found_for_criteria'] = "We could not find any results for the date range you provided. Please try a different date range.";
-$l['error_no_statistics_available_yet'] = "We're sorry, there are currently no statistics data available for your forum yet.";
+$l['error_no_results_found_for_criteria'] = "Nie znaleziono wyników w podanym zakresie. Spróbuj ponownie z innym okresem czasu.";
+$l['error_no_statistics_available_yet'] = "Nie ma dostępnych statystyk dla Twojego forum.";
 ?>

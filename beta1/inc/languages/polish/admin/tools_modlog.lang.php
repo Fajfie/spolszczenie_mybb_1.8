@@ -1,50 +1,51 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
 
-$l['mod_logs'] = "Moderator Logs";
-$l['mod_logs_desc'] = "Here you can view, prune, and search the moderator logs. These logs contain the actions any user may take (deletion of their own posts/threads) and all other actions by moderators.";
-$l['prune_mod_logs'] = "Prune Moderator Logs";
-$l['prune_mod_logs_desc'] = "Here you can prune the moderator logs matching a specified criteria.";
+$l['mod_logs'] = "Logi moderacji";
+$l['mod_logs_desc'] = "Przeglądaj, usuwaj i przeszukuj logi czynności moderatorskich. Logi zawierają informacje o poleceniach wybieranych przez użytkowników (usuwanie własnych wątków/postów) oraz wszystkich poleceniach wybieranych przez moderatorów.";
+$l['prune_mod_logs'] = "Usuń logi";
+$l['prune_mod_logs_desc'] = "Usuwaj logi czynności moderatorskich spełniające określone kryteria.";
 
-$l['no_modlogs'] = "There are no log entries with the selected criteria.";
+$l['no_modlogs'] = "Nie ma logów spełniających wybrane kryteria.";
 
-$l['username'] = "Username";
-$l['date'] = "Date";
-$l['action'] = "Action";
-$l['information'] = "Information";
-$l['ipaddress'] = "IP Address";
+$l['username'] = "Użytkownik";
+$l['date'] = "Data";
+$l['action'] = "Polecenie";
+$l['information'] = "Informacja";
+$l['ipaddress'] = "Adres IP";
 
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
+$l['forum'] = "Dział:";
+$l['thread'] = "Wątek:";
 $l['post'] = "Post:";
-$l['user_info'] = "User:";
+$l['user_info'] = "Użytkownik:";
 
-$l['filter_moderator_logs'] = "Filter Moderator Logs";
-$l['forum_moderator'] = "Forum Moderator:";
-$l['sort_by'] = "Sort By:";
-$l['results_per_page'] = "Results Per Page:";
-$l['all_moderators'] = "All Moderators";
-$l['older_than'] = "Older than ";
+$l['filter_moderator_logs'] = "Filtruj logi";
+$l['forum_moderator'] = "Moderator:";
+$l['sort_by'] = "Sortowanie:";
+$l['results_per_page'] = "Ilość wyników na stronie:";
+$l['all_moderators'] = "Wszyscy moderatorzy";
+$l['older_than'] = "Starsze niż ";
 
-$l['forum_name'] = "Forum Name";
-$l['thread_subject'] = "Thread Subject";
+$l['forum_name'] = "Dział";
+$l['thread_subject'] = "Temat wątku";
 
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
+$l['asc'] = "rosnącej";
+$l['desc'] = "malejącej";
 
-$l['in'] = "in";
-$l['order'] = "order";
-$l['days'] = "days";
+$l['in'] = "w";
+$l['order'] = "kolejności";
+$l['days'] = "dni";
 
-$l['prune_moderator_logs'] = "Prune Moderator Logs";
-$l['date_range'] = "Date range:";
+$l['prune_moderator_logs'] = "Usuń logi moderacji";
+$l['date_range'] = "Przedział czasowy:";
 
-$l['success_pruned_mod_logs'] = "The moderator logs have been pruned successfully.";
-$l['note_logs_locked'] = "For security reasons, logs less than 24 hours old cannot be pruned.";
+$l['success_pruned_mod_logs'] = "Logi moderacji zostały usunięte.";
+$l['note_logs_locked'] = "Ze względów bezpieczeństwa nie można usuwać logów z ostatnich 24 godzin.";
 
 ?>

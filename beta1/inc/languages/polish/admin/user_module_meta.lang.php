@@ -1,26 +1,27 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+ 
+$l['users_and_groups'] = "Użytkownicy i grupy";
 
-$l['users_and_groups'] = "Users &amp; Groups";
+$l['users'] = "Użytkownicy";
+$l['groups'] = "Grupy";
+$l['user_titles'] = "Tytuły użytkowników";
+$l['banning'] = "Banowanie";
+$l['admin_permissions'] = "Uprawnienia administratorów";
+$l['mass_mail'] = "Masowa korespondencja";
+$l['group_promotions'] = "System awansów";
 
-$l['users'] = "Users";
-$l['groups'] = "Groups";
-$l['user_titles'] = "User Titles";
-$l['banning'] = "Banning";
-$l['admin_permissions'] = "Admin Permissions";
-$l['mass_mail'] = "Mass Mail";
-$l['group_promotions'] = "Group Promotions";
-
-$l['can_manage_users'] = "Can manage users?";
-$l['can_manage_user_groups'] = "Can manage user groups?";
-$l['can_manage_user_titles'] = "Can manage user titles?";
-$l['can_manage_user_bans'] = "Can manage User Bans?";
-$l['can_manage_admin_permissions'] = "Can manage admin permissions?";
-$l['can_send_mass_mail'] = "Can send mass mail?";
-$l['can_manage_group_promotions'] = "Can manage group promotions?";
+$l['can_manage_users'] = "Może zarządzać użytkownikami?";
+$l['can_manage_user_groups'] = "Może zarządzać grupami użytkowników?";
+$l['can_manage_user_titles'] = "Może zarządzać tytułami użytkowników?";
+$l['can_manage_user_bans'] = "Może zarządzać banami?";
+$l['can_manage_admin_permissions'] = "Może zarządzać uprawnieniami administratorów?";
+$l['can_send_mass_mail'] = "Może wysyłać masową korespondencję?";
+$l['can_manage_group_promotions'] = "Może zarządzać promocją grup?";
 
 ?>
