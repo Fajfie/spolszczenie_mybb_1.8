@@ -1,17 +1,18 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_sendthread'] = "Send Thread to a Friend";
+$l['nav_sendthread'] = "Wyślij ten wątek znajomemu";
 
-$l['send_thread'] = "Send To Friend";
-$l['recipient'] = "Recipient:";
-$l['recipient_note'] = "Enter your friends email address here.";
-$l['subject'] = "Subject:";
-$l['message'] = "Message:";
-$l['error_nosubject'] = "You are required to enter a subject for the message to send your thread";
-$l['error_nomessage'] = "You are required to enter a message before you can send this thread to your friend";
+$l['send_thread'] = "Wyślij do znajomego";
+$l['recipient'] = "Odbiorca:";
+$l['recipient_note'] = "Wpisz adres e-mail odbiorcy.";
+$l['subject'] = "Temat:";
+$l['message'] = "Wiadomość:";
+$l['error_nosubject'] = "Musisz podać temat wiadomości.";
+$l['error_nomessage'] = "Musisz podać treść wiadomości.";
 ?>

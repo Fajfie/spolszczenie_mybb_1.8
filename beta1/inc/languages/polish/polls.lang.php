@@ -1,58 +1,59 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_postpoll'] = "Post Poll";
-$l['nav_editpoll'] = "Edit Poll";
-$l['nav_pollresults'] = "Poll Results";
+$l['nav_postpoll'] = "Utwórz ankietê";
+$l['nav_editpoll'] = "Edytuj ankietê";
+$l['nav_pollresults'] = "Wyniki ankiety";
 
-$l['edit_poll'] = "Edit Poll";
-$l['delete_poll'] = "Delete Poll";
-$l['delete_q'] = "Delete?";
-$l['delete_note'] = "To delete this poll, check the box to the left and click the button to the right.";
-$l['delete_note2'] = "<b>Note:</b> Once this poll has been deleted there is no way of restoring it.";
-$l['question'] = "Question:";
-$l['num_options'] = "Number of Options:";
-$l['max_options'] = "Maximum:";
-$l['poll_options'] = "Poll Options:";
-$l['update_options'] = "Update Options";
-$l['poll_options_note'] = "Poll options should be short and to the point.";
-$l['options'] = "Options:";
-$l['option_multiple'] = "<b>Allow multiple choice:</b> Users have the ability to vote on more than one option.";
-$l['option_public'] = "<b>Public Poll:</b> Give users the ability to see which user voted on which option(s).";
-$l['option_closed'] = "<b>Poll is Closed:</b> If checked the poll will be closed from voting.";
-$l['poll_timeout'] = "Poll Timeout:";
-$l['timeout_note'] = "The number of day(s) which people can vote on this poll.<br />(Set to 0 to if this poll should not timeout.)";
-$l['days_after'] = "days after:";
-$l['update_poll'] = "Update Poll";
-$l['option'] = "Option";
-$l['votes'] = "Votes:";
-$l['post_new_poll'] = "Post New Poll";
-$l['days'] = "days";
-$l['poll_results'] = "Poll Results";
-$l['poll_total'] = "Total:";
-$l['poll_votes'] = "votes";
+$l['edit_poll'] = "Edytuj ankietê";
+$l['delete_poll'] = "Usuñ ankietê";
+$l['delete_q'] = "Usun¹æ?";
+$l['delete_note'] = "Aby usun¹æ tê ankietê, zaznacz pole po lewej i kliknij w przycisk \"Usuñ ankietê\".";
+$l['delete_note2'] = "<b>Uwaga:</b> Po usuniêciu ankiety nie bêdzie ju¿ mo¿liwoœci jej przywrócenia.";
+$l['question'] = "Pytanie:";
+$l['num_options'] = "Liczba odpowiedzi:";
+$l['max_options'] = "Maksymalnie";
+$l['poll_options'] = "Odpowiedzi ankiety:";
+$l['update_options'] = "Aktualizuj liczbê odpowiedzi";
+$l['poll_options_note'] = "Odpowiedzi ankiety powinny byæ krótkie i zwiêz³e.";
+$l['options'] = "Opcje:";
+$l['option_multiple'] = "<b>Ankieta wielokrotnego wyboru:</b> u¿ytkownik bêdzie móg³ wybraæ wiele odpowiedzi.";
+$l['option_public'] = "<b>Ankieta publiczna:</b> u¿ytkownicy bêd¹ mogli wzajemnie poznaæ swoje odpowiedzi.";
+$l['option_closed'] = "<b>Ankieta zamkniêta:</b> u¿ytkownicy nie bêd¹ mogli odpowiadaæ.";
+$l['poll_timeout'] = "Data wygaœniêcia:";
+$l['timeout_note'] = "Liczba dni do zakoñczenia g³osowania. <br />Jeœli wpiszesz 0, ankieta nigdy nie wygaœnie.";
+$l['days_after'] = "dni od";
+$l['update_poll'] = "Aktualizuj ankietê";
+$l['option'] = "OdpowiedŸ";
+$l['votes'] = "G³osów:";
+$l['post_new_poll'] = "Zapisz ankietê";
+$l['days'] = "dni";
+$l['poll_results'] = "Wyniki ankiety";
+$l['poll_total'] = "Razem:";
+$l['poll_votes'] = "g³osów";
 
-$l['redirect_pollposted'] = "Your poll has been posted.<br />You will now be returned to the thread.";
-$l['redirect_pollpostedmoderated'] = "Your poll has been posted, but your thread is still pending moderation.<br />You will be returned to the forum.";
-$l['redirect_pollupdated'] = "The poll has been updated.<br />You will now be returned to the thread.";
-$l['redirect_votethanks'] = "Thank you for voting.<br />You will now be returned to the thread.";
-$l['redirect_unvoted'] = "Your vote(s) in this thread have been removed.<br />You will now be returned to the thread.";
-$l['redirect_polldeleted'] = "Thank you, the poll has successfully been removed from the thread.<br />You will now be taken back to the thread.";
+$l['redirect_pollposted'] = "Twoja ankieta zosta³a utworzona.<br />Teraz nast¹pi przeniesienie do w¹tku.";
+$l['redirect_pollpostedmoderated'] = "Twoja ankieta zosta³a utworzona, jednak przed opublikowaniem musi byæ zweryfikowana przez moderatora.<br />Teraz nast¹pi przeniesienie na forum.";
+$l['redirect_pollupdated'] = "Ankieta zosta³a zaktualizowana.<br />Teraz nast¹pi przeniesienie do w¹tku.";
+$l['redirect_votethanks'] = "Dziêkujemy za wype³nienie ankiety.<br />Teraz nast¹pi przeniesienie do w¹tku.";
+$l['redirect_unvoted'] = "Twój g³os w ankiecie zosta³ usuniêty.<br />Teraz nast¹pi przeniesienie do w¹tku.";
+$l['redirect_polldeleted'] = "Ankieta zosta³a usuniêta z w¹tku.<br />Teraz nast¹pi przeniesienie do w¹tku.";
 
-$l['error_polloptiontoolong'] = "One or more poll options you entered are longer than the acceptable limit. Please go back and shorten them.";
-$l['error_noquestionoptions'] = "You either did not enter a question for your poll or do not have enough options. The minimum number of options a poll can have is 2.<br />Please go back and correct this error.";
-$l['error_pollalready'] = "Thread already has poll!";
-$l['error_nopolloptions'] = "The specified poll option is invalid or does not exist.";
-$l['error_alreadyvoted'] = "You have already voted in this poll.";
-$l['error_notvoted'] = "You haven't voted in this poll.";
-$l['error_invalidpoll'] = "The specified poll is invalid or does not exist.";
-$l['error_pollclosed'] = "You cannot vote in a poll that has been closed.";
-$l['poll_time_limit'] = "Sorry but you cannot add a poll to your thread. The Administrator has set it so that polls can only be added within {1} hours of posting.";
+$l['error_polloptiontoolong'] = "Jedna lub wiêcej odpowiedzi jest za d³uga. Wróæ i skróæ je.";
+$l['error_noquestionoptions'] = "Musisz wprowadziæ pytanie do ankiety lub wiêcej odpowiedzi. Minimalna liczba odpowiedzi to 2.<br />Wróæ i popraw ten b³¹d.";
+$l['error_pollalready'] = "Ten w¹tek ma ju¿ ankietê!";
+$l['error_nopolloptions'] = "Wybrana odpowiedŸ ankiety jest nieprawid³owa lub nie istnieje.";
+$l['error_alreadyvoted'] = "Wziêto ju¿ wczeœniej udzia³ w tej ankiecie.";
+$l['error_notvoted'] = "W tej ankiecie nie brano udzia³u.";
+$l['error_invalidpoll'] = "Wybrana ankieta nie istnieje lub jest nieprawid³owa.";
+$l['error_pollclosed'] = "Ta ankieta jest ju¿ zakoñczona.";
+$l['poll_time_limit'] = "Nie mo¿esz dodaæ ankiety do swojego w¹tku. Administrator na³o¿y³ limit czasowy na dodawanie ankiet i mo¿na je dodawaæ tylko w ci¹gu pierwszych {1} godzin od zamieszczenia w¹tku.";
 
-$l['poll_deleted'] = "Deleted Poll";
-$l['poll_edited'] = "Edited Poll";
+$l['poll_deleted'] = "Usuniêto ankietê";
+$l['poll_edited'] = "Wyedytowano ankietê";
 ?>

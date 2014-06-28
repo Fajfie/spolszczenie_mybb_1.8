@@ -1,42 +1,43 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['no_new_subject'] = "You did not enter a new subject.";
-$l['post_moderation'] = "Your post is now under moderation.";
-$l['post_doesnt_exist'] = "The specified post does not exist.";
-$l['thread_doesnt_exist'] = "The specified thread does not exist.";
-$l['thread_closed_edit_subjects'] = "This thread is closed and you may not edit subjects.";
-$l['no_permission_edit_subject'] = "You do not have permission to edit this thread subject.";
-$l['thread_closed_edit_message'] = "This thread is closed and you may not edit messages within it.";
-$l['no_permission_edit_post'] = "You do not have permission to edit this message.";
-$l['edit_time_limit'] = "You can only edit messages for {1} minutes after they were posted.";
-$l['postbit_edited'] = "This post was last modified: {1} by";
-$l['save_changes'] = "Save Changes";
-$l['cancel_edit'] = "Cancel Edit";
-$l['captcha_not_exists'] = "The image verification image you are trying to refresh does not exist.";
-$l['captcha_valid_not_exists'] = "The image verification image you are trying to check does not seem to exist.";
-$l['captcha_does_not_match'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['captcha_matches'] = "The image verification code you entered was correct.";
-$l['banned_username'] = "The username you entered has been disallowed by the administrator";
-$l['banned_characters_username'] = "Your username contains one or more invalid characters";
-$l['complex_password_fails'] = "Password requires an upper case letter, lower case letter and a number";
-$l['username_taken'] = "{1} is already registered by another member";
-$l['username_available'] = "{1} is available";
-$l['invalid_username'] = "{1} is not the username of a registered member";
-$l['valid_username'] = "{1} is a valid referrer.";
-$l['buddylist_error'] = "It seems like you do not have any buddies on your buddy list. Please add some before trying to use this.";
-$l['close'] = "Close";
-$l['select_buddies'] = "Select Buddies";
-$l['select_buddies_desc'] = "To add one or more of your buddies as recipients, select them below and click OK.";
-$l['selected_recipients'] = "Selected recipients";
+$l['no_new_subject'] = "Musisz wprowadzić nowy tytuł.";
+$l['post_moderation'] = "Twój post jest w tej chwili moderowany.";
+$l['post_doesnt_exist'] = "Określony post nie istnieje.";
+$l['thread_doesnt_exist'] = "Określony wątek nie istnieje.";
+$l['thread_closed_edit_subjects'] = "Ten wątek jest zamknięty, więc nie możesz edytować jego tytułu.";
+$l['no_permission_edit_subject'] = "Nie masz uprawnień, aby edytować tytuł tej wiadomości.";
+$l['thread_closed_edit_message'] = "Ten wątek jest zamknięty, więc nie możesz edytować wiadomości.";
+$l['no_permission_edit_post'] = "Nie masz uprawnień, aby edytować tę wiadomość.";
+$l['edit_time_limit'] = "Możesz edytować posty tylko przez pierwsze {1} minut po ich napisaniu.";
+$l['postbit_edited'] = "Ten post był ostatnio modyfikowany {1} o {2} przez";
+$l['save_changes'] = "Zakończ edycję";
+$l['cancel_edit'] = "Anuluj edycję";
+$l['captcha_not_exists'] = "Obrazek weryfikacji, który próbujesz odświeżyć, nie istnieje.";
+$l['captcha_valid_not_exists'] = "Obrazek weryfikacji, który próbujesz sprawdzić, nie istnieje.";
+$l['captcha_does_not_match'] = "Błędnie przepisano z obrazka kod weryfikacji. Przepisz go dokładnie.";
+$l['captcha_matches'] = "Kod weryfikacji z obrazka został poprawnie przepisany.";
+$l['banned_username'] = "Wybrany login został zablokowany przez administratora";
+$l['banned_characters_username'] = "Zaproponowany przez Ciebie login zawiera jeden lub więcej zabronionych znaków";
+$l['complex_password_fails'] = "Twoje hasło nie jest zbyt skomplikowane. Spróbuj wymyślić inne, które zawierać będzie małe i duże litery oraz cyfry.";
+$l['username_taken'] = "Login {1} jest już zajęty";
+$l['username_available'] = "Login {1} jest dostępny";
+$l['invalid_username'] = "Nie istnieje użytkownik o loginie {1}";
+$l['valid_username'] = "{1} to poprawny login";
+$l['buddylist_error'] = "Wygląda na to, że nie masz żadnych znajomych na liście. Dodaj ich zanim użyjesz tego narzędzia.";
+$l['close'] = "Zamknij";
+$l['select_buddies'] = "Wybierz znajomych";
+$l['select_buddies_desc'] = "By dodać jednego lub więcej znajomych do listy odbiorców, wybierz ich z listy poniżej i kliknij OK.";
+$l['selected_recipients'] = "Wybrani odbiorcy";
 $l['ok'] = "OK";
-$l['cancel'] = "Cancel";
+$l['cancel'] = "Anuluj";
 $l['online'] = "Online";
 $l['offline'] = "Offline";
-$l['edited_post'] = "Edited Post";
-$l['usergroup'] = "Usergroup";
+$l['edited_post'] = "Wyedytowano post";
+$l['usergroup'] = "Grupa użytkowników";
 ?>

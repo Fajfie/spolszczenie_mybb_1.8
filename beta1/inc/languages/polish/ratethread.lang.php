@@ -1,21 +1,22 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['redirect_threadrated'] = "Thank you, the thread has been rated successfully. You will now be returned to the thread.";
+$l['redirect_threadrated'] = "Wątek został oceniony. Teraz nastąpi przeniesienie do wątku.";
 
-$l['error_invalidrating'] = "You have selected an invalid rating for this thread. Please go back and try again.";
-$l['error_alreadyratedthread'] = "Sorry, but you have already rated this thread.";
-$l['error_cannotrateownthread'] = "Sorry, you cannot rate your own thread.";
+$l['error_invalidrating'] = "Wybrano nieprawidłową ocenę. Wróć i spróbuj ponownie.";
+$l['error_alreadyratedthread'] = "Oceniono już ten wątek wcześniej.";
+$l['error_cannotrateownthread'] = "Nie możesz ocenić własnego wątku.";
 
-$l['rating_votes_average'] = "{1} Vote(s) - {2} out of 5 in Average";
-$l['one_star'] = "1 star out of 5";
-$l['two_stars'] = "2 stars out of 5";
-$l['three_stars'] = "3 stars out of 5";
-$l['four_stars'] = "4 stars out of 5";
-$l['five_stars'] = "5 stars out of 5";
-$l['rating_added'] = "Your rating has been added!";
+$l['rating_votes_average'] = "{1} głosów - średnia ocena: {2} na 5 gwiazdek";
+$l['one_star'] = "1 na 5 gwiazdek";
+$l['two_stars'] = "2 na 5 gwiazdek";
+$l['three_stars'] = "3 na 5 gwiazdek";
+$l['four_stars'] = "4 na 5 gwiazdek";
+$l['five_stars'] = "5 na 5 gwiazdek";
+$l['rating_added'] = "Twój głos został dodany!";
 ?>

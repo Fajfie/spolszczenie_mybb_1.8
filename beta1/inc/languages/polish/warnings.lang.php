@@ -1,94 +1,95 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_profile'] = "Profile of {1}";
-$l['nav_warning_log'] = "Warning Log";
-$l['nav_add_warning'] = "Warn User";
-$l['nav_view_warning'] = "Warning Details";
+$l['nav_profile'] = "Profil: {1}";
+$l['nav_warning_log'] = "Logi ostrzeżeń";
+$l['nav_add_warning'] = "Ostrzeganie użytkownika";
+$l['nav_view_warning'] = "Szczegóły ostrzeżeń";
 
-$l['warning_for_post'] = ".. Post:";
-$l['already_expired'] = "Expired";
-$l['details_username'] = "Username";
-$l['warning_active'] = "Active";
-$l['warning_revoked'] = "Revoked";
-$l['warning_log'] = "Warning Log";
-$l['warning'] = "Warning";
-$l['issued_by'] = "Issued By";
-$l['date_issued'] = "Date Issued";
-$l['expiry_date'] = "Expires";
-$l['active_warnings'] = "Active Warnings";
-$l['expired_warnings'] = "Expired Warnings";
-$l['warning_points'] = "({1} points)";
-$l['no_warnings'] = "This user has not received any warnings or they've all been removed.";
-$l['warn_user'] = "Warn User";
+$l['warning_for_post'] = "Post:";
+$l['already_expired'] = "Przedawnione";
+$l['details_username'] = "Użytkownik";
+$l['warning_active'] = "Aktywne";
+$l['warning_revoked'] = "Cofnięte";
+$l['warning_log'] = "Log ostrzeżeń";
+$l['warning'] = "Ostrzeżenie";
+$l['issued_by'] = "Wystawione przez";
+$l['date_issued'] = "Data wystawienia";
+$l['expiry_date'] = "Data przedawnienia";
+$l['active_warnings'] = "Aktywne ostrzeżenia";
+$l['expired_warnings'] = "Przedawnione ostrzeżenia";
+$l['warning_points'] = "({1} punktów)";
+$l['no_warnings'] = "Ten użytkownik nie otrzymał żadnych ostrzeżeń lub wszystkie zostały odjęte.";
+$l['warn_user'] = "Ostrzeż użytkownika";
 $l['post'] = "Post:";
-$l['warning_note'] = "Administrative Notes:";
-$l['details_warning_note'] = "Administrative Notes";
-$l['warning_type'] = "Warning Type:";
-$l['custom'] = "Custom Reason";
-$l['reason'] = "Reason:";
-$l['points'] = "Points:";
-$l['details_reason'] = "Reason";
-$l['warn_user_desc'] = "Here you can increase the warning level of this user if they've violated one or more rules.";
-$l['send_pm'] = "Notify User:";
-$l['send_user_warning_pm'] = "Send this user a private message notifying them of this warning.";
-$l['send_pm_subject'] = "Subject:";
-$l['warning_pm_subject'] = "You have received a warning.";
-$l['send_pm_message'] = "Message:";
-$l['warning_pm_message'] = "Dear {1}
+$l['warning_note'] = "Notatki administracyjne:";
+$l['details_warning_note'] = "Notatki administracyjne";
+$l['warning_type'] = "Typ ostrzeżenia:";
+$l['custom'] = "Własny powód";
+$l['reason'] = "Powód:";
+$l['points'] = "Punkty:";
+$l['details_reason'] = "Powód";
+$l['warn_user_desc'] = "Możesz tutaj podnieść poziom ostrzeżenia użytkownika, jeżeli złamał regulamin.";
+$l['send_pm'] = "Powiadom użytkownika:";
+$l['send_user_warning_pm'] = "Wyślij użytkownikowi prywatną wiadomość z informacją o nałożonym ostrzeżeniu.";
+$l['send_pm_subject'] = "Temat:";
+$l['warning_pm_subject'] = "Otrzymujesz ostrzeżenie.";
+$l['send_pm_message'] = "Treść:";
+$l['warning_pm_message'] = "Witaj, {1}!
 
-You have received a warning from the staff of {2}.
+Otrzymujesz ostrzeżenie od moderatora na {2}.
 --
 
 --";
-$l['expiration_never'] = "permanently";
-$l['expiration_hours'] = "hours";
-$l['expiration_days'] = "days";
-$l['expiration_weeks'] = "weeks";
-$l['expiration_months'] = "months";
-$l['redirect_warned_banned'] = "The user has also been moved to the {1} group {2}.";
-$l['redirect_warned_suspended'] = "This users posting privileges have been suspended {1}.";
-$l['redirect_warned_moderate'] = "All posts by this user will now be moderated {1}.";
-$l['redirect_warned'] = "The warning level of {1} has been increased to {2}%.{3}<br /><br />You will now be taken back to where you came from.";
-$l['error_warning_system_disabled'] = "You cannot use the warning system as it has been disabled by the board administrator.";
-$l['reached_max_warnings_day'] = "You cannot warn anyone as you have reached your limit on the number of warnings you can give out per day.<br /><br />The maximum number of warnings you can give out per day is {1}.";
-$l['user_reached_max_warning'] = "This user cannot be warned as they have already reached the maximum warning level.";
-$l['error_cant_warn_group'] = "You do not have permission to warn users of this group.";
-$l['error_no_note'] = "You did not enter any administrative notes for this warning.";
-$l['error_invalid_type'] = "You have selected an invalid warning type.";
-$l['error_invalid_user'] = "Selected user doesn't exist.";
-$l['error_invalid_post'] = "Selected post doesn't exist.";
-$l['error_cant_custom_warn'] = "You do not have permission to give custom warnings to users.";
-$l['error_no_custom_reason'] = "You did not enter a reason for your custom warning.";
-$l['error_invalid_custom_points'] = "You did not enter a valid number of points to add to this users warning level. You need to enter a numeric value greater than 0 but less than or equal to {1}.";
-$l['details'] = "Details";
-$l['view'] = "View";
-$l['current_warning_level'] = "Current warning level: <strong>{1}%</strong> ({2}/{3})";
-$l['warning_details'] = "Warning Details";
-$l['revoke_warning'] = "Revoke this Warning";
-$l['revoke_warning_desc'] = "To revoke this warning please enter a reason below. This will not remove any bans or suspensions imposed by this warning.";
-$l['warning_is_revoked'] = "This Warning has been revoked";
-$l['revoked_by'] = "Revoked By";
-$l['date_revoked'] = "Date Revoked";
-$l['warning_already_revoked'] = "This warning has already been revoked.";
-$l['no_revoke_reason'] = "You did not enter a reason as to why you want to revoke this warning.";
-$l['redirect_warning_revoked'] = "This warning has successfully been revoked and the users warning points decreased.<br /><br />You will now be taken back to the warning.";
-$l['result'] = "Result:";
-$l['result_banned'] = "User will be moved to banned group ({1}) {2}";
-$l['result_suspended'] = "Posting privileges will be suspended {1}";
-$l['result_moderated'] = "Posts will be moderated for {1}";
-$l['result_period'] = "for {1} {2}";
-$l['hour_or_hours'] = "Hour(s)";
-$l['day_or_days'] = "Day(s)";
-$l['week_or_weeks'] = "Week(s)";
-$l['month_or_months'] = "Month(s)";
-$l['expires'] = "Expires:";
-$l['new_warning_level'] = "New warning level:";
-$l['cannot_warn_self'] = "You cannot add to your own warning level.";
-$l['error_cant_warn_user'] = "You do not have permission to warn this user.";
-$l['existing_post_warnings'] = "Existing Warnings for this Post";
+$l['expiration_never'] = "zawsze";
+$l['expiration_hours'] = "godzin";
+$l['expiration_days'] = "dni";
+$l['expiration_weeks'] = "tygodni";
+$l['expiration_months'] = "miesięcy";
+$l['redirect_warned_banned'] = "Użytkownik został też przeniesiony do grupy {1} na {2}.";
+$l['redirect_warned_suspended'] = "Prawa tego użytkownika do pisania postów zostały zawieszone na {1} {2}.";
+$l['redirect_warned_moderate'] = "Wszystkie posty tego użytkownika będą musiały być zatwierdzane przez moderatorów przez {1} {2}.";
+$l['redirect_warned'] = "Poziom ostrzeżeń użytkownika {1} został podniesiony do {2}%.{3}<br /><br />Teraz nastąpi przeniesienie do poprzedniej lokalizacji.";
+$l['error_warning_system_disabled'] = "Nie możesz używać systemu ostrzeżeń, bo został on wyłączony przez administratora.";
+$l['reached_max_warnings_day'] = "Nie możesz ostrzec żadnego użytkownika, bo przekroczono już dzienny limit dodanych ostrzeżeń.<br /><br />Możesz dodać maksymalnie {1} ostrzeżeń dziennie.";
+$l['user_reached_max_warning'] = "Nie możesz ostrzec tego użytkownika, bo osiągnął on już maksymalny poziom ostrzeżeń.";
+$l['error_cant_warn_group'] = "Nie masz uprawnień do udzielania ostrzeżeń członkom tej grupy.";
+$l['error_no_note'] = "Nie wpisano notatki administracyjnej dla tego ostrzeżenia.";
+$l['error_invalid_type'] = "Wybrany typ ostrzeżenia jest nieprawidłowy.";
+$l['error_invalid_user'] = "Wybrany użytkownik nie istnieje.";
+$l['error_invalid_post'] = "Wybrany post nie istnieje.";
+$l['error_cant_custom_warn'] = "Twoje uprawnienia pozwalają na dodawanie ostrzeżeń tylko typu ustalonego przez administratora. Wybierz typ ostrzeżenia z listy.";
+$l['error_no_custom_reason'] = "Nie podano powodu ostrzeżenia.";
+$l['error_invalid_custom_points'] = "Wpisana liczba punktów ostrzeżenia jest niepoprawna. Powinna ona być większa niż 0, ale nie większa niż {1}.";
+$l['details'] = "Szczegóły";
+$l['view'] = "Zobacz";
+$l['current_warning_level'] = "Aktualny poziom ostrzeżeń: <strong>{1}%</strong> ({2}/{3})";
+$l['warning_details'] = "Szczegóły ostrzeżeń";
+$l['revoke_warning'] = "Cofnij to ostrzeżenie";
+$l['revoke_warning_desc'] = "By cofnąć to ostrzeżenie, wpisz powód w polu poniżej. Cofnięcie ostrzeżenia nie spowoduje zniesienia banów ani kar spowodowanych jego wystawieniem.";
+$l['warning_is_revoked'] = "Ostrzeżenie zostało cofnięte.";
+$l['revoked_by'] = "Cofnięte przez:";
+$l['date_revoked'] = "Data zniesienia:";
+$l['warning_already_revoked'] = "Ostrzeżenie zostało już cofnięte.";
+$l['no_revoke_reason'] = "Nie podano powodu zniesienia ostrzeżenia.";
+$l['redirect_warning_revoked'] = "Ostrzeżenie zostało cofnięte, a poziom ostrzeżeń użytkownika został zaktualizowany.<br /><br />Teraz nastąpi przeniesienie do strony podglądu ostrzeżenia.";
+$l['result'] = "Wynik:";
+$l['result_banned'] = "Użytkownik zostanie przeniesiony do grupy {1} na {2}";
+$l['result_suspended'] = "Prawo tego użytkownika do pisania na forum zostanie zawieszone na {1}";
+$l['result_moderated'] = "Posty tego użytkownika będą musiały być zatwierdzane przez {1}";
+$l['result_period'] = "{1} {2}";
+$l['hour_or_hours'] = "godzin";
+$l['day_or_days'] = "dni";
+$l['week_or_weeks'] = "tygodni";
+$l['month_or_months'] = "miesięcy";
+$l['expires'] = "Przedawni się:";
+$l['new_warning_level'] = "Nowy poziom ostrzeżeń:";
+$l['cannot_warn_self'] = "Nie możesz zwiększyć własnego poziomu ostrzeżeń.";
+$l['error_cant_warn_user'] = "Nie masz uprawnień do dodawania ostrzeżeń temu użytkownikowi.";
+$l['existing_post_warnings'] = "Ostrzeżenia za ten post";
 ?>

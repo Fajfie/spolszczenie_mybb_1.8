@@ -1,47 +1,48 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_newreply'] = "Post Reply";
+$l['nav_newreply'] = "Odpowiedź";
 
-$l['post_reply_to'] = "Post Reply to {1}";
-$l['post_new_reply'] = "Post a New Reply";
-$l['reply_to'] = "Reply to thread: {1}";
-$l['post_subject'] = "Post Subject:";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<strong>Signature:</strong> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<strong>Email Notification:</strong> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<strong>Disable Smilies:</strong> disable smilies from showing in this post.";
-$l['post_reply'] = "Post Reply";
-$l['preview_post'] = "Preview Post";
-$l['mod_options'] ="Moderator Options:";
-$l['close_thread'] = "<strong>Close Thread</strong>: prevent further posting in this thread.";
-$l['stick_thread'] = "<strong>Stick Thread:</strong> stick this thread to the top of the forum.";
-$l['forum_rules'] = "{1} - Rules";
-$l['thread_review'] = "Thread Review (Newest First)";
-$l['thread_review_more'] = "This thread has more than {1} replies. <a href=\"{2}\">Read the whole thread.</a>";
-$l['posted_by'] = "Posted by";
-$l['draft_saved'] = "The new post has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['image_verification'] = "Image Verification";
-$l['verification_note'] = "Please enter the text contained within the image into the text box below it. This process is used to prevent automated posts.";
-$l['verification_subnote'] = "(case insensitive)";
-$l['invalid_captcha'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['error_post_already_submitted'] = "You have already posted this reply to the specified thread. Please visit the thread to see your reply.";
-$l['multiquote_external_one'] = "You have selected one post outside of this thread.";
-$l['multiquote_external'] = "You have selected {1} posts outside of this thread.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['post_reply_to'] = "Odpowiedź na {1}";
+$l['post_new_reply'] = "Napisz nową odpowiedź";
+$l['reply_to'] = "Odpowiedź w wątku: {1}";
+$l['post_subject'] = "Temat:";
+$l['your_message'] = "Wiadomość:";
+$l['post_options'] = "Opcje posta:";
+$l['options_sig'] = "<strong>Sygnatura:</strong> pod postem pojawi się twoja sygnatura (o ile jesteś zarejestrowanym użytkownikiem).";
+$l['options_emailnotify'] = "<strong>Powiadomienie:</strong> kiedy ktoś odpowie, otrzymasz powiadomienie w postaci wiadomości e-mail (o ile jesteś zarejestrowanym użytkownikiem).";
+$l['options_disablesmilies'] = "<strong>Wyłącz emotikony:</strong> emotikony w tym poście nie będą widoczne.";
+$l['post_reply'] = "Odpowiedz";
+$l['preview_post'] = "Podgląd";
+$l['mod_options'] = "Opcje moderatora:";
+$l['close_thread'] = "<strong>Zamknij wątek</strong>: nikt nie będzie mógł odpowiadać w tym wątku.";
+$l['stick_thread'] = "<strong>Przypnij wątek:</strong> wątek będzie widoczny na górze działu.";
+$l['forum_rules'] = "{1} - zasady działu";
+$l['thread_review'] = "Podgląd wątku (od najnowszej odpowiedzi)";
+$l['thread_review_more'] = "Ten wątek ma jeszcze {1} odpowiedzi. <a href=\"{2}\">Przeczytaj całość.</a>";
+$l['posted_by'] = "Napisane przez";
+$l['draft_saved'] = "Nowy szkic posta został zapisany.<br />Teraz nastąpi przeniesienie do listy Twoich szkiców.";
+$l['image_verification'] = "Potwierdzenie kodem";
+$l['verification_note'] = "Przepisz tekst z obrazka po lewej do poniższego pola tekstowego. Taki proces jest niezbędny, by zapobiec wysyłaniu wiadomości przez automaty.";
+$l['verification_subnote'] = "(wielkość liter ma znaczenie)";
+$l['invalid_captcha'] = "Wprowadzony kod weryfikacji jest nieprawidłowy. Przepisz kod z obrazka dokładnie.";
+$l['error_post_already_submitted'] = "Napisano już wcześniej identyczną odpowiedź.";
+$l['multiquote_external_one'] = "Zaznaczono 1 post do zacytowania.";
+$l['multiquote_external'] = "Zaznaczono {1} postów do zacytowania.";
+$l['multiquote_external_one_deselect'] = "odznacz ten post";
+$l['multiquote_external_deselect'] = "odznacz te posty";
+$l['multiquote_external_one_quote'] = "Zacytuj ten post teraz";
+$l['multiquote_external_quote'] = "Zacytuj te posty teraz";
 
-$l['redirect_newreply'] = "Thank you, your reply has been posted.";
-$l['redirect_newreply_moderation'] = "The administrator has specified that all new posts require moderation. You will now be returned to the thread.";
-$l['redirect_newreply_post'] = "<br />You will now be taken to your post.";
-$l['redirect_newreplyerror'] = "Sorry, but your reply has been rejected for lack of content. <br />You will now be returned to the thread.";
-$l['redirect_threadclosed'] = "You cannot post replies in this thread because it has been closed by a moderator.";
-$l['error_post_noperms'] = "You don't have permission to edit this draft.";
+$l['redirect_newreply'] = "Post został umieszczony na forum.";
+$l['redirect_newreply_moderation'] = "<br />Twój post przed opublikowaniem zostanie sprawdzony przez moderatora. Teraz nastąpi przeniesienie do wątku.";
+$l['redirect_newreply_post'] = "<br />Teraz nastąpi przeniesienie do nowego posta.";
+$l['redirect_newreplyerror'] = "Twoja wiadomość nie zostanie opublikowana, gdyż posiada nieprawidłową zawartość. <br />Teraz nastąpi przeniesienie do wątku.";
+$l['redirect_threadclosed'] = "Nie możesz odpowiedzieć w tym wątku, gdyż został zamknięty przez moderatora.";
+$l['error_post_noperms'] = "Nie masz uprawnień do edytowania tego szkicu.";
 ?>

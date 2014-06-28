@@ -1,25 +1,26 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_showteam'] = "Forum Team";
-$l['forum_team'] = "Forum Team";
-$l['moderators'] = "Moderators";
-$l['username'] = "Username";
-$l['lastvisit'] = "Last Visit";
-$l['email'] = "Email";
-$l['pm'] = "PM";
-$l['mod_forums'] = "Forum(s)";
+$l['nav_showteam'] = "Ekipa forum";
+$l['forum_team'] = "Ekipa forum";
+$l['moderators'] = "Moderatorzy";
+$l['username'] = "Użytkownik";
+$l['lastvisit'] = "Ostatnia wizyta";
+$l['email'] = "E-mail";
+$l['pm'] = "PW";
+$l['mod_forums'] = "Działy";
 $l['online'] = "Online";
 $l['offline'] = "Offline";
 
-$l['group_leaders'] = "Leader(s)";
-$l['group_members'] = "Member(s)";
+$l['group_leaders'] = "Liderzy";
+$l['group_members'] = "Członkowie";
 
-$l['no_members'] = "No members in this group";
+$l['no_members'] = "W tej grupie nie ma użytkowników.";
 
-$l['error_noteamstoshow'] = "There are no forum staff to be shown.";
+$l['error_noteamstoshow'] = "Nie ma nikogo do wyświetlenia.";
 ?>

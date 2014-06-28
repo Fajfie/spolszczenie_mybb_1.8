@@ -1,48 +1,49 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_newthread'] = "New Thread";
-$l['newthread_in'] = "New Thread in {1}";
-$l['post_new_thread'] = "Post a new Thread";
-$l['thread_subject'] = "Thread Subject";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<b>Signature:</b> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<b>Email Notification:</b> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<b>Disable Smilies:</b> disable smilies from showing in this post.";
-$l['post_thread'] = "Post Thread";
-$l['preview_post'] = "Preview Post";
-$l['poll'] = "Poll:";
-$l['poll_desc'] = "Optionally you may attach a poll to this thread.";
-$l['poll_check'] = "I want to post a poll";
-$l['num_options'] = "Number of options:";
-$l['max_options'] = "(Maximum: {1})";
-$l['mod_options'] ="Moderator Options:";
-$l['close_thread'] = "<b>Close Thread</b>: prevent further posting in this thread.";
-$l['stick_thread'] = "<b>Stick Thread:</b> stick this thread to the top of the forum.";
-$l['draft_saved'] = "The new thread has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['image_verification'] = "Image Verification";
-$l['verification_note'] = "Please enter the text contained within the image into the text box below it. This process is used to prevent automated posts.";
-$l['verification_subnote'] = "(case insensitive)";
-$l['invalid_captcha'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['error_post_already_submitted'] = "You have already posted this thread in this forum. Please visit the forum to see your thread.";
-$l['no_prefix'] = "No Prefix";
-$l['forum_rules'] = "{1} - Rules";
+$l['nav_newthread'] = "Nowy wątek";
+$l['newthread_in'] = "Nowy wątek w {1}";
+$l['post_new_thread'] = "Napisz nowy wątek";
+$l['thread_subject'] = "Temat";
+$l['your_message'] = "Wiadomość:";
+$l['post_options'] = "Opcje posta:";
+$l['options_sig'] = "<b>Sygnatura:</b> pod postem pojawi się twoja sygnatura (o ile jesteś zarejestrowanym użytkownikiem).";
+$l['options_emailnotify'] = "<b>Powiadomienie:</b> kiedy ktoś odpowie, otrzymasz powiadomienie e-mailem (o ile jesteś zarejestrowanym użytkownikiem).";
+$l['options_disablesmilies'] = "<b>Wyłącz emotikony:</b> emotikony w tym poście nie będą widoczne.";
+$l['post_thread'] = "Napisz wątek";
+$l['preview_post'] = "Podgląd";
+$l['poll'] = "Ankieta:";
+$l['poll_desc'] = "Możesz dodać ankietę do wątku.";
+$l['poll_check'] = "Chcę dodać ankietę";
+$l['num_options'] = "Liczba odpowiedzi:";
+$l['max_options'] = "(maksymalnie {1})";
+$l['mod_options'] = "Opcje moderatora:";
+$l['close_thread'] = "<b>Zamknij wątek</b>: nie będzie możliwości odpowiadania.";
+$l['stick_thread'] = "<b>Przypnij wątek:</b> będzie widoczny na górze działu.";
+$l['draft_saved'] = "Nowy szkic wątku został zapisany.<br />Teraz nastąpi przeniesienie do listy Twoich szkiców.";
+$l['image_verification'] = "Potwierdzenie kodem";
+$l['verification_note'] = "Przepisz tekst z obrazka po lewej do poniższego pola tekstowego. Taki proces jest niezbędny, by zapobiec wysyłaniu wiadomości przez automaty.";
+$l['verification_subnote'] = "(wielkość liter ma znaczenie)";
+$l['invalid_captcha'] = "Wprowadzony kod weryfikacji jest nieprawidłowy. Przepisz kod z obrazka dokładnie.";
+$l['error_post_already_submitted'] = "Już napisano identyczny wątek w tym dziale.";
+$l['no_prefix'] = "Bez prefiksu";
+$l['forum_rules'] = "{1} - zasady działu";
 
-$l['multiquote_external_one'] = "You have selected one post from another thread.";
-$l['multiquote_external'] = "You have selected {1} posts from other threads.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['multiquote_external_one'] = "Wybrano 1 post z innego wątku.";
+$l['multiquote_external'] = "Wybrano {1} postów z innych wątków.";
+$l['multiquote_external_one_deselect'] = "odznacz ten post";
+$l['multiquote_external_deselect'] = "odznacz te posty";
+$l['multiquote_external_one_quote'] = "Zacytuj również ten post";
+$l['multiquote_external_quote'] = "Zacytuj również te posty";
 
-$l['redirect_newthread'] = "Thank you, your thread has been posted.";
-$l['redirect_newthread_poll'] = "<br />You will now be taken to the poll options and configuration page.";
-$l['redirect_newthread_moderation'] = "<br />The administrator has specified that all new threads require moderation. You will now be returned to the thread listing.";
-$l['redirect_newthread_thread'] = "<br />You will now be taken to the new thread.";
-$l['invalidthread'] = "The specified draft does not exist or you don't have permission to view it.";
+$l['redirect_newthread'] = "Wątek został umieszczony na forum.";
+$l['redirect_newthread_poll'] = "<br />Teraz nastąpi przeniesienie do ustawień ankiety.";
+$l['redirect_newthread_moderation'] = "<br />Twój wątek przed opublikowaniem zostanie zweryfikowany przez moderatora. Teraz nastąpi przeniesienie do wątku.";
+$l['redirect_newthread_thread'] = "<br />Teraz nastąpi przeniesienie do nowego wątku.";
+$l['invalidthread'] = "Nie masz uprawnień do edytowania wybranego szkicu.";
 ?>
