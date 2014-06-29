@@ -23,7 +23,6 @@ $l['search_replace_desc'] = "Znajdź szablony zawierające dany ciąg znaków i 
 $l['find_updated'] = "Znajdź zmienione";
 $l['find_updated_desc'] = "Wyszukuj szablony, które zmieniły się wraz z wydaniem nowej wersji MyBB, abyś mógł dokonać właściwych zmian.";
 $l['edit_template'] = "Edytuj szablon";
-$l['edit_template_desc'] = "Zmień tytuł szablonu, zmodyfikuj jego kod lub przypisz go do innej paczki.";
 $l['editing_template'] = "Edytowanie szablonu: {1}";
 $l['edit_template_desc'] = "Zmień tytuł szablonu, zmodyfikuj jego kod lub przypisz go do innej paczki.";
 $l['edit_set'] = "Edytuj paczkę";

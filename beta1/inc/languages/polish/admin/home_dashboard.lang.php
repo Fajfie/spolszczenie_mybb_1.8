@@ -5,7 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
- 
+
 $l['dashboard'] = "Informacje";
 $l['dashboard_description'] = "Przeglądaj niektóre informacje o Twoim forum. Dodawaj także notatki widoczne dla innych administratorów.";
 

@@ -1,107 +1,108 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
 // Tabs
-$l['attachments'] = "Attachments";
-$l['stats'] = "Statistics";
-$l['find_attachments'] = "Find Attachments";
-$l['find_attachments_desc'] = "Using the attachments search system you can search for specific files users have attached to your forums. Begin by entering some search terms below. All fields are optional and won't be included in the criteria unless they contain a value.";
-$l['find_orphans'] = "Find Orphaned Attachments";
-$l['find_orphans_desc'] = "Orphaned attachments are attachments which are for some reason missing in the database or the file system. This utility will assist you in locating and removing them.";
-$l['attachment_stats'] = "Attachment Statistics";
-$l['attachment_stats_desc'] = "Below are some general statistics for the attachments currently on your forum.";
+$l['attachments'] = "Załączniki";
+$l['stats'] = "Statystyki załączników";
+$l['find_attachments'] = "Znajdź załączniki";
+$l['find_attachments_desc'] = "Znajdź załączniki wysłane przez użytkowników. Za pomocą poniższego formularza możesz określić kryteria wyszukiwania.";
+$l['find_orphans'] = "Znajdź nieużywane";
+$l['find_orphans_desc'] = "Załączniki, o których nie ma informacji w bazie lub systemie plików są nieużywane. Wyszukaj je i usuń.";
+$l['attachment_stats'] = "Statystyki";
+$l['attachment_stats_desc'] = "Poniżej znajdują się statystyki dla załączników umieszczonych na forum.";
 
 // Errors
-$l['error_nothing_selected'] = "Please select one or more attachments to delete.";
-$l['error_no_attachments'] = "There aren't any attachments on your forum yet. Once an attachment is posted you'll be able to access this section.";
-$l['error_not_all_removed'] = "Only some orphaned attachments were successfully deleted, others could not be removed from the uploads directory.";
-$l['error_invalid_username'] = "The username you entered is invalid.";
-$l['error_invalid_forums'] = "One or more forums you selected are invalid.";
-$l['error_no_results'] = "No attachments were found with the specified search criteria.";
-$l['error_not_found'] = "Attachment file could not be found in the uploads directory.";
-$l['error_not_attached'] = "Attachment was uploaded over 24 hours ago but not attached to a post.";
-$l['error_does_not_exist'] = "Thread or post for this attachment no longer exists.";
+$l['error_nothing_selected'] = "Nie zaznaczono załączników do usunięcia.";
+$l['error_no_attachments'] = "Nie ma załączników na forum. Po wysłaniu przez użytkowników przynajmniej jednego pliku uzyskasz dostęp do tej sekcji.";
+$l['error_not_all_removed'] = "Zostały usunięte tylko nieużywane pliki, pozostałe nadal są w katalogu załączników.";
+$l['error_invalid_username'] = "Wpisany login jest nieprawidłowy.";
+$l['error_invalid_forums'] = "Zaznaczono jedno lub więcej nieprawidłowych działów.";
+$l['error_no_results'] = "Nie ma załączników spełniających wybrane kryteria.";
+$l['error_not_found'] = "Plik nie został znaleziony w katalogu załączników.";
+$l['error_not_attached'] = "Załącznik został wysłany 24 godziny temu, ale nie dołączono go do posta.";
+$l['error_does_not_exist'] = "Wątek lub post połączony z tym załącznikiem już nie istnieje.";
 
 // Success
-$l['success_deleted'] = "The selected attachments have been deleted successfully.";
-$l['success_orphan_deleted'] = "The selected orphaned attachments have been deleted successfully.";
-$l['success_no_orphans'] = "There are no orphaned attachments on your forum.";
+$l['success_deleted'] = "Wybrane załączniki zostały usunięte.";
+$l['success_orphan_deleted'] = "Wybrane nieużywane załączniki zostały usunięte.";
+$l['success_no_orphans'] = "Nie ma nieużywanych załączników na forum.";
 
 // Confirm
-$l['confirm_delete'] = "Are you sure you wish to delete the selected attachments?";
+$l['confirm_delete'] = "Czy na pewno chcesz usunąć wybrane załączniki?";
 
 // == Pages
 // = Stats
-$l['general_stats'] = "General Statistics";
-$l['stats_attachment_stats'] = "Attachments - Attachment Statistics";
-$l['num_uploaded'] = "<strong>No. Uploaded Attachments</strong>";
-$l['space_used'] = "<strong>Attachment Space Used</strong>";
-$l['bandwidth_used'] = "<strong>Estimated Bandwidth Usage</strong>";
-$l['average_size'] = "<strong>Average Attachment Size</strong>";
-$l['size'] = "Size";
-$l['posted_by'] = "Posted By";
-$l['thread'] = "Thread";
-$l['downloads'] = "Downloads";
-$l['date_uploaded'] = "Date Uploaded";
-$l['popular_attachments'] = "Top 5 Most Popular Attachments";
-$l['largest_attachments'] = "Top 5 Largest Attachments";
-$l['users_diskspace'] = "Top 5 Users Using the Most Disk Space";
-$l['username'] = "Username";
-$l['total_size'] = "Total Size";
+$l['general_stats'] = "Statystyki główne";
+$l['stats_attachment_stats'] = "Załączniki - statystyki";
+$l['num_uploaded'] = "<strong>Wysłanych załączników</strong>";
+$l['space_used'] = "<strong>Miejsce używane przez załączniki</strong>";
+$l['bandwidth_used'] = "<strong>Szacowane zużycie transferu przez załączniki</strong>";
+$l['average_size'] = "<strong>Średni rozmiar załącznika</strong>";
+$l['size'] = "Rozmiar";
+$l['posted_by'] = "Wysłany przez";
+$l['thread'] = "Wątek";
+$l['downloads'] = "Ilość pobrań";
+$l['date_uploaded'] = "Data wysłania";
+$l['popular_attachments'] = "5 najpopularniejszych załączników";
+$l['largest_attachments'] = "5 największych załączników";
+$l['users_diskspace'] = "5 użytkowników używających najwięcej miejsca na załączniki";
+$l['username'] = "Użytkownik";
+$l['total_size'] = "Używane miejsce";
 
 // = Orphans
-$l['orphan_results'] = "Orphaned Attachments Search - Results";
-$l['orphan_attachments_search'] = "Orphaned Attachments Search";
-$l['reason_orphaned'] = "Reason Orphaned";
-$l['reason_not_in_table'] = "Not in attachments table";
-$l['reason_file_missing'] = "Attached file missing";
-$l['reason_thread_deleted'] = "Thread been deleted";
-$l['reason_post_never_made'] = "Post never made";
-$l['unknown'] = "Unknown";
-$l['results'] = "Results";
-$l['step1'] = "Step 1";
-$l['step2'] = "Step 2";
-$l['step1of2'] = "Step 1 of 2 - File System Scan";
-$l['step2of2'] = "Step 2 of 2 - Database Scan";
-$l['step1of2_line1'] = "Please wait, the file system is currently being scanned for orphaned attachments.";
-$l['step2of2_line1'] = "Please wait, the database is currently being scanned for orphaned attachments.";
-$l['step_line2'] = "You'll automatically be redirected to the next step once this process is complete.";
+$l['orphan_results'] = "Wyszukiwanie nieużywanych załączników - wyniki";
+$l['orphan_attachments_search'] = "Wyszukiwanie nieużywanych załączników";
+$l['reason_orphaned'] = "Dlaczego nieużywany?";
+$l['reason_not_in_table'] = "Brak informacji w tabeli załączników";
+$l['reason_file_missing'] = "Brak załączonego pliku";
+$l['reason_thread_deleted'] = "Wątek został usunięty";
+$l['reason_post_never_made'] = "Post jeszcze nie powstał";
+$l['unknown'] = "Nieznany";
+$l['results'] = "Wyniki";
+$l['step1'] = "Krok 1";
+$l['step2'] = "Krok 2";
+$l['step1of2'] = "Krok 1 z 2 - skanowanie systemu plików";
+$l['step2of2'] = "Krok 2 z 2 - skanowanie bazy danych";
+$l['step1of2_line1'] = "Proszę czekać, system plików jest skanowany w poszukiwaniu nieużywanych załączników.";
+$l['step2of2_line1'] = "Proszę czekać, baza danych jest skanowana w poszukiwaniu nieużywanych załączników.";
+$l['step_line2'] = "Po zakończeniu procesu nastąpi przeniesienie do kolejnego kroku.";
 
 // = Attachments / Index
-$l['index_find_attachments'] = "Attachments - Find Attachments";
-$l['find_where'] = "Find attachments where...";
-$l['name_contains'] = "File name contains";
-$l['name_contains_desc'] = "To search by wild card enter *.[file extension]. Example: *.zip.";
-$l['type_contains'] = "File type contains";
-$l['forum_is'] = "Forum is";
-$l['username_is'] = "Posters' username is";
-$l['more_than'] = "More than";
-$l['greater_than'] = "Greater than";
-$l['is_exactly'] = "Is exactly";
-$l['less_than'] = "Less than";
-$l['date_posted_is'] = "Date posted is";
-$l['days_ago'] = "days ago";
-$l['file_size_is'] = "File size is";
+$l['index_find_attachments'] = "Załączniki - szukanie";
+$l['find_where'] = "Znajdź załączniki, dla których...";
+$l['name_contains'] = "Nazwa pliku zawiera";
+$l['name_contains_desc'] = "Użyj \"*\", by zastąpić dowolny ciąg znaków. Przykład: *.zip";
+$l['type_contains'] = "Typ pliku zawiera";
+$l['forum_is'] = "Kategoria, dział, poddział";
+$l['username_is'] = "Użytkownik";
+$l['more_than'] = "większa niż";
+$l['greater_than'] = "większa niż";
+$l['is_exactly'] = "równa";
+$l['less_than'] = "mniejsza niż";
+$l['date_posted_is'] = "Data wysyłania jest";
+$l['days_ago'] = "dni temu";
+$l['file_size_is'] = "Wielkość pliku jest";
 $l['kb'] = "KB";
-$l['download_count_is'] = "Download count is";
-$l['display_options'] = "Display Options";
-$l['filename'] = "File Name";
-$l['filesize'] = "File Size";
-$l['download_count'] = "Download Count";
-$l['post_username'] = "Post Username";
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
-$l['sort_results_by'] = "Sort results by";
-$l['results_per_page'] = "Results per page";
-$l['in'] = "in";
+$l['download_count_is'] = "Ilość pobrań jest";
+$l['display_options'] = "Opcje wyświetlania wyników";
+$l['filename'] = "nazwy pliku";
+$l['filesize'] = "rozmiaru pliku";
+$l['download_count'] = "ilości pobrań";
+$l['post_username'] = "autora postu";
+$l['asc'] = "rosnącej";
+$l['desc'] = "malejącej";
+$l['sort_results_by'] = "Sortowanie wyników według";
+$l['results_per_page'] = "Wyników na stronę";
+$l['in'] = "w kolejności";
 
 // Buttons
-$l['button_delete_orphans'] = "Delete Checked Orphans";
-$l['button_delete_attachments'] = "Delete Checked Attachments";
-$l['button_find_attachments'] = "Find Attachments";
+$l['button_delete_orphans'] = "Usuń wybrane załączniki";
+$l['button_delete_attachments'] = "Usuń wybrane załączniki";
+$l['button_find_attachments'] = "Znajdź załączniki";
 
 ?>

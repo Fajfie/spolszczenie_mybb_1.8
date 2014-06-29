@@ -51,6 +51,7 @@ $l['members_of'] = "Należą do grupy...";
 $l['greater_than'] = "Większe niż";
 $l['is_exactly'] = "jest równe";
 $l['less_than'] = "Mniejsze niż";
+$l['more_than'] = "Większe niż";
 $l['post_count_is'] = "Liczba postów to";
 $l['hours'] = "godzin(y)";
 $l['days'] = "dni";

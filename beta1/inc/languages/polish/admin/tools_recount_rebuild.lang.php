@@ -36,7 +36,6 @@ $l['success_rebuilt_reputation'] = "Liczniki punktów reputacji zostały zaktual
 $l['success_rebuilt_warning'] = "Liczniki punktów ostrzeżeń zostały zaktualizowane.";
 $l['success_rebuilt_private_messages'] = "Liczniki prywatnych wiadomości zostały zaktualizowane.";";
 
-
 $l['confirm_proceed_rebuild'] = "Kliknij \"Kontynuuj\", aby kontynuować proces przeliczania i przebudowy.";
 $l['automatically_redirecting'] = "Automatyczne przekierowanie...";
 

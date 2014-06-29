@@ -5,7 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
- 
+
 $l['file_verification'] = "Weryfikacja plików";
 $l['checking'] = "Wyniki sprawdzenia";
 $l['file_verification_message'] = "Ten proces sprawdzi wszystkie domyślne pliki MyBB czy nie zostały zmodyfikowane. Naciśnij Tak, aby kontynuować.<br /> <small>Zauważ, że ten proces nie odróżnia zmian dokonanych przez Ciebie i uszkodzenia plików. Rozważ nadpisanie plików oznaczonych jako uszkodzone.</small>";

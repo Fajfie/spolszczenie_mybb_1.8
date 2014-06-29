@@ -1,20 +1,21 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['forums_and_posts'] = "Forums &amp; Posts";
+$l['forums_and_posts'] = "Działy i posty";
 
-$l['forum_management'] = "Forum Management";
-$l['forum_announcements'] = "Forum Announcements";
-$l['moderation_queue'] = "Moderation Queue";
-$l['attachments'] = "Attachments";
+$l['forum_management'] = "Działy";
+$l['forum_announcements'] = "Ogłoszenia";
+$l['moderation_queue'] = "Moderacja";
+$l['attachments'] = "Załączniki";
 
-$l['can_manage_forums'] = "Can manage forums?";
-$l['can_manage_forum_announcements'] = "Can manage forum announcements?";
-$l['can_moderate'] = "Can moderate posts, threads, and attachments?";
-$l['can_manage_attachments'] = "Can manage attachments?";
+$l['can_manage_forums'] = "Może zarządzać działami?";
+$l['can_manage_forum_announcements'] = "Może zarządzać ogłoszeniami w działach?";
+$l['can_moderate'] = "Może moderować posty, wątki i załączniki?";
+$l['can_manage_attachments'] = "Może zarządzać załącznikami?";
 
 ?>

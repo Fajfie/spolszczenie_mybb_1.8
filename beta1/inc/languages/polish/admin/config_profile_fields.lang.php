@@ -5,7 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
- 
+
 $l['custom_profile_fields'] = "Pola w profilu";
 $l['custom_profile_fields_desc'] = "Edytuj, usuwaj i zarządzaj dodatkowymi polami profilu na Twoim forum.";
 $l['add_profile_field'] = "Nowe pole";

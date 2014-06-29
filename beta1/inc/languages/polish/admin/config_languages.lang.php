@@ -1,58 +1,59 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['languages'] = "Languages";
-$l['languages_desc'] = "The language packs you have installed on your forum are shown below. You can choose to edit the language files, edit the files with another language, or edit the language's properties.";
-$l['find_language_packs'] = "Find Language Packs";
-$l['language_files'] = "Language Files";
-$l['language_files_desc'] = "Below are the files within the selected language, for both the front-end and the admin control panel. Here you can choose to edit these files.";
-$l['quick_phrases'] = "Quick Phrases";
-$l['quick_phrases_desc'] = "Quick access to commonly modified language phrases.";
+$l['languages'] = "Języki";
+$l['languages_desc'] = "Edytuj właściwości i modyfikuj pliki językowe paczek widocznych na poniższej liście.";
+$l['find_language_packs'] = "Więcej paczek językowych";
+$l['language_files'] = "Pliki językowe";
+$l['language_files_desc'] = "Poniżej widoczna jest lista plików znajdujących się w wybranej paczce. Klikając link po prawej stronie pliku, otworzysz go do edycji.";
+$l['quick_phrases'] = "Najczęściej używane frazy";
+$l['quick_phrases_desc'] = "Uzyskuj dostęp do najczęściej modyfikowanych fraz.";
 
-$l['edit_with'] = "Edit with {1}";
-$l['edit_language_variables'] = "Edit Language Variables";
-$l['edit_language_variables_desc'] = "Here you can edit the different language strings to your liking.";
-$l['edit_properties_desc'] = "Here you can edit a language pack properties.";
-$l['installed_language_packs'] = "Installed Language Packs";
-$l['front_end'] = "Front End";
-$l['admin_cp'] = "Admin CP";
-$l['save_language_file'] = "Save Language File";
-$l['nav_editing_set'] = "Editing Language Set Properties";
-$l['edit_properties'] = "Edit Language Pack Properties";
-$l['friendly_name'] = "Friendly Name";
-$l['language_in_html'] = "Language in &lt;html&gt; tag";
-$l['charset'] = "Character Set";
-$l['admin'] = "Contains Admin CP language variables?";
-$l['rtl'] = "Right-To-Left?";
+$l['edit_with'] = "Edytuj z podglądem na {1}";
+$l['edit_language_variables'] = "Edytuj zmienne językowe";
+$l['edit_language_variables_desc'] = "Edytuj zmienne językowe według własnego upodobania.";
+$l['edit_properties_desc'] = "Edytuj właściwości paczki językowej.";
+$l['installed_language_packs'] = "Zainstalowane paczki językowe";
+$l['front_end'] = "Strona główna";
+$l['admin_cp'] = "Panel administratora";
+$l['save_language_file'] = "Zapisz plik językowy";
+$l['nav_editing_set'] = "Edycja właściwości paczki językowej";
+$l['edit_properties'] = "Edycja właściwości paczki językowej";
+$l['friendly_name'] = "Zrozumiała nazwa";
+$l['language_in_html'] = "Identyfikator języka w tagu &lt;html&gt;";
+$l['charset'] = "Strona kodowa";
+$l['admin'] = "Zawiera zmienne językowe panelu administratora?";
+$l['rtl'] = "Od prawej do lewej?";
 
-$l['quickphrases_agreement'] = 'Registration Agreement - Title';
-$l['quickphrases_agreement_1'] = 'Registration Agreement - Paragraph 1';
-$l['quickphrases_agreement_2'] = 'Registration Agreement - Paragraph 2';
-$l['quickphrases_agreement_3'] = 'Registration Agreement - Paragraph 3';
-$l['quickphrases_agreement_4'] = 'Registration Agreement - Paragraph 4';
-$l['quickphrases_agreement_5'] = 'Registration Agreement - Paragraph 5';
+$l['quickphrases_agreement'] = 'Regulamin przy rejestracji - tytuł';
+$l['quickphrases_agreement_1'] = 'Regulamin przy rejestracji - paragraf 1';
+$l['quickphrases_agreement_2'] = 'Regulamin przy rejestracji - paragraf 2';
+$l['quickphrases_agreement_3'] = 'Regulamin przy rejestracji - paragraf 3';
+$l['quickphrases_agreement_4'] = 'Regulamin przy rejestracji - paragraf 4';
+$l['quickphrases_agreement_5'] = 'Regulamin przy rejestracji - paragraf 5';
 
-$l['quickphrases_error_nopermission_guest_1'] = 'No Permissions Message - Paragraph 1';
-$l['quickphrases_error_nopermission_guest_2'] = 'No Permissions Message - Paragraph 2';
-$l['quickphrases_error_nopermission_guest_3'] = 'No Permissions Message - Paragraph 3';
-$l['quickphrases_error_nopermission_guest_4'] = 'No Permissions Message - Paragraph 4';
+$l['quickphrases_error_nopermission_guest_1'] = 'Informacja o braku dostępu - paragraf 1';
+$l['quickphrases_error_nopermission_guest_2'] = 'Informacja o braku dostępu - paragraf 2';
+$l['quickphrases_error_nopermission_guest_3'] = 'Informacja o braku dostępu - paragraf 3';
+$l['quickphrases_error_nopermission_guest_4'] = 'Informacja o braku dostępu - paragraf 4';
 
-$l['no_languages'] = "No Languages";
-$l['no_language_files_front_end'] = "There are no Front End Language files found.";
-$l['no_language_files_admin_cp'] = "There are no Admin CP Language files found.";
+$l['no_languages'] = "Brak paczek językowych";
+$l['no_language_files_front_end'] = "Nie ma żadnych paczek językowych dla użytkowników.";
+$l['no_language_files_admin_cp'] = "Nie ma żadnych paczek językowych dla panelu administratora.";
 
-$l['error_invalid_set'] = "Invalid language set specified.";
-$l['error_invalid_file'] = "Invalid language file specified.";
-$l['error_cannot_write_to_file'] = "Cannot write to file.  Check the file permissions for this language set and try again";
+$l['error_invalid_set'] = "Wybrano nieprawidłową paczkę językową.";
+$l['error_invalid_file'] = "Wybrano nieprawidłowy plik językowy.";
+$l['error_cannot_write_to_file'] = "Nie można zapisać pliku. Sprawdź ustawienia CHMOD dla tej paczki i spróbuj ponownie.";
 
-$l['alert_note_cannot_write'] = "Before you can edit the language file, you must CHMOD the files in this language set so that the server has permission to write to them.";
+$l['alert_note_cannot_write'] = "Zanim będziesz mieć możliwość edycji plików językowych, musisz nadać uprawnienia (CHMOD) do zapisu plików.";
 
-$l['success_langfile_updated'] = "The language file has been updated successfully.";
-$l['success_langprops_updated'] = "The language properties have been updated successfully.";
-$l['success_quickphrases_updated'] = "The quick language phrases have been updated successfully.";
+$l['success_langfile_updated'] = "Plik językowy został zmodyfikowany.";
+$l['success_langprops_updated'] = "Właściwości paczki zostały zaktualizowane.";
+$l['success_quickphrases_updated'] = "Najczęściej używane frazy zostały zaktualizowane.";
 
 ?>

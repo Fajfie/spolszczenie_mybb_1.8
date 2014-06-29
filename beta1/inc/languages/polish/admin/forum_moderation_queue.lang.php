@@ -1,50 +1,51 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
 // Tabs
-$l['moderation_queue'] = "Moderation Queue";
-$l['threads'] = "Threads";
-$l['threads_desc'] = "Here you can view and approve threads in the moderation queue.";
-$l['posts'] = "Posts";
-$l['posts_desc'] = "Here you can view and approve posts in the moderation queue.";
-$l['attachments'] = "Attachments";
-$l['attachments_desc'] = "Here you can view and approve attachments in the moderation queue.";
-$l['threads_awaiting_moderation'] = "Threads Awaiting Moderation";
-$l['posts_awaiting_moderation'] = "Posts Awaiting Moderation";
-$l['attachments_awaiting_moderation'] = "Attachments Awaiting Moderation";
+$l['moderation_queue'] = "Moderacja";
+$l['threads'] = "Wątki";
+$l['threads_desc'] = "Przeglądaj i zatwierdzaj moderowane wątki.";
+$l['posts'] = "Posty";
+$l['posts_desc'] = "Przeglądaj i zatwierdzaj moderowane posty.";
+$l['attachments'] = "Załączniki";
+$l['attachments_desc'] = "Przeglądaj i zatwierdzaj moderowane załączniki.";
+$l['threads_awaiting_moderation'] = "Wątki oczekujące na moderację";
+$l['posts_awaiting_moderation'] = "Posty oczekujące na moderację";
+$l['attachments_awaiting_moderation'] = "Załączniki oczekujące na moderację";
 
 // Errors
-$l['error_no_posts'] = "There are no posts currently awaiting moderation.";
-$l['error_no_attachments'] = "There are no attachments currently awaiting moderation.";
-$l['error_no_threads'] = "There are no threads, posts or attachments currently awaiting moderation.";
+$l['error_no_posts'] = "Nie ma postów oczekujących na moderację.";
+$l['error_no_attachments'] = "Nie ma załączników oczekujących na moderację.";
+$l['error_no_threads'] = "Nie ma wątków, postów oraz załączników oczekujących na moderację.";
 
 // Success
-$l['success_threads'] = "The selected threads have been moderated successfully.";
-$l['success_posts'] = "The selected posts have been moderated successfully.";
-$l['success_attachments'] = "The selected attachments have been moderated successfully.";
+$l['success_threads'] = "Moderacja zaznaczonych wątków została wykonana.";
+$l['success_posts'] = "Moderacja zaznaczonych postów została wykonana.";
+$l['success_attachments'] = "Moderacja zaznaczonych załączników została wykonana.";
 
 // Pages
-$l['subject'] = "Subject";
-$l['author'] = "Author";
-$l['posted'] = "Posted";
-$l['ignore'] = "Ignore";
-$l['approve'] = "Approve";
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
+$l['subject'] = "Temat";
+$l['author'] = "Autor";
+$l['posted'] = "Data";
+$l['ignore'] = "Ignoruj";
+$l['approve'] = "Zatwierdź";
+$l['forum'] = "Dział:";
+$l['thread'] = "Wątek:";
 $l['post'] = "Post:";
 $l['re'] = "RE:";
-$l['filename'] = "File Name";
-$l['uploadedby'] = "Uploaded by";
-$l['controls'] = "Controls";
+$l['filename'] = "Nazwa pliku";
+$l['uploadedby'] = "Załączony przez";
+$l['controls'] = "Opcje";
 
 // Buttons
-$l['mark_as_ignored'] = "Mark all as ignored";
-$l['mark_as_deleted'] = "Mark all for deletion";
-$l['mark_as_approved'] = "Mark all as approved";
-$l['perform_action'] = "Perform Actions";
+$l['mark_as_ignored'] = "Ignoruj wszystkie";
+$l['mark_as_deleted'] = "Usuń wszystkie";
+$l['mark_as_approved'] = "Zatwierdź wszystkie";
+$l['perform_action'] = "Moderuj";
 
 ?>

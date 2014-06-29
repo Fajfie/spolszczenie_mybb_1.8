@@ -1,63 +1,64 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['smilies'] = "Smilies";
-$l['manage_smilies'] = "Manage Smilies";
-$l['manage_smilies_desc'] = "This section allows you to edit and delete your smilies.";
-$l['add_smilie'] = "Add New Smilie";
-$l['add_smilie_desc'] = "Here you can add a single new smilie.";
-$l['add_multiple_smilies'] = "Add Multiple Smilies";
-$l['add_multiple_smilies_desc'] = "Here you can add multiple new smilies at once.";
-$l['edit_smilie'] = "Edit Smilie";
-$l['edit_smilie_desc'] = "Here you can edit a single smilie.";
-$l['mass_edit'] = "Mass Edit";
-$l['mass_edit_desc'] = "Here you can easily edit all your smilies in one go.";
+$l['smilies'] = "Emotikony";
+$l['manage_smilies'] = "Emotikony";
+$l['manage_smilies_desc'] = "Dodawaj i edytuj emotikony.";
+$l['add_smilie'] = "Nowy emotikon";
+$l['add_smilie_desc'] = "Utwórz pojedynczy emotikon.";
+$l['add_multiple_smilies'] = "Nowa paczka";
+$l['add_multiple_smilies_desc'] = "Utwórz paczkę wielu emotikonów.";
+$l['edit_smilie'] = "Edytuj emotikon";
+$l['edit_smilie_desc'] = "Edytuj pojedynczy emotikon.";
+$l['mass_edit'] = "Masowa edycja";
+$l['mass_edit_desc'] = "Edytuj wiele emotikonów naraz.";
 
-$l['no_smilies'] = "There are no smilies on your forum at this time.";
+$l['no_smilies'] = "Na razie nie ma emotikonów na Twoim forum.";
 
-$l['image'] = "Image";
-$l['name'] = "Name";
-$l['text_replace'] = "Text to Replace";
-$l['image_path'] = "Image Path";
-$l['image_path_desc'] = "This is the path to the smilie image.";
-$l['order'] = "Order";
-$l['display_order'] = "Display Order";
-$l['display_order_desc'] = "The order on the smilies list that this will appear. This number should not be the same as another smilie's.";
-$l['mass_edit_show_clickable'] = "Show on Clickable?";
-$l['show_clickable'] = "Show on clickable list?";
-$l['show_clickable_desc'] = "Do you want this smilie to show on the clickable smilie list on the post editor?";
-$l['include'] = "Add?";
-$l['path_to_images'] = "Path to Images";
-$l['path_to_images_desc'] = "This is the path to the folder that the images are in.";
-$l['smilie_delete'] = "Delete?";
-$l['save_smilie'] = "Save Smilie";
-$l['save_smilies'] = "Save Smilies";
-$l['show_smilies'] = "Show Smilies";
-$l['reset'] = "Reset";
+$l['image'] = "Obraz";
+$l['name'] = "Nazwa";
+$l['text_replace'] = "Tekst do zamiany";
+$l['image_path'] = "Ścieżka do obrazka";
+$l['image_path_desc'] = "To jest ścieżka do obrazka z emotikonem.";
+$l['order'] = "Kolejność";
+$l['display_order'] = "Kolejność wyświetlania";
+$l['display_order_desc'] = "Kolejność, w której ten emotikon pojawi się na liście emotikonów. Ta liczba nie powinna być taka sama jak innego emotikona.";
+$l['mass_edit_show_clickable'] = "Pokazywać na liście?";
+$l['show_clickable'] = "Pokazywać na liście emotikonów?";
+$l['show_clickable_desc'] = "Czy chcesz, aby ten emotikon był pokazywany na liście emotikonów do wyboru w edytorze postów?";
+$l['include'] = "Dodać?";
+$l['path_to_images'] = "Ścieżka do obrazków";
+$l['path_to_images_desc'] = "To jest ścieżka do folderu, w którym znajdują się emotikony.";
+$l['smilie_delete'] = "Usunąć?";
+$l['save_smilie'] = "Zapisz emotikon";
+$l['save_smilies'] = "Zapisz emotikony";
+$l['show_smilies'] = "Pokaż emotikony";
+$l['reset'] = "Resetuj";
 
-$l['error_missing_name'] = "You did not enter a name for this smilie";
-$l['error_missing_text_replacement'] = "You did not enter a text replacement for this smilie";
-$l['error_missing_path'] = "You did not enter a path for this smilie";
-$l['error_missing_path_multiple'] = "You did not enter a path";
-$l['error_missing_order'] = "You did not enter a display order for this smilie";
-$l['error_missing_clickable'] = "You did not specify yes or no for the \"Show Clickable\" option";
-$l['error_no_smilies'] = "There are no smilies in the specified directory, or all smilies in the directory have already been added.";
-$l['error_no_images'] = "There are no images in the specified directory";
-$l['error_none_included'] = "You did not select any smilies to include.";
-$l['error_invalid_path'] = "You did not enter a valid path";
-$l['error_invalid_smilie'] = "The specified smilie does not exist.";
+$l['error_missing_name'] = "Nie wpisano nazwy dla tego emotikona";
+$l['error_missing_text_replacement'] = "Nie wpisano tekstu do zamiany dla tego emotikona";
+$l['error_missing_path'] = "Nie wpisano ścieżki do tego emotikona";
+$l['error_missing_path_multiple'] = "Nie wpisano ścieżki";
+$l['error_missing_order'] = "Nie wpisano kolejności wyświetlania tego emotikona";
+$l['error_missing_clickable'] = "Nie wybrano czy ten emotikon ma być pokazywany na liście emotikonów";
+$l['error_no_smilies'] = "Nie ma emotikonów w podanym folderze lub wszystkie zostały już dodane.";
+$l['error_no_images'] = "Nie ma żadnych obrazków w podanym katalogu";
+$l['error_none_included'] = "Nie wybrano żadnych emotikonów do dołączenia.";
+$l['error_invalid_path'] = "Nie wpisano poprawnej ścieżki";
+$l['error_invalid_smilie'] = "Podany emotikon nie istnieje.";
 
-$l['success_smilie_added'] = "The smilie has been added successfully.";
-$l['success_multiple_smilies_added'] = "The selected smilies have been added successfully.";
-$l['success_smilie_updated'] = "The smilie has been updated successfully.";
-$l['success_multiple_smilies_updated'] = "The smilies have been updated successfully.";
-$l['success_smilie_deleted'] = "The selected smilie has been deleted successfully.";
-$l['success_mass_edit_updated'] = "The smilies have been updated successfully.";
+$l['success_smilie_added'] = "Emotikon został dodany.";
+$l['success_multiple_smilies_added'] = "Wybrane emotikony zostały dodane.";
+$l['success_smilie_updated'] = "Emotikon został zaktualizowany.";
+$l['success_multiple_smilies_updated'] = "Emotikony zostały zaktualizowane.";
+$l['success_smilie_deleted'] = "Wybrany emotikon został usunięty.";
+$l['success_mass_edit_updated'] = "Emotikony zostały zaktualizowane.";
 
-$l['confirm_smilie_deletion'] = "Are you sure you wish to delete this smilie?";
+$l['confirm_smilie_deletion'] = "Czy na pewno chcesz usunąć tego emotikona?";
 
 ?>

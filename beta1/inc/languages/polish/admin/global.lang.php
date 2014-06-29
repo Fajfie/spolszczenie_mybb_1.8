@@ -5,7 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
- 
+
 $l['today'] = "Dzisiaj";
 $l['yesterday'] = "Wczoraj";
 
@@ -174,38 +174,38 @@ $l['cannot_perform_action_super_admin_general'] = "Wskazana czynność może zos
 $l['loading_text'] = "Ładowanie<br />Proszę czekać...";
 
 // Time zone selection boxes
-$l['timezone_gmt_minus_1200'] = "(UTC -12:00) Enitwetok, Kwajalien";
-$l['timezone_gmt_minus_1100'] = "(UTC -11:00) Wyspa Midway, Samoa";
-$l['timezone_gmt_minus_1000'] = "(UTC -10:00) Hawaje";
-$l['timezone_gmt_minus_900'] = "(UTC -9:00) Alaska";
-$l['timezone_gmt_minus_800'] = "(UTC -8:00) Czas pacyficzny (USA i Kanada)";
-$l['timezone_gmt_minus_700'] = "(UTC -7:00) Czas górski (USA i Kanada)";
-$l['timezone_gmt_minus_600'] = "(UTC -6:00) Czas środkowy (USA i Kanada)";
-$l['timezone_gmt_minus_500'] = "(UTC -5:00) Czas wschodni (USA i Kanada)";
-$l['timezone_gmt_minus_450'] = "(UTC -4:30) Wenezuela";
-$l['timezone_gmt_minus_400'] = "(UTC -4:00) Czas atlantycki (Kadana), Caracas, La Paz";
-$l['timezone_gmt_minus_350'] = "(UTC -3:30) Nowa Funlandia";
-$l['timezone_gmt_minus_300'] = "(UTC -3:00) Brazylia, Buenos Aires, Georgetown";
-$l['timezone_gmt_minus_200'] = "(UTC -2:00) Środkowy Atlantyk, Wyspa św. Heleny";
-$l['timezone_gmt_minus_100'] = "(UTC -1:00) Azory, Wyspy Zielonego Przylądka";
-$l['timezone_gmt'] = "(UTC) Casablanca, Dublin, Edinburgh, Londyn, Lizbona, Monrovia";
-$l['timezone_gmt_100'] = "(UTC +1:00) Berlin, Bruksela, Kopenhaga, Madryt, Paryż, Rzym";
-$l['timezone_gmt_200'] = "(UTC +2:00) Kaliningrad, RPA, Warszawa";
-$l['timezone_gmt_300'] = "(UTC +3:00) Bagdad, Riad, Moskwa, Nairobi";
-$l['timezone_gmt_350'] = "(UTC +3:30) Teheran";
-$l['timezone_gmt_400'] = "(UTC +4:00) Adu Dhabi, Baku, Maskat, Tbilisi";
-$l['timezone_gmt_450'] = "(UTC +4:30) Kabul";
-$l['timezone_gmt_500'] = "(UTC +5:00) Islamabad, Karaczi, Taszkient";
-$l['timezone_gmt_550'] = "(UTC +5:30) Bombaj, Kalkuta, Madras, Nowe Delhi";
-$l['timezone_gmt_600'] = "(UTC +6:00) Ałma-ata, Colomba, Dhakra";
-$l['timezone_gmt_700'] = "(UTC +7:00) Bangkok, Hanoi, Dżakarta";
-$l['timezone_gmt_800'] = "(UTC +8:00) Pekin, Hongkong, Perth, Singapur, Taipei";
-$l['timezone_gmt_900'] = "(UTC +9:00) Osaka, Sapporo, Seul, Tokio, Jakuck";
-$l['timezone_gmt_950'] = "(UTC +9:30) Adelajda, Darwin";
-$l['timezone_gmt_1000'] = "(UTC +10:00) Melbourne, Papua Nowa Gwinea, Sydney, Władywostok";
-$l['timezone_gmt_1100'] = "(UTC +11:00) Magadan, Nowa Kaledonia, Wyspy Salomona";
-$l['timezone_gmt_1200'] = "(UTC +12:00) Auckland, Wellington, Fidżi, Wyspy Marshalla";
-$l['timezone_gmt_short'] = "UTC {1}({2})";
+$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Enitwetok, Kwajalien";
+$l['timezone_gmt_minus_1100'] = "(GMT -11:00) Wyspa Midway, Samoa";
+$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaje";
+$l['timezone_gmt_minus_900'] = "(GMT -9:00) Alaska";
+$l['timezone_gmt_minus_800'] = "(GMT -8:00) Czas pacyficzny (USA i Kanada)";
+$l['timezone_gmt_minus_700'] = "(GMT -7:00) Czas górski (USA i Kanada)";
+$l['timezone_gmt_minus_600'] = "(GMT -6:00) Czas środkowy (USA i Kanada)";
+$l['timezone_gmt_minus_500'] = "(GMT -5:00) Czas wschodni (USA i Kanada)";
+$l['timezone_gmt_minus_450'] = "(GMT -4:30) Wenezuela";
+$l['timezone_gmt_minus_400'] = "(GMT -4:00) Czas atlantycki (Kadana), Caracas, La Paz";
+$l['timezone_gmt_minus_350'] = "(GMT -3:30) Nowa Funlandia";
+$l['timezone_gmt_minus_300'] = "(GMT -3:00) Brazylia, Buenos Aires, Georgetown";
+$l['timezone_gmt_minus_200'] = "(GMT -2:00) Środkowy Atlantyk, Wyspa św. Heleny";
+$l['timezone_gmt_minus_100'] = "(GMT -1:00) Azory, Wyspy Zielonego Przylądka";
+$l['timezone_gmt'] = "(GMT) Casablanca, Dublin, Edinburgh, Londyn, Lizbona, Monrovia";
+$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Bruksela, Kopenhaga, Madryt, Paryż, Rzym";
+$l['timezone_gmt_200'] = "(GMT +2:00) Kaliningrad, RPA, Warszawa";
+$l['timezone_gmt_300'] = "(GMT +3:00) Bagdad, Riad, Moskwa, Nairobi";
+$l['timezone_gmt_350'] = "(GMT +3:30) Teheran";
+$l['timezone_gmt_400'] = "(GMT +4:00) Adu Dhabi, Baku, Maskat, Tbilisi";
+$l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
+$l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karaczi, Taszkient";
+$l['timezone_gmt_550'] = "(GMT +5:30) Bombaj, Kalkuta, Madras, Nowe Delhi";
+$l['timezone_gmt_600'] = "(GMT +6:00) Ałma-ata, Colomba, Dhakra";
+$l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Dżakarta";
+$l['timezone_gmt_800'] = "(GMT +8:00) Pekin, Hongkong, Perth, Singapur, Taipei";
+$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seul, Tokio, Jakuck";
+$l['timezone_gmt_950'] = "(GMT +9:30) Adelajda, Darwin";
+$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua Nowa Gwinea, Sydney, Władywostok";
+$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, Nowa Kaledonia, Wyspy Salomona";
+$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fidżi, Wyspy Marshalla";
+$l['timezone_gmt_short'] = "GMT {1}({2})";
 
 // Global language strings used for log deletion pages
 $l['confirm_delete_logs'] = "Czy na pewno chcesz usunąć wybrane wpisy?";
@@ -318,4 +318,5 @@ $l['comma'] = ", ";
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 // $l['login_field_width'] = "0";
+
 ?>

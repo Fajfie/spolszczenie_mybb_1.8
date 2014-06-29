@@ -5,7 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
- 
+
 $l['users_and_groups'] = "Użytkownicy i grupy";
 
 $l['users'] = "Użytkownicy";

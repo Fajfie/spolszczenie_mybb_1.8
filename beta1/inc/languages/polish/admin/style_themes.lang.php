@@ -5,6 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
+
 $l['themes'] = "Style";
 $l['themes_desc'] = "Edytuj style zainstalowane na forum - dostosuj jego wygląd do swoich potrzeb. Poniżej znajduje się lista zainstalowanych stylów.";
 

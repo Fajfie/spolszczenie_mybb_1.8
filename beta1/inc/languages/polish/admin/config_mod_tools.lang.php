@@ -5,7 +5,7 @@
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
- 
+
 $l['mod_tools'] = "Narzędzia moderacji";
 
 $l['thread_tools'] = "Narzędzia wątków";
