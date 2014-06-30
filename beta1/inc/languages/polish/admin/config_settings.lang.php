@@ -629,7 +629,12 @@ $l['setting_allowthreadratings_desc'] = "Czy chcesz, aby użytkownicy mogli ocen
 $l['setting_seourls_archive'] = "Włączyć linki przyjazne wyszukiwarkom w wersji bez grafiki?";
 $l['setting_seourls_archive_desc'] = "To ustawienie pozwala na włączenie linków przyjaznych wyszukiwarkom w wersji forum bez grafiki. <strong>Po zmianie wartości tego ustawienia upewnij się, że wersja bez grafiki działa prawidłowo.</strong>";
 
-/** Ustawienia dodane w wersji 1.8 **/
+/** Ustawienia i grupy ustawień dodane w wersji 1.8 **/
+
+$l['setting_group_profile'] = "Opcje profilów użytkowników";
+$l['setting_group_profile_desc'] = "Ustawienia dotyczące profili użytkowników takie jak sygnatury czy awatary.";
+$l['setting_group_attachments'] = "System załączników";
+$l['setting_group_attachments_desc'] = "Ustawienia związane z systemem załączników.";
 
 $l['setting_contact_guests'] = "Wyłączyć formularz kontaktowy dla gości?";
 $l['setting_contact_guests_desc'] = "Czy chcesz, aby niezalogowani użytkownicy mogli uzyskiwać dostęp do formularza kontaktowego?";
@@ -656,5 +661,27 @@ $l['setting_useravatarrating_desc'] = "Pozwala na wybranie kategorii Gravatara, 
 <li><strong>R</strong>: awatar może zawierać przekleństwa, średnią przemoc, nagość lub przedstawiać używanie narkotyków (dla osób w wieku 16 lat lub więcej)</li>
 <li><strong>X</strong>: może zawierać pornografię, intensywną przemoc lub inne oburzające treści (dla osób w wieku 18 lat lub więcej)</li>
 </ul>";
+$l['setting_mycodemessagelength'] = "Czy zaliczać myCode do długości posta?";
+$l['setting_mycodemessagelength_desc'] = "Czy chcesz, by myCode był wliczany do długości posta?";
+$l['setting_polltimelimit'] = "";
+$l['setting_polltimelimit_desc'] = "";
+
+$l['setting_polltimelimit'] = "Limit czasu dodawania ankiet";
+$l['setting_polltimelimit_desc'] = "Liczba godzin, po których użytkownicy przestaną mieć możliwość dodawania ankiet do swoich wątków. Wpisz 0, by nie ustalać takiego ograniczenia.";
+$l['setting_enableattachments'] = "Włączyć możliwość dodawania załączników?";
+$l['setting_enableattachments_desc'] = "Jeżeli chcesz, aby użytkownicy nie mogli dodawać załączników wybierz \"Nie\".";
+$l['setting_minreplength'] = "Minimalna długość komentarza punktu reputacji";
+$l['setting_minreplength_desc'] = "Wpisz minimalną liczbę znaków jaką powinien mieć komentarz do punktu reputacji.";
+$l['setting_pmquickreply'] = "Wyświetlanie formularza szybkiej odpowiedzi";
+$l['setting_pmquickreply_desc'] = "Możesz tutaj wyłączyć opcję wyświetlania formularza \"szybkiej odpowiedzi\" u dołu prywatnej wiadomości.";
+$l['setting_logip'] = "Pokazywać adresy IP w prywatnych wiadomościach?";
+$l['setting_logip_desc'] = "Czy chcesz, aby adresy IP użytkowników były zapisywane w bazie danych przy wysyłaniu prywatnych wiadomości? Jeżeli tak, to wybierz, kto będzie miał do nich dostęp.";
+$l['setting_logip_no'] = "Nie zapisuj IP";
+$l['setting_logip_hide'] = "Pokazuj moderatorom i administratorom";
+$l['setting_logip_show'] = "Pokazuj wszystkim użytkownikom";
+$l['setting_wolorder'] = "Sposób sortowania listy \"Kto jest online\"";
+$l['setting_wolorder_desc'] = "Wybierz, czy chcesz, aby lista \"Kto jest online\" była sortowana według loginu czy czasu ostatniej aktywności. To ustawienie ma zastosowanie tylko do strony głównej i portalu.";
+$l['setting_wolorder_username'] = "Według loginu (rosnąco)";
+$l['setting_wolorder_activity'] = "Według czasu ostatniej aktywności (malejąco)";
 
 ?>
