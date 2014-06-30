@@ -628,4 +628,33 @@ $l['setting_allowthreadratings_desc'] = "Czy chcesz, aby użytkownicy mogli ocen
 /** Ustawienia dodane w wersji 1.6.9 **/
 $l['setting_seourls_archive'] = "Włączyć linki przyjazne wyszukiwarkom w wersji bez grafiki?";
 $l['setting_seourls_archive_desc'] = "To ustawienie pozwala na włączenie linków przyjaznych wyszukiwarkom w wersji forum bez grafiki. <strong>Po zmianie wartości tego ustawienia upewnij się, że wersja bez grafiki działa prawidłowo.</strong>";
+
+/** Ustawienia dodane w wersji 1.8 **/
+
+$l['setting_contact_guests'] = "Wyłączyć formularz kontaktowy dla gości?";
+$l['setting_contact_guests_desc'] = "Czy chcesz, aby niezalogowani użytkownicy mogli uzyskiwać dostęp do formularza kontaktowego?";
+$l['setting_soft_delete'] = "Włączyć nietrwałe usuwanie?";
+$l['setting_soft_delete_desc'] = "Włączenie tej opcji pozwoli na przywracanie postów i wątków usuniętych przez użytkowników. W innym wypadku posty i wątki będą bezpowrotnie usuwane.";
+$l['setting_showthemeselect'] = "Pokazywać pole wyboru stylu w stopce?";
+$l['setting_showthemeselect_desc'] = "Wybierz \"Nie\" jeśli nie chcesz, by w stopce forum wyświetlane było pole szybkiej zmiany stylu.";
+$l['setting_minifycss'] = "Zmniejszać rozmiar arkuszy kaskadowych stylów (CSS)?";
+$l['setting_minifycss_desc'] = "Czy chcesz, aby rozmiar arkuszy stylów kaskadowych (CSS) były automatycznie zmniejszane w celu zaoszczędzenia transferu i przyspieszenia ładowania strony?";
+$l['setting_datetimesep'] = "Separator daty i czasu";
+$l['setting_datetimesep_desc'] = "Wpisz znak, który będzie wstawiany między datą i czasem w momencie tworzenia jednego ciągu znaków. Zazwyczaj wykorzystuje się spację lub przecinek.";
+$l['setting_regtime'] = "Minimalny czas potrzebny na wypełnienie formularza rejestracji";
+$l['setting_regtime_desc'] = "Czas (w sekundach) jaki trzeba odczekać zanim możliwe będzie wysłanie formularza rejestracji. Pozwala to na zapobieżenie automatycznym rejestracjom. Wpisz 0, aby wyłączyć tę funkcję.";
+$l['setting_useravatar'] = "Domyślny awatar użytkownika";
+$l['setting_useravatar_desc'] = "Jeśli użytkownik nie załaduje własnego awatara, zostanie wykorzystany ten, którego ścieżkę wpiszesz poniżej.";
+$l['setting_useravatardims'] = "Wymiary domyślnego awatara";
+$l['setting_useravatardims_desc'] = "Wpisz wymiary domyślnego awatara (wysokość, a następnie szerokość). Oddziel je znakiem \"|\" (np.: 40|40)";
+$l['setting_useravatarrating'] = "Najwyższa dozwolona kategoria Gravatara";
+$l['setting_useravatarrating_desc'] = "Pozwala na wybranie kategorii Gravatara, jeśli użytkownik zdecyduje się z niego skorzystać. W przypadku, gdy Gravatar użytkownika jest wyższej kategorii niż dozwolony, zostanie wykorzystany domyślny awatar.
+
+<ul>
+<li><strong>G</strong>: awatar przeznaczony do wyświetlania na wszystkich stronach internetowych i przez wszystkie osoby (bez ograniczeń wiekowych)</li>
+<li><strong>PG</strong>: awatar może zawierać ofensywne gesty, prowokacyjnie ubrane postaci, łagodne przekleństwa lub łagodną przemoc (dla osób w wieku 13 lat lub więcej)</li>
+<li><strong>R</strong>: awatar może zawierać przekleństwa, średnią przemoc, nagość lub przedstawiać używanie narkotyków (dla osób w wieku 16 lat lub więcej)</li>
+<li><strong>X</strong>: może zawierać pornografię, intensywną przemoc lub inne oburzające treści (dla osób w wieku 18 lat lub więcej)</li>
+</ul>";
+
 ?>
