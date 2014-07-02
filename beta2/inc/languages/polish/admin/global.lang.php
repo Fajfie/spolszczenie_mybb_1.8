@@ -31,7 +31,10 @@ $l['logout'] = "Wyloguj";
 $l['generated_in'] = "Strona wygenerowana w ciągu {1}, przy użyciu  <a href=\"{2}\" target=\"_blank\">{3} zapytań. Użycie pamięci: {4}";
 
 // Login page
-$l['enter_username_and_password'] = "Aby kontynuować, podaj swój login oraz hasło.";
+$l['enter_username_and_password'] = "Aby kontynuować, podaj swój {1} oraz hasło.";
+$l['login_username'] = 'login';
+$l['login_email'] = 'adres e-mail';
+$l['login_username_and_password'] = 'login lub adres e-mail';
 $l['mybb_admin_login'] = "Panel administratora MyBB - logowanie";
 $l['return_to_forum'] = "Wróć do forum";
 $l['please_login'] = "Zaloguj się";
@@ -55,7 +58,7 @@ $l['error_invalid_uid'] = "Podany ID użytkownika jest niepoprawny.";
 $l['error_invalid_token'] = "Podany kod aktywacyjny jest niepoprawny.";
 
 $l['success_logged_out'] = "Wylogowano z forum.";
-$l['error_invalid_username_password'] = "Podano nieprawidłowy login lub hasło.";
+$l['error_invalid_username_password'] = "Podano nieprawidłowy {1} lub hasło.";
 
 // Action Confirmation
 $l['confirm_action'] = "Czy na pewno chcesz wykonać tę czynność?";
@@ -174,37 +177,45 @@ $l['cannot_perform_action_super_admin_general'] = "Wskazana czynność może zos
 $l['loading_text'] = "Ładowanie<br />Proszę czekać...";
 
 // Time zone selection boxes
-$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Enitwetok, Kwajalien";
-$l['timezone_gmt_minus_1100'] = "(GMT -11:00) Wyspa Midway, Samoa";
-$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaje";
+$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Wyspy Marshalla";
+$l['timezone_gmt_minus_1100'] = "(GMT -11:00) Wyspa Midway, Nome";
+$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaje, Papeete";
+$l['timezone_gmt_minus_950'] = "(GMT -9:30) Markizy";
 $l['timezone_gmt_minus_900'] = "(GMT -9:00) Alaska";
 $l['timezone_gmt_minus_800'] = "(GMT -8:00) Czas pacyficzny (USA i Kanada)";
 $l['timezone_gmt_minus_700'] = "(GMT -7:00) Czas górski (USA i Kanada)";
 $l['timezone_gmt_minus_600'] = "(GMT -6:00) Czas środkowy (USA i Kanada)";
 $l['timezone_gmt_minus_500'] = "(GMT -5:00) Czas wschodni (USA i Kanada)";
-$l['timezone_gmt_minus_450'] = "(GMT -4:30) Wenezuela";
-$l['timezone_gmt_minus_400'] = "(GMT -4:00) Czas atlantycki (Kadana), Caracas, La Paz";
+$l['timezone_gmt_minus_450'] = "(GMT -4:30) Caracas";
+$l['timezone_gmt_minus_400'] = "(GMT -4:00) Czas atlantycki (Kanada), La Paz, Halifax";
 $l['timezone_gmt_minus_350'] = "(GMT -3:30) Nowa Funlandia";
 $l['timezone_gmt_minus_300'] = "(GMT -3:00) Brazylia, Buenos Aires, Georgetown";
-$l['timezone_gmt_minus_200'] = "(GMT -2:00) Środkowy Atlantyk, Wyspa św. Heleny";
+$l['timezone_gmt_minus_200'] = "(GMT -2:00) Środkowy Atlantyk, Georgia Południowa i Sandwich Południowy";
 $l['timezone_gmt_minus_100'] = "(GMT -1:00) Azory, Wyspy Zielonego Przylądka";
 $l['timezone_gmt'] = "(GMT) Casablanca, Dublin, Edinburgh, Londyn, Lizbona, Monrovia";
-$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Bruksela, Kopenhaga, Madryt, Paryż, Rzym";
-$l['timezone_gmt_200'] = "(GMT +2:00) Kaliningrad, RPA, Warszawa";
-$l['timezone_gmt_300'] = "(GMT +3:00) Bagdad, Riad, Moskwa, Nairobi";
+$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Bruksela, Kopenhaga, Madryt, Paryż, Rzym, Warszawa";
+$l['timezone_gmt_200'] = "(GMT +2:00) Ateny, Stambuł, Kair, Jerozolima, Południowa Afryka";
+$l['timezone_gmt_300'] = "(GMT +3:00) Kaliningrad, Mińsk, Bagdad, Riad, Moskwa, Nairobi";
 $l['timezone_gmt_350'] = "(GMT +3:30) Teheran";
-$l['timezone_gmt_400'] = "(GMT +4:00) Adu Dhabi, Baku, Maskat, Tbilisi";
+$l['timezone_gmt_400'] = "(GMT +4:00) Moskwa, Abu Dhabi, Baku, Maskat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karaczi, Taszkient";
 $l['timezone_gmt_550'] = "(GMT +5:30) Bombaj, Kalkuta, Madras, Nowe Delhi";
-$l['timezone_gmt_600'] = "(GMT +6:00) Ałma-ata, Colomba, Dhakra";
+$l['timezone_gmt_575'] = "(GMT +5:45) Katmandu";
+$l['timezone_gmt_600'] = "(GMT +6:00) Ałma-ata, Dhakra, Jekaterinburg";
+$l['timezone_gmt_650'] = "(GMT +6:30) Rangun";
 $l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Dżakarta";
 $l['timezone_gmt_800'] = "(GMT +8:00) Pekin, Hongkong, Perth, Singapur, Taipei";
-$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seul, Tokio, Jakuck";
+$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seul, Tokio, Irkuck";
 $l['timezone_gmt_950'] = "(GMT +9:30) Adelajda, Darwin";
-$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua Nowa Gwinea, Sydney, Władywostok";
-$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, Nowa Kaledonia, Wyspy Salomona";
-$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fidżi, Wyspy Marshalla";
+$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua Nowa Gwinea, Sydney, Jakuck";
+$l['timezone_gmt_1050'] = "(GMT +10:30) Wyspa Lord Howe";
+$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, Nowa Kaledonia, Wyspy Salomona, Władywostok";
+$l['timezone_gmt_1150'] = "(GMT +11:30) Wyspa Norfolk";
+$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fidżi, Wyspa Marshalla";
+$l['timezone_gmt_1275'] = "(GMT +12:45) Wyspy Chatham";
+$l['timezone_gmt_1300'] = "(GMT +13:00) Samoa, Tonga, Tokelau";
+$l['timezone_gmt_1400'] = "(GMT +14:00) Wyspy Line";
 $l['timezone_gmt_short'] = "GMT {1}({2})";
 
 // Global language strings used for log deletion pages
@@ -280,6 +291,7 @@ $l['task_massmail_ran_errors'] = "Wystąpił jeden lub więcej problemów podcza
 {2}";
 $l['task_versioncheck_ran'] = "Zadanie sprawdzania wersji zostało uruchomione.";
 $l['task_versioncheck_ran_errors'] = "Nie można połączyć się z MyBB w celu sprawdzenia wersji.";
+$l['task_recachestylesheets_ran'] = 'Załadowano do pamięci cache {1} arkuszy stylów kaskadowych.';
 
 $l['massmail_username'] = "Login";
 $l['email_addr'] = "Adres e-mail";

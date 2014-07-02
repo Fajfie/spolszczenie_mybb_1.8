@@ -217,4 +217,6 @@ $l['confirm_theme_forced'] = "Czy na pewno chcesz wymusić używanie tego stylu 
 $l['theme_info_fetch_error'] = 'Wystąpił problem podczas pobierania informacji o stylu.';
 $l['theme_info_save_error'] = 'Wystąpił problem podczas zapisywania informacji o stylu.';
 
+$l['saving'] = 'Zapisywanie...';
+
 ?>

@@ -101,6 +101,12 @@ $l['admin_log_config_profile_fields_add'] = "Dodano dodatkowe pole profilu #{1} 
 $l['admin_log_config_profile_fields_edit'] = "Edytowano dodatkowe pole profilu #{1} ({2})";
 $l['admin_log_config_profile_fields_delete'] = "Usunięto dodatkowe pole profilu #{1} ({2})";
 
+$l['admin_log_config_questions_add'] = "Dodano pytanie zabezpieczające #{1} ({2})";
+$l['admin_log_config_questions_edit'] = "Edytowano pytanie zabezpieczające #{1} ({2})";
+$l['admin_log_config_questions_delete'] = "Usunięto pytanie zabezpieczające #{1} ({2})";
+$l['admin_log_config_questions_enable'] = "Włączono pytanie zabezpieczające #{1} ({2})";
+$l['admin_log_config_questions_disable'] = "Wyłączono pytanie zabezpieczające #{1} ({2})";
+
 $l['admin_log_config_settings_delete_duplicates'] = "Usunięto zduplikowane ustawienia i grupy ustawień";
 $l['admin_log_config_settings_addgroup'] = "Dodano właściwości grupy ustawień #{1} ({2})";
 $l['admin_log_config_settings_editgroup'] = "Edytowano właściwości grupy ustawień #{1} ({2})";
@@ -217,11 +223,15 @@ $l['admin_log_tools_recount_rebuild_'] = "Przeliczono i przebudowano ({1}";
 $l['admin_log_tools_recount_rebuild_stats'] = "Przeliczono i przebudowano statystyki";
 $l['admin_log_tools_recount_rebuild_forum'] = "Przeliczono i przebudowano liczniki działów";
 $l['admin_log_tools_recount_rebuild_thread'] = "Przeliczono i przebudowano liczniki wątków";
+$l['admin_log_tools_recount_rebuild_poll'] = "Przeliczono i przebudowano głosy w ankietach";
 $l['admin_log_tools_recount_rebuild_userposts'] = "Przeliczono i przebudowano liczniki postów użytkowników";
+$l['admin_log_tools_recount_rebuild_userthreads'] = "Przeliczono i przebudowano liczniki wątków użytkowników";
 $l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "Przeliczono i przebudowano miniaturki załączników"; 
 $l['admin_log_tools_recount_rebuild_reputation'] = "Przeliczono i przebudowano punkty reputacji";
 $l['admin_log_tools_recount_rebuild_warning'] = "Przeliczono i przebudowano punkty ostrzeżeń";
 $l['admin_log_tools_recount_rebuild_privatemessages'] = "Przeliczono i przebudowano prywatne wiadomości";
+$l['admin_log_tools_recount_rebuild_referral'] = "Przeliczono i przebudowano liczniki poleconych użytkowników";
+$l['admin_log_tools_recount_rebuild_threadrating'] = "Przeliczono i przebudowano oceny wątków";
 
 $l['admin_log_tools_tasks_add'] = "Dodano zadanie #{1} ({2})";
 $l['admin_log_tools_tasks_edit'] = "Edytowano zadanie #{1} ({2})";
@@ -230,7 +240,8 @@ $l['admin_log_tools_tasks_enable'] = "Włączono zadanie #{1} ({2})";
 $l['admin_log_tools_tasks_disable'] = "Wyłączono zadanie #{1} ({2})";
 $l['admin_log_tools_tasks_run'] = "Uruchomiono zadanie #{1} ({2})";
 
-$l['admin_log_user_admin_permissions_delete'] = "Usunięto uprawnienia administratorskie dla użytkownika #{1} ({2})";
+$l['admin_log_user_admin_permissions_delete_user'] = "Usunięto uprawnienia administratorskie dla użytkownika #{1} ({2})";
+$l['admin_log_user_admin_permissions_delete_group'] = "Usunięto uprawnienia administratorskie dla grupy użytkowników #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit_user'] = "Edytowano uprawnienia administratorskie dla użytkownika #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit_group'] = "Edytowano grupowe uprawnienia administratorskie dla grupy #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit'] = "Edytowano standardowe uprawnienia administratorskie";

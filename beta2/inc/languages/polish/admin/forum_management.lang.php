@@ -69,14 +69,34 @@ $l['moderator_permissions'] = "Uprawnienia moderatora";
 $l['forum_desc'] = "Dział, który jest pod opieką moderatora.";
 $l['edit_mod_for'] = "Edytuj opcje moderatora \"{1}\"";
 $l['can_edit_posts'] = "Może edytować posty?";
-$l['can_delete_posts'] = "Może usuwać posty?";
+$l['can_soft_delete_posts'] = "Może nietrwale usuwać posty?";
+$l['can_restore_posts'] = "Może przywracać nietrwale usunięte posty?";
+$l['can_delete_posts'] = "Może trwale usuwać posty?";
+$l['can_soft_delete_threads'] = "Może nietrwale usuwać wątki?";
+$l['can_restore_threads'] = "Może przywracać nietrwale usunięte wątki?";
+$l['can_delete_threads'] = "Może trwale usuwać wątki?";
 $l['can_view_ips'] = "Może przeglądać IP?";
-$l['can_open_close_threads'] = "Może otwierać / zamykać oraz przypinać / odpinać wątki?";
+$l['can_view_unapprove'] = "Może przeglądać niezatwierdzone wątki i posty?";
+$l['can_view_deleted'] = "Może przeglądać usunięte wątki i posty?y";
+$l['can_open_close_threads'] = "Może otwierać / zamykać wątki?";
+$l['can_stick_unstick_threads'] = "Może przypinać / odpinać wątki?";
+$l['can_approve_unapprove_threads'] = "Może zatwierdzać / ukrywać wątki?";
+$l['can_approve_unapprove_posts'] = "Może zatwierdzać / ukrywać posty?";
+$l['can_approve_unapprove_attachments'] = "Może zatwierdzać / ukrywać załączniki?";
+
 $l['can_manage_threads'] = "Może zarządzać wątkami (dzielić, przenosić, kopiować, łączyć)?";
+$l['can_manage_polls'] = "Może zarządzać ankietami?";
+$l['can_post_closed_threads'] = "Może pisać posty w zamkniętych wątkach?";
 $l['can_move_to_other_forums'] = "Może przenosić wątki do działu, którego sam nie moderuje?";
 $l['can_use_custom_tools'] = "Może korzystać z niestandardowych narzędzi moderatorskich?";
 $l['can_soft_delete'] = "Może usuwać nietrwale?";
 $l['can_restore'] = "Może przywracać nietrwale usunięte posty?";
+$l['can_manage_announcements'] = "Może zarządzać ogłoszeniami w tym dziale?";
+$l['can_manage_reported_posts'] = "Może zarządzać zgłoszonymi postami w tym dziale?";
+$l['can_view_mod_log'] = "Może wyświetlać wpisy dotyczące tego działu w logach moderatorów?";
+$l['moderator_cp_permissions'] = "Uprawnienia dostępu do panelu moderatora";
+$l['moderator_cp_permissions_desc'] = "Użytkownik musi mieć dostęp do panelu administratora i odpowiednie uprawnienia, aby te uprawnienia miały zastosowanie.";
+
 $l['save_mod'] = "Zapisz ustawienia";
 
 $l['no_forums'] = "Nie znaleziono działów.";
@@ -200,6 +220,7 @@ $l['allow_post_icons'] = "Włącz możliwość wyboru ikonek postów";
 $l['allow_thread_ratings'] = "Włącz możliwość oceniania tematów";
 $l['show_forum_jump'] = "Wyświetl dział w na liście \"Skocz do...\"";
 $l['use_postcounts'] = "Dodawaj posty napisane w tym dziale do liczników postów użytkowników";
+$l['use_threadcounts'] = "Dodawaj wątki napisane w tym dziale do liczników wątków użytkowników";
 
 $l['use_permissions'] = "Użyj ustawień uprawnień";
 $l['use_permissions_desc'] = "Wybierz ustawienia uprawnień, które mają być używane dla tej grupy - dziedziczone lub własne.";

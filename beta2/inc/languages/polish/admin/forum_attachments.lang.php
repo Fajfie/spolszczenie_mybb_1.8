@@ -71,6 +71,7 @@ $l['step2of2'] = "Krok 2 z 2 - skanowanie bazy danych";
 $l['step1of2_line1'] = "Proszę czekać, system plików jest skanowany w poszukiwaniu nieużywanych załączników.";
 $l['step2of2_line1'] = "Proszę czekać, baza danych jest skanowana w poszukiwaniu nieużywanych załączników.";
 $l['step_line2'] = "Po zakończeniu procesu nastąpi przeniesienie do kolejnego kroku.";
+$l['scanning'] = 'Skanowanie...';
 
 // = Attachments / Index
 $l['index_find_attachments'] = "Załączniki - szukanie";

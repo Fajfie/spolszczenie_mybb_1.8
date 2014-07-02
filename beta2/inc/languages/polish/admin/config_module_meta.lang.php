@@ -24,6 +24,7 @@ $l['spiders_bots'] = "Boty wyszukiwarek";
 $l['calendars'] = "Kalendarze";
 $l['warning_system'] = "System ostrzeżeń";
 $l['thread_prefixes'] = "Prefiksy wątków";
+$l['security_questions'] = "Pytania zabezpieczające";
 
 $l['can_manage_settings'] = "Może zarządzać ustawieniami?";
 $l['can_manage_banned_accounts'] = "Może zarządzać zbanowanymi kontami?";
@@ -41,5 +42,7 @@ $l['can_manage_calendars'] = "Może zarządzać kalendarzami?";
 $l['can_manage_warning_system'] = "Może zarządzać systemem ostrzeżeń?";
 $l['can_manage_mod_tools'] = "Może zarządzać narzędziami moderatorów?";
 $l['can_manage_thread_prefixes'] = "Może zarządzać prefiksami wątków?";
+$l['can_manage_security_questions'] = "Może zarządzać pytaniami zabezpieczającymi?";
+
 
 ?>

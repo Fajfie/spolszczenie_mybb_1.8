@@ -61,5 +61,6 @@ $l['prune_threads_and_posts'] = "Usuń wątki i posty";
 // Buttons
 $l['ban_user'] = "Zbanuj użytkownika";
 $l['update_ban'] = "Aktualizuj bana";
+$l['search_user'] = 'Szukaj użytkownika';
 
 ?>

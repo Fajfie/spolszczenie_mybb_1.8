@@ -42,6 +42,8 @@ $l['error_invalid_thread_tool'] = "Wybrane narzędzie moderacji wątków nie ist
 $l['general_options'] = "Podstawowe informacje";
 $l['short_description'] = "Opis";
 $l['available_in_forums'] = "Dostępne w działach";
+$l['available_to_groups'] = "Dostępne dla grup";
+$l['show_confirmation'] = "Pokazuj stronę z potwierdzeniem";
 $l['save_thread_tool'] = "Zapisz narzędzie moderacji wątków";
 
 $l['title'] = "Tytuł";
@@ -82,6 +84,7 @@ $l['merge_thread_desc'] = "Tylko gdy użyta jest moderacja liniowa.";
 $l['delete_poll'] = "Usunąć ankietę?";
 $l['delete_redirects'] = "Usunąć przekierowania?";
 $l['remove_subscriptions'] = "Cofnąć subskrypcję wątku?";
+$l['recount_rebuild'] = "Przeliczyć i przebudować?";
 $l['apply_thread_prefix'] = "Zastosować prefiks do wątku?";
 $l['new_subject'] = "Nowy temat";
 $l['new_subject_desc'] = "{subject} reprezentuje oryginalny temat. {username} reprezentuje login moderatora.";
@@ -125,5 +128,6 @@ $l['private_message_subject_desc'] = 'Wpisz temat prywatnej wiadomości.';
 $l['error_missing_title'] = "Wpisz nazwę dla tego narzędzia.";
 $l['error_missing_description'] = "Krótko opisz to narzędzie.";
 $l['error_no_forums_selected'] = "Wybierz działy, w których będzie dostępne to narzędzie.";
+$l['error_no_groups_selected'] = "Wybierz grupy, dla których będzie dostępne to narzędzie.";
 $l['error_forum_is_category'] = "Nie można wybrać kategorii jako działu docelowego.";
 ?>
