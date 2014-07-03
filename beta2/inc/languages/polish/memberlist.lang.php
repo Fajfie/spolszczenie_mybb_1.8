@@ -16,6 +16,7 @@ $l['username'] = "Login";
 $l['joined'] = "Dołączył";
 $l['lastvisit'] = "Ostatnia wizyta";
 $l['posts'] = "Liczba postów";
+$l['threads'] = "Liczba wątków";
 $l['referrals'] = "Poleconych";
 $l['search_members'] = "Szukaj na liście użytkowników";
 $l['website'] = "Strona domowa";
@@ -25,6 +26,7 @@ $l['sort_by_username'] = "loginu";
 $l['sort_by_regdate'] = "daty rejestracji";
 $l['sort_by_lastvisit'] = "daty ostatniej wizyty";
 $l['sort_by_posts'] = "liczby postów";
+$l['sort_by_threads'] = "liczby wątków";
 $l['sort_by_referrals'] = "poleconych użytkowników";
 $l['order_asc'] = "rosnąco";
 $l['order_desc'] = "malejąco";
@@ -44,6 +46,7 @@ $l['search_icq'] = "Numer ICQ";
 $l['search_options'] = "Opcje wyszukiwania";
 $l['per_page'] = "Wyników na stronę";
 $l['search'] = "Szukaj";
+$l['search_user'] = "Szukaj użytkownika";
 
 $l['error_no_members'] = "<p>Nie znaleziono żadnych użytkowników spełniających kryteria wyszukiwania.</p><p>Podaj inne kryteria i spróbuj jeszcze raz.</p>";
 

@@ -23,6 +23,8 @@ $l['post_count'] = "Postów";
 $l['remove_selected'] = "Usuń zaznaczonych użytkowników z grupy";
 $l['add_member'] = "Dodaj użytkownika do \"{1}\"";
 $l['add_member_submit'] = "Dodaj użytkownika do grupy";
+$l['invite_member'] = "Zaproś użytkownika do \"{1}\"";
+$l['invite_member_submit'] = "Zaproś użytkownika do grupy";
 $l['join_requests'] = "Prośby o przyjęcie";
 $l['join_requests_title'] = "Prośby o przyjęcie do \"{1}\"";
 $l['leader'] = "(lider)";
@@ -39,10 +41,25 @@ $l['users_removed'] = "Zaznaczeni użytkownicy zostali usunięci z grupy.";
 $l['group_no_members'] = "Aktualnie w tej grupie nie ma użytkowników.<br />Aby powrócić do zarządzania grupami, kliknij <a href=\"usercp.php?action=usergroups\">tutaj</a>.";
 $l['group_public_moderated'] = "Ta grupa jest grupą publiczną, więc każdy może do niej dołączyć. Wszystkie prośby o dołączenie są rozpatrywane przez lidera.";
 $l['group_public_not_moderated'] = "Ta grupa jest publiczna. Każdy może do niej dołączyć.";
+$l['group_public_invite'] = "Ta grupa jest publiczna. Dołączenie do niej wymaga zaproszenia od lidera.";
 $l['group_private'] = "To jest prywatna grupa. By do niej dołączyć, użytkownik musi zostać dodany przez lidera.";
 $l['group_default'] = "To jest grupa główna.";
 $l['group_leaders'] = "Liderzy grup";
+$l['search_user'] = "Szukaj użytkownika";
 $l['no_users_selected'] = "Nie zaznaczono użytkowników do usunięcia.<br />Wróć i usuń użytkowników do usunięcia z grupy.";
 
 $l['error_alreadyingroup'] = "Wybrany użytkownik już należy do tej grupy.";
+$l['error_alreadyinvited'] = "Wybrany użytkownik został już zaproszony do tej grupy.";
+
+$l['user_invited'] = "Użytkownik został zaproszony do dołączenia do grupy.";
+$l['invite_expires'] = "Zaproszenie będzie ważne jeszcze przez {1} dni.";
+$l['does_not_expire'] = "Zaproszenie jest ważne bezterminowo.";
+$l['invite_pm_subject'] = "Nowe zaproszenie do grupy \"{1}\"";
+$l['invite_pm_message'] = "Masz nowe zaproszenie do dołączenia do grupy \"{1}\".
+
+Aby do niej dołączyć, przejdź do sekcji [url={2}/usercp.php?action=usergroups]Grupy użytkowników[/url] w panelu użytkownika i kliknij \"Akceptuj\".
+
+{3}";
+
+
 ?>

@@ -35,8 +35,11 @@ $l['userdata_invalid_referrer'] = "Wprowadzony login polecającego nie istnieje.
 $l['userdata_invalid_language'] = "Nie ma takiego języka. Wybierz istniejący język.";
 $l['userdata_missing_returndate'] = "Podana data powrotu jest nieprawidłowa. Wypełnij ponownie pola: dzień, miesiąc, rok.";
 $l['userdata_missing_required_profile_field'] = "Nie wprowadzono prawidłowej wartości do pola \"{1}\". Podaj poprawną wartość.";
-$l['userdata_bad_profile_field_values'] = "Nie wprowadzono prawidłowej wartości do pola \"{1}\". Sprawdź poprawność danych wpisanych w tym polu.";
+$l['userdata_bad_profile_field_value'] = 'Nie wprowadzono prawidłowej wartości do pola \"{1}\". Podaj poprawną wartość.';
+$l['userdata_bad_profile_field_values'] = "Nie wybrano prawidłowej wartości do pola \"{1}\". Sprawdź poprawność danych wybranych w tym polu.";
 $l['userdata_max_limit_reached'] = 'Wpisałeś nieprawidłową liczbę znaków w polu "{1}". Wprowadź nie więcej niż {2} znaków.';
 $l['userdata_invalid_checkfield'] = "Wykryto, że formularz został wypełniony przez \"automat spamujący\". Jeśli nie jesteś \"spambotem\", skontaktuj się z administratorem.";
 $l['userdata_invalid_postnum'] = "Wprowadzona liczba postów jest nieprawidłowa. Podaj prawidłową liczbę postów lub pozostaw to pole puste.";
+$l['userdata_invalid_threadnum'] = "Wprowadzona liczba wątków jest nieprawidłowa. Podaj prawidłową liczbę wątków lub pozostaw to pole puste.";
+
 ?>

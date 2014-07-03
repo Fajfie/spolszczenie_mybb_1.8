@@ -439,4 +439,34 @@ Aby zaakceptować lub odrzucić prośbę przejdź pod adres:
 
 Pozdrawiamy,
 Ekipa {4}";
+
+$l['email_contact_subject'] = "Formularz kontaktowy: {1}";
+$l['email_contact'] = "Profil na forum: {1}
+Adres IP: {2}
+Treść wiadomości:
+{3}";
+
+$l['pmsubject_subscription'] = "Nowa odpowiedź w wątku {1}";
+$l['pm_subscription'] = "{1},
+
+{2} odpowiedział w wątku, który subskrybujesz. Temat wątku: \"{3}\".
+
+Streszczenie odpowiedzi:
+------------------------------------------
+{4}
+------------------------------------------
+
+Aby przeczytać ten wątek, przejdź pod adres:
+[url]{5}/{6}[/url]
+
+Kolejne powiadomienia otrzymasz dopiero po odwiedzeniu forum.
+
+
+------------------------------------------
+Rezygnacja ze subskrypcji:
+
+Jeśli nie chcesz otrzymywać informacji o nowych odpowiedziach w tym wątku, przejdź pod adres:
+[url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
+
+------------------------------------------";
 ?>

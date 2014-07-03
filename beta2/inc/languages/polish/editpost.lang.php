@@ -15,6 +15,7 @@ $l['delete_2'] = "<strong>Uwaga:</strong> jeśli ten post jest pierwszym w wątk
 $l['subject'] = "Temat";
 $l['your_message'] = "Treść";
 $l['post_options'] = "Opcje posta:";
+$l['editreason'] = "Powód edycji:";
 $l['options_sig'] = "<strong>Sygnatura:</strong> pod postem pojawi się Twoja sygnatura (o ile jesteś zarejestrowanym użytkownikiem).";
 $l['options_emailnotify'] = "<strong>Powiadomienie:</strong> kiedy ktoś odpowie, otrzymasz powiadomienie e-mailem (o ile jesteś zarejestrowanym użytkownikiem).";
 $l['options_disablesmilies'] = "<strong>Wyłącz emotikony:</strong> w tym poście emotikony nie będą widoczne.";
@@ -30,12 +31,15 @@ $l['edit_time_limit'] = "Nie możesz edytować tego posta. Możesz edytować pos
 $l['no_prefix'] = "Bez prefiksu";
 
 $l['redirect_nodelete'] = "Post nie został usunięty - nie zaznaczono pola \"Usunąć?\".";
+$l['redirect_norestore'] = "Post nie został przywrócony - nie zaznaczono pola \"Przywrócić\".";
 $l['redirect_postedited'] = "Post został wyedytowany.<br />";
 $l['redirect_postedited_redirect'] = "Teraz nastąpi przeniesienie do wątku.";
 $l['redirect_postedited_poll'] = "Post został wyedytowany.<br />Postanowiono dodać ankietę do tego posta, więc teraz nastąpi przeniesienie do strony tworzenia ankiety.";
 $l['error_invalidpost'] = "Post nie istnieje. Sprawdź czy post istnieje i spróbuj ponownie.";
 $l['redirect_threaddeleted'] = "Wątek został usunięty.<br />Teraz nastąpi przeniesienie na forum.";
 $l['redirect_postdeleted'] = "Post został usunięty.<br />Teraz nastąpi przeniesienie do wątku.";
+$l['redirect_threadrestored'] = "Wątek został przywrócony.<br />Teraz nastąpi przeniesienie do działu.";
+$l['redirect_postrestored'] = "Post został przywrócony.<br />Teraz nastąpi przeniesienie do wątku.";
 $l['redirect_threadclosed'] = "Nie możesz edytować postów - wątek został zamknięty przez moderatora.";
 $l['redirect_post_moderation'] = "Każda edycja posta przed publikacją musi zostać zatwierdzona przez moderatora. Teraz nastąpi przeniesienie do wątku.";
 $l['redirect_thread_moderation'] = "Każda edycja wątku przed publikacją musi zostać zatwierdzona przez moderatora. Teraz nastąpi przeniesienie na stronę główną forum.";
@@ -45,6 +49,8 @@ $l['thread_deleted'] = "Usunięto wątek";
 $l['post_deleted'] = "Usunięto post";
 $l['thread_soft_deleted'] = "Nietrwale usunięto wątek";
 $l['post_soft_deleted'] = "Nietrwale usunięto post";
+$l['thread_restored'] = "Przywrócono wątek";
+$l['post_restored'] = "Przywrócono post";
 
 $l['error_already_deleted'] = 'Wybrany post został już usunięty.';
 ?>
