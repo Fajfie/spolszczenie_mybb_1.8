@@ -47,6 +47,7 @@ $l['vote'] = "Zagłosuj";
 $l['total_votes'] = "{1} głosów";
 $l['you_voted'] = "*) odpowiedź wybrana przez Ciebie";
 $l['poll_closed'] = "Ankieta jest zamknięta.";
+$l['poll_closes'] = "Ankieta zostanie zamknięta {1}";  
 $l['already_voted'] = "Już głosowano w tej ankiecie.";
 $l['undo_vote'] = "Cofnij głos";
 $l['quick_reply'] = "Szybka odpowiedź";
@@ -60,7 +61,7 @@ $l['new_reply'] = "Nowa odpowiedź";
 $l['search_button'] = 'Szukaj';
 $l['post_thread'] = "Rozpocznij wątek";
 $l['preview_post'] = "Podgląd";
-$l['rating_average'] = "{1} Głosów - {2} Średnio";
+$l['rating_average'] = "{1} głosów -  średnia: {2}";
 $l['rate_thread'] = "Oceń ten wątek:";
 $l['thread_rating'] = "Ocena wątku:";
 $l['similar_threads'] = "Podobne wątki";
@@ -105,5 +106,8 @@ $l['quick_edit_update_error'] = 'Podczas edytowania odpowiedzi wystąpił błąd
 $l['quick_reply_post_error'] = 'Podczas dodawania odpowiedzi wystąpił błąd:';
 $l['quick_delete_error'] = 'Podczas usuwania odpowiedzi wystąpił błąd:';
 $l['quick_delete_success'] = 'Post został usunięty.';
+$l['quick_delete_thread_success'] = 'Wątek został usunięty.';  
+$l['quick_restore_error'] = 'Podczas przywracania odpowiedzi wystąpił błąd:';  
+$l['quick_restore_success'] = 'Post został przywrócony.';  
 
 ?>

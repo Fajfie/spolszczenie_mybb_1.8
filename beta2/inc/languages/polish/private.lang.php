@@ -159,6 +159,7 @@ $l['ascending_order'] = "w kolejności rosnącej";
 $l['descending_order'] = "w kolejności malejącej";
 $l['search_private_messages'] = "Szukaj w prywatnych wiadomościach";
 $l['check_all'] = "Zaznacz wszystkie";
+$l['search_user'] = "Szukaj użytkownika";  
 
 $l['error_nopmsarchive'] = "Nie znaleziono prywatnych wiadomości spełniających podane kryteria.";
 $l['error_invalidpmfoldername'] = "Wprowadzona nazwa folderu zawiera niedozwolone znaki.";
@@ -170,6 +171,7 @@ $l['error_recipientpmturnedoff'] = "{1} wyłączył prywatne wiadomości lub nie
 $l['error_pmsturnedoff'] = "Prywatne wiadomości w ustawieniach profilu są wyłączone.<br />Jeśli chcesz korzystać z systemu PW - musisz włączyć go z powrotem.";
 $l['error_recipientignoring'] = "Nie możesz zobaczyć prywatnych wiadomości {1}. Nie masz uprawnień, aby przeprowadzić taką akcję.";
 $l['error_pm_already_submitted'] = "Wysłano już identyczną PW do tego odbiorcy w ciągu ostatnich 5 minut";
+$l['error_nopms'] = "Aby skorzystać z tej funkcji musisz posiadać przynajmniej jedną prywatną wiadomość.";  
 
 $l['error_minsearchlength'] = "Jedno lub więcej ze słów kluczowych było krótsze niż jego minimalna długość. Minimalna długość słowa kluczowego to {1} znaków.<br /><br />Jeżeli próbujesz wyszukać dokładną frazę, umieść ją w cudzysłowach. Na przykład \"Zażółć gęślą jaźń\".";
 $l['error_nosearchresults'] = "Wyszukiwanie z podanymi słowami kluczowymi nie zwróciło żadnych wyników. Zmień kryteria wyszukiwania i spróbuj ponownie.";

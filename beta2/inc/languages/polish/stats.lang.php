@@ -19,6 +19,7 @@ $l['ppd'] = "Postów dziennie:";
 $l['tpd'] = "Wątków dziennie:";
 $l['mpd'] = "Użytkowników dziennie:";
 $l['ppm'] = "Postów na użytkownika:";
+$l['tpm'] = "Wątków na użytkownika:";  
 $l['rpt'] = "Odpowiedzi na wątek:";
 $l['no_posts'] = "Brak";
 $l['general'] = "Ogólne";
@@ -32,5 +33,6 @@ $l['most_viewed_threads'] = "Najwięcej wyświetleń";
 $l['not_enough_info_stats'] = "Aby można było wygenerować statystyki, potrzebny jest przynajmniej jeden użytkownik i jeden wątek.";
 $l['replies'] = "odpowiedzi";
 $l['views'] = "wyświetleń";
+$l['top_referrer'] = "Najwięcej poleconych użytkowników: <strong>{1}</strong> (<strong>{2}</strong>)";  
 
 ?>

@@ -16,6 +16,7 @@ $l['thread_closed_edit_message'] = "Ten wątek jest zamknięty, więc nie możes
 $l['no_permission_edit_post'] = "Nie masz uprawnień, aby edytować tę wiadomość.";
 $l['edit_time_limit'] = "Możesz edytować posty tylko przez pierwsze {1} minut po ich napisaniu.";
 $l['postbit_edited'] = "Ten post był ostatnio modyfikowany {1} o {2} przez";
+$l['postbit_editreason'] = "Powód edycji";  
 $l['save_changes'] = "Zakończ edycję";
 $l['cancel_edit'] = "Anuluj edycję";
 $l['captcha_not_exists'] = "Obrazek weryfikacji, który próbujesz odświeżyć, nie istnieje.";

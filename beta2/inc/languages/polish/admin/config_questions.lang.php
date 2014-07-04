@@ -1,40 +1,41 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.8 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['security_questions'] = "Security Questions";
-$l['security_questions_desc'] = "Here you can create and manage security questions that will be randomly shown during registration.";
-$l['add_new_question'] = "Add New Question";
-$l['add_new_question_desc'] = "Add a question and its answers for the security questions to be used during registration.";
-$l['edit_question'] = "Edit Question";
-$l['edit_question_desc'] = "Here you edit a security question.";
+$l['security_questions'] = "Pytania zabezpieczające";
+$l['security_questions_desc'] = "Dodawaj i zarządzaj pytaniami zabezpieczającymi, które będą losowo pokazywane podczas rejestracji.";
+$l['add_new_question'] = "Dodaj nowe pytanie";
+$l['add_new_question_desc'] = "Dodaj pytanie i akceptowane odpowiedzi na nie. Podczas rejestracji będzie wymagana odpowiedź na jedno z pytań.";
+$l['edit_question'] = "Edytuj pytanie";
+$l['edit_question_desc'] = "Edytuj pytanie i akceptowane odpowiedzi na nie.";
 
-$l['options'] = "Options";
-$l['disable_question'] = "Disable Question";
-$l['enable_question'] = "Enable Question";
-$l['delete_question'] = "Delete Question";
-$l['no_security_questions'] = "There are no security questions on your forum at this time.";
+$l['options'] = "Opcje";
+$l['disable_question'] = "Wyłącz pytanie";
+$l['enable_question'] = "Włącz pytanie";
+$l['delete_question'] = "Usuń pytanie";
+$l['no_security_questions'] = "Nie dodano żadnych pytań zabezpieczających.";
 
-$l['question'] = "Question";
-$l['question_desc'] = "Enter the question you want answered during registration.";
-$l['answers'] = "Answer(s)";
-$l['answers_desc'] = "Enter the answer(s) to the question above. Seperate multiple answers with a vertical bar (|).";
-$l['active'] = "Active";
-$l['save_question'] = "Save Question";
+$l['question'] = "Pytanie";
+$l['question_desc'] = "Wprowadź treść pytania, na jakie trzeba będzie udzielić odpowiedzi podczas rejestracji.";
+$l['answers'] = "Odpowiedzi";
+$l['answers_desc'] = "Wprowadź odpowiedź (lub odpowiedzi) na wpisane wcześniej pytanie. Oddziel posczególne odpowiedzi pionową kreską (|).";
+$l['active'] = "Aktywne";
+$l['save_question'] = "Zapisz pytanie";
 
-$l['error_invalid_question'] = "You have selected an invalid question.";
-$l['error_missing_question'] = "You did not enter a question for this question";
-$l['error_missing_answer'] = "You did not enter any answers for this question";
+$l['error_invalid_question'] = "Wybrano nieprawidłowe pytanie.";
+$l['error_missing_question'] = "Nie wpisano treści pytania.";
+$l['error_missing_answer'] = "Nie wpisano żadnej odpowiedzi na to pytanie.";
 
-$l['success_question_created'] = "The question has been created successfully.";
-$l['success_question_updated'] = "The question has been updated successfully.";
-$l['success_question_disabled'] = "The question has been disabled successfully.";
-$l['success_question_enabled'] = "The question has been enabled successfully.";
-$l['success_question_deleted'] = "The question has been deleted successfully.";
+$l['success_question_created'] = "Pytanie zostało utworzone.";
+$l['success_question_updated'] = "Pytanie zostało zaktualizowane.";
+$l['success_question_disabled'] = "Pytanie zostało wyłączone.";
+$l['success_question_enabled'] = "Pytanie zostało włączone.";
+$l['success_question_deleted'] = "Pytanie zostało usunięte.";
 
-$l['confirm_question_deletion'] = "Are you sure you wish to delete this question?";
+$l['confirm_question_deletion'] = "Czy na pewno chcesz usunąć to pytanie?";
 
 ?>
