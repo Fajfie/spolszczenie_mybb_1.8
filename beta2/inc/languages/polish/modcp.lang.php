@@ -217,7 +217,6 @@ $l['edited_user_ban'] = "Wyedytowano bana użykownika";
 $l['banned_user'] = "Zbanowano użytkownika";
 $l['lifted_ban'] = "Zdjęto bana";
 $l['no_bans_ending'] = "W najbliższym czasie nie zostaną zdjęte żadne bany.";
-$l['close_window'] = "Zamknij okno";
 
 $l['warning_logs'] = "Logi ostrzeżeń";
 $l['warned_user'] = "Ostrzeżony użytkownik";
@@ -311,5 +310,21 @@ $l['error_invalid_end_date'] = "Data zakończenia wyświetlania ogłoszenia jest
 $l['error_end_before_start'] = "Data zakończenia wyświetlania ogłoszenia musi być późniejsza niż data rozpoczęcia.";
 $l['error_invalid_announcement'] = "Wybrane ogłoszenie jest nieprawidłowe.";
 
+$l['announcement_added'] = "Dodano ogłoszenie";
+$l['announcement_edited'] = "Wyedytowano ogłoszenie";
+$l['announcement_deleted'] = "Usunięto ogłoszenie Deleted";
+
 $l['preview'] = 'Podgląd';
+
+$l['you_cannot_view_mod_logs'] = "Nie masz uprawnień do przeglądania logów moderatorów.";
+$l['you_cannot_view_reported_posts'] = "Nie masz uprawnień do przeglądania zgłoszonych postów.";
+$l['you_cannot_manage_announcements'] = "Nie masz uprawnień do zarządzania ogłoszeniami.";
+$l['you_cannot_moderate_threads'] = "Nie masz uprawnień do moderacji wątków.";
+$l['you_cannot_moderate_posts'] = "Nie masz uprawnień do moderacji postów.";
+$l['you_cannot_moderate_attachments'] = "Nie masz uprawnień do moderacji załączników.";
+$l['you_cannot_use_mod_queue'] = "Nie masz uprawnień do korzystania z kolejki moderacji.";
+
+$l['post'] = 'Post';
+$l['search_user'] = "Szukaj użytkownika";
+
 ?>

@@ -42,6 +42,19 @@ $l['no_buddies'] = "<em>Lista znajomych jest pusta. Możesz ją edytować w pane
 
 $l['help_docs'] = "Dokumentacja";
 
+$l['search_help_documents'] = "Szukaj";
+$l['search_by_name'] = "Szukaj w nazwie";
+$l['search_by_document'] = "Szukaj w treści";
+$l['enter_keywords'] = "Słowa kluczowe";
+$l['search'] = "Przeszukaj dokumentację";
+$l['redirect_searchresults'] = "Teraz nastąpi przeniesienie do wyników wyszukiwania.";
+$l['search_results'] = "Wyniki wyszukiwania";
+$l['help_doc_results'] = "Wyniki wyszukiwania w dokumentacji";
+$l['document'] = "Dokument";
+$l['error_nosearchresults'] = "Nic nie znaleziono. Zmień kryteria wyszukiwania i spróbuj ponownie.";
+$l['no_help_results'] = "Nic nie znaleziono.";
+$l['error_helpsearchdisabled'] = "Możliwość wyszukiwania w dokumentacji została zablokowana przez administratora.";
+
 $l['smilies_listing'] = "Emotikony";
 $l['name'] = "Imię";
 $l['abbreviation'] = "Skrót";
