@@ -95,4 +95,3 @@ $l['error_invalidhelpdoc'] = "Wybrany dokument pomocy nie istnieje.";
 $l['error_invalidkey'] = "Nie można wyczyścić cookies. Może się tak zdarzyć, ponieważ być może jakiś szkodliwy kod Javascript próbuje to zrobić za Ciebie automatycznie. Jeżeli wybrano to łącze nie przez pomyłkę, zobacz dokument pomocy \"Ciasteczka w MyBB\".";
 
 $l['dst_settings_updated'] = "Ustawienia dotyczące czasu zimowego zostały automatycznie zaktualizowane.<br /><br />Teraz nastąpi przeniesienie na stronę główną forum.";
-?>

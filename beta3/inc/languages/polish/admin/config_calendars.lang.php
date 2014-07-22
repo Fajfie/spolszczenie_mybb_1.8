@@ -66,5 +66,3 @@ $l['success_calendar_deleted'] = "Wybrany kalendarz został usunięty.";
 $l['success_calendar_orders_updated'] = "Kolejność wyświetlania kalendarzy została zaktualizowana.";
 
 $l['confirm_calendar_deletion'] = "Czy na pewno chcesz usunąć ten kalendarz?";
-
-?>

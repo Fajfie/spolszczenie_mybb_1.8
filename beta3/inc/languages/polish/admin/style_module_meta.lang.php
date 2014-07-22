@@ -13,5 +13,3 @@ $l['templates'] = "Szablony";
 
 $l['can_manage_themes'] = "Może zarządzać stylami?";
 $l['can_manage_templates'] = "Może zarządzać szablonami?";
-
-?>

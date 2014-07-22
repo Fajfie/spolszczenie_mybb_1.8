@@ -15,4 +15,3 @@ $l['error_status_missmatch'] = 'Serwer zwrócił nieoczekiwany wynik: ';
 $l['error_data_not_sent'] = 'Przesyłanie danych do serwera nie powiodło się: ';
 
 $l['error_occurred'] = 'Wystąpił jeden lub więcej błędów. Napraw je, zanim będziesz kontynuować.<br />';
-?>

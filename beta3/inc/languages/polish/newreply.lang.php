@@ -45,4 +45,11 @@ $l['redirect_newreply_post'] = "<br />Teraz nastąpi przeniesienie do nowego pos
 $l['redirect_newreplyerror'] = "Twoja wiadomość nie zostanie opublikowana, gdyż posiada nieprawidłową zawartość. <br />Teraz nastąpi przeniesienie do wątku.";
 $l['redirect_threadclosed'] = "Nie możesz odpowiedzieć w tym wątku, gdyż został zamknięty przez moderatora.";
 $l['error_post_noperms'] = "Nie masz uprawnień do edytowania tego szkicu.";
-?>
+
+$l['error_stop_forum_spam_spammer'] = 'Twój adres IP lub e-mail znajduje się w bazie znanych spamerów. Jeżeli uważasz, że jest to błąd, powiadom o tym administratora.';
+$l['error_stop_forum_spam_fetching'] = 'Nie mogliśmy upewnić sie, że nie jesteś spamerem. Prawdopodobnie jest to spowodowane problemami z połączeniem z bazą danych. Spróbuj ponownie później.';
+$l['error_suspendedposting'] = "Odebrano Ci możliwość pisania postów. Blokada {1}.<br /><br />
+
+Data nałożenia ograniczenia: {2}";
+$l['error_suspendedposting_temporal'] = "zostanie zniesiona {1}";
+$l['error_suspendedposting_permanent'] = "jest permanentna";

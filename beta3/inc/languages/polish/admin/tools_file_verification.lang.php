@@ -18,5 +18,3 @@ $l['no_problems_found'] = "Nie wykryto żadnych problemów";
 $l['changed'] = "Zmodyfikowany";
 $l['missing'] = "Usunięty";
 $l['status'] = "Status";
-
-?>

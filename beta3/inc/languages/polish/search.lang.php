@@ -109,4 +109,3 @@ $l['error_nosearchterms'] = "Nie wprowadzono żadnych zasad wyszukiwania. Musisz
 $l['error_searchflooding_1'] = "Możesz wykonać tylko jedno wyszukiwanie w ciągu {1} sekund. Poczekaj jeszcze 1 sekundę przed następną próbą.";
 $l['error_searchflooding'] = "Możesz wykonać tylko jedno wyszukiwanie w ciągu {1} sekund. Poczekaj {2} sekund przed następną próbą.";
 $l['error_invalidsearch'] = "Błędne wyszukiwanie. Wróć i spróbuj ponownie.";
-?>

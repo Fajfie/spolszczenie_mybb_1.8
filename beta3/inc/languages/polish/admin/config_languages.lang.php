@@ -55,5 +55,3 @@ $l['alert_note_cannot_write'] = "Zanim będziesz mieć możliwość edycji plik�
 $l['success_langfile_updated'] = "Plik językowy został zmodyfikowany.";
 $l['success_langprops_updated'] = "Właściwości paczki zostały zaktualizowane.";
 $l['success_quickphrases_updated'] = "Najczęściej używane frazy zostały zaktualizowane.";
-
-?>

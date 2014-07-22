@@ -48,5 +48,3 @@ $l['date_range'] = "Przedział czasowy:";
 
 $l['success_pruned_mod_logs'] = "Logi moderacji zostały usunięte.";
 $l['note_logs_locked'] = "Ze względów bezpieczeństwa nie można usuwać logów z ostatnich 24 godzin.";
-
-?>

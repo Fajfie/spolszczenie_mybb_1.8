@@ -19,4 +19,3 @@ $l['three_stars'] = "3 na 5 gwiazdek";
 $l['four_stars'] = "4 na 5 gwiazdek";
 $l['five_stars'] = "5 na 5 gwiazdek";
 $l['rating_added'] = "Twój głos został dodany!";
-?>

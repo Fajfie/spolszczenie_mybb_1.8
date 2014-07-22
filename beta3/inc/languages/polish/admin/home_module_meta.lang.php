@@ -22,5 +22,3 @@ $l['quick_access'] = "Szybki dostęp";
 $l['online_admins'] = "Zalogowani administratorzy";
 $l['ipaddress'] = "Adres IP:";
 $l['mybb_documentation'] = "Dokumentacja MyBB";
-
-?>

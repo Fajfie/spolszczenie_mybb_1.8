@@ -56,5 +56,3 @@ $l['confirm_backup_deletion'] = "Czy na pewno chcesz usunąć tę kopię?";
 
 $l['success_backup_deleted'] = "Kopia została usunięta.";
 $l['success_backup_created'] = "Kopia została wykonana.";
-
-?>

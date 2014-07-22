@@ -69,4 +69,3 @@ $l['d7_document'] = "Możesz używać MyCode - to uproszczona wersja HTML.
 <p><br/>[list]<br />[*]Punkt #1<br/>[*]Punkt #2<br/>[*]Punkt #3<br/>[/list]<br/><ul><li>Punkt #1</li><li>Punkt #2</li><li>Punkt #3</li>
 </ul>
 <p>Możesz również ustalić typ punktowania - dostępne typy: liczbowy [list=1] i alfabetyczny [list=a].</p>";
-?>

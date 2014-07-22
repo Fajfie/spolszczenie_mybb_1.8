@@ -77,5 +77,3 @@ $l['success_warning_type_deleted'] = "Wybrany typ ostrzeżeń został usunięty"
 
 $l['confirm_warning_level_deletion'] = "Czy na pewno chcesz usunąć ten poziom ostrzeżeń?";
 $l['confirm_warning_type_deletion'] = "Czy na pewno chcesz usunąć ten typ ostrzeżeń?";
-
-?>

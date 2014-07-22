@@ -283,10 +283,10 @@ $l['admin_log_user_users_merge'] = "Połączono użytkownika #{1} ({2}) z użytk
 $l['admin_log_user_users_inline_usergroup'] = "Edytowano główną / dodatkową / wyświetlaną grupę użytkownika {1}";
 $l['admin_log_user_users_inline_delete'] = "Usunięto {1} użytkowników";
 $l['admin_log_user_users_inline_banned_perm'] = "Zbanowano {1} użytkowników na zawsze";
-$l['admin_log_user_users_inline_banned_temp'] = "Zbanowano {1} użytkowników na do {2}";
+$l['admin_log_user_users_inline_banned_temp'] = "Zbanowano {1} użytkowników do {2}";
 $l['admin_log_user_users_inline_activated'] = "Aktywowano {1} użytkowników";
 $l['admin_log_user_users_inline_lift'] = "Usunięto bana dla {1} użytkowników";
 
 $l['admin_log_user_mass_mail_delete'] = "Usunięto masową korespondencję #{1} ({2})";
 
-?>
+$l['admin_log_admin_locked_out'] = 'Zablokowano próbę logowania administratora o ID {1} ({2}).';

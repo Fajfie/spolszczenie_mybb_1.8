@@ -109,5 +109,3 @@ $l['quick_delete_success'] = 'Post został usunięty.';
 $l['quick_delete_thread_success'] = 'Wątek został usunięty.';  
 $l['quick_restore_error'] = 'Podczas przywracania odpowiedzi wystąpił błąd:';  
 $l['quick_restore_success'] = 'Post został przywrócony.';  
-
-?>

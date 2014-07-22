@@ -18,5 +18,3 @@ $l['optimize_selected_tables'] = "Optymalizuj wybrane tabele";
 $l['error_no_tables_selected'] = "Nie wybrano żadnych tabel do optymalizacji.";
 
 $l['success_tables_optimized'] = "Wybrane tabele zostały przeanalizowane i zoptymalizowane.";
-
-?>

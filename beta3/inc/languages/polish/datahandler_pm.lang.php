@@ -20,5 +20,3 @@ $l['pmdata_recipient_reached_quota'] = "Użytkownik {1}, do którego chcesz wys�
 
 $l['pmdata_pm_flooding'] = 'Próbujesz wysłać następną wiadomość zbyt szybko po poprzedniej. Odczekaj {1} sekund i spróbuj ponownie.';
 $l['pmdata_pm_flooding_one_second'] = 'Próbujesz wysłać następną wiadomość zbyt szybko po poprzedniej. Odczekaj 1 sekundę i spróbuj ponownie.';
-
-?>

@@ -29,5 +29,3 @@ $l['error_message_contains'] = "Informacja o błędzie zawiera";
 $l['to_address_contains'] = "Adres odbiorcy zawiera";
 $l['from_address_contains'] = "Adres nadawcy zawiera";
 $l['find_emails_to_addr'] = "Znajdź wszystkie e-maile wysłane na ten adres";
-
-?>

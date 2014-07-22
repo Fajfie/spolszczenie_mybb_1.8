@@ -219,4 +219,3 @@ $l['theme_info_save_error'] = 'Wystąpił problem podczas zapisywania informacji
 
 $l['saving'] = 'Zapisywanie...';
 
-?>

@@ -43,5 +43,3 @@ $l['success_email_disallowed'] = "Adres e-mail został zablokowany.";
 $l['success_ban_deleted'] = "Blokada została zdjęta.";
 
 $l['confirm_ban_deletion'] = "Czy na pewno chcesz zdjąć tę blokadę?";
-
-?>

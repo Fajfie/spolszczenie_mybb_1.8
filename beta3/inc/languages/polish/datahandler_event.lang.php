@@ -33,4 +33,3 @@ $l['eventdata_invalid_repeat_year_interval'] = "Podano nieprawidłową liczbę l
 $l['eventdata_event_wont_occur'] = "Jeżeli użyjesz takich ustawień - wydarzenie nigdy nie będzie miało miejsca!";
 
 $l['eventdata_no_permission_private_event'] = "Nie masz uprawnień do tworzenia prywatnych wydarzeń.";
-?>

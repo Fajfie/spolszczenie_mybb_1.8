@@ -40,4 +40,3 @@ $l['error_missing_display_style'] = "Nie podano stylu wyświetlania dla prefiksu
 $l['error_no_forums_selected'] = "Nie wybrano działów, w których prefiks ma być dostępny.";
 $l['error_no_groups_selected'] = "Nie wybrano grup użytkowników dla których prefiks będzie dostępny.";
 $l['error_invalid_prefix'] = "Wybrany prefiks nie istnieje.";
-?>

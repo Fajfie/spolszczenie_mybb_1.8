@@ -20,5 +20,3 @@ $l['error_no_cache_specified'] = "Nie wybrano działu pamięci podręcznej.";
 
 $l['success_cache_rebuilt'] = "Pamięć podręczna została przebudowana.";
 $l['success_cache_reloaded'] = "Pamięć podręczna została przeładowana.";
-
-?>

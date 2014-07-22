@@ -130,4 +130,3 @@ $l['error_missing_description'] = "Krótko opisz to narzędzie.";
 $l['error_no_forums_selected'] = "Wybierz działy, w których będzie dostępne to narzędzie.";
 $l['error_no_groups_selected'] = "Wybierz grupy, dla których będzie dostępne to narzędzie.";
 $l['error_forum_is_category'] = "Nie można wybrać kategorii jako działu docelowego.";
-?>

@@ -12,4 +12,3 @@ $l['logindata_invalidpwordusernamecombo'] = "Wprowadzono nieprawidłowy login i/
 
 $l['logindata_regimageinvalid'] = "Wprowadzony kod z obrazka jest nieprawidłowy. Przepisz kod identyczny jak ten na obrazku.";
 $l['logindata_regimagerequired'] = "Uzupełnij kod weryfikujący aby kontynuować proces logowania. Przepisz kod identyczny jak ten na obrazku.";
-?>

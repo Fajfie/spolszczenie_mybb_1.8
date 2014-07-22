@@ -41,5 +41,3 @@ $l['userdata_max_limit_reached'] = 'Wpisałeś nieprawidłową liczbę znaków w
 $l['userdata_invalid_checkfield'] = "Wykryto, że formularz został wypełniony przez \"automat spamujący\". Jeśli nie jesteś \"spambotem\", skontaktuj się z administratorem.";
 $l['userdata_invalid_postnum'] = "Wprowadzona liczba postów jest nieprawidłowa. Podaj prawidłową liczbę postów lub pozostaw to pole puste.";
 $l['userdata_invalid_threadnum'] = "Wprowadzona liczba wątków jest nieprawidłowa. Podaj prawidłową liczbę wątków lub pozostaw to pole puste.";
-
-?>

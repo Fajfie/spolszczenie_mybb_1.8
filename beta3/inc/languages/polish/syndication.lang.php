@@ -10,5 +10,4 @@ $l['all_forums'] = "Wszystkie działy";
 $l['forum'] = "Dział:";
 $l['posted_by'] = "Napisane przez:";
 $l['on'] = "w";
-
-?>
+$l['portal'] = "Portal";

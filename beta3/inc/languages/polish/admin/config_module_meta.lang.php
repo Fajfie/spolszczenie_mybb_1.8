@@ -43,6 +43,3 @@ $l['can_manage_warning_system'] = "Może zarządzać systemem ostrzeżeń?";
 $l['can_manage_mod_tools'] = "Może zarządzać narzędziami moderatorów?";
 $l['can_manage_thread_prefixes'] = "Może zarządzać prefiksami wątków?";
 $l['can_manage_security_questions'] = "Może zarządzać pytaniami zabezpieczającymi?";
-
-
-?>

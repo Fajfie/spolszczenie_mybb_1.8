@@ -118,5 +118,3 @@ $l['success_mass_mail_resent'] = "Masowa korespondencja została skopiowana. Mo�
 $l['success_mass_mail_canceled'] = "Dostarczanie tej korespondencji zostało anulowane.";
 
 $l['mass_mail_deletion_confirmation'] = "Czy na pewno chcesz usunąć tę masową korespondencję?";
-
-?>

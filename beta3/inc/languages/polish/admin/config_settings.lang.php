@@ -684,4 +684,3 @@ $l['setting_wolorder_desc'] = "Wybierz, czy chcesz, aby lista \"Kto jest online\
 $l['setting_wolorder_username'] = "Według loginu (rosnąco)";
 $l['setting_wolorder_activity'] = "Według czasu ostatniej aktywności (malejąco)";
 
-?>

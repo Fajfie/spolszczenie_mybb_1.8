@@ -209,11 +209,11 @@ $l['change_email_notice'] = "Aby zmienić adres e-mail, kliknij <a href=\"usercp
 $l['profile_optional'] = "Niewymagane pola";
 $l['website_url'] = "Strona domowa:";
 $l['birthdate'] = "Urodziny:";
-$l['icq_number'] = "Numer ICQ:";
-$l['aim_screenname'] = "Nazwa użytkownika AIM:";
-$l['yahoo_id'] = "Identyfikator Yahoo:";
-$l['skype_id'] = "Identyfikator Skype:";
-$l['google_id'] = "Identyfikator Google Talk:";
+$l['contact_field_icq'] = "Numer ICQ:";
+$l['contact_field_aim'] = "Nazwa użytkownika AIM:";
+$l['contact_field_yahoo'] = "Identyfikator Yahoo:";
+$l['contact_field_skype'] = "Identyfikator Skype:";
+$l['contact_field_google'] = "Identyfikator Google Talk:";
 $l['additional_information'] = "Dodatkowe informacje";
 $l['update_profile'] = "Aktualizuj profil";
 $l['away_information'] = "Dostępność";
@@ -424,4 +424,3 @@ $l['buddyrequest_accepted'] = 'Wybrane zaproszenie do znajomych zostało zaakcep
 $l['buddyrequest_declined'] = 'Wybrane zaproszenie do znajomych zostało odrzucone.';  
 $l['user_doesnt_exist'] = 'Ten użytkownik już nie istnieje.';  
 $l['buddyrequests_sent_success'] = 'Zaproszenia do znajomych zostały wysłane.';  
-?>

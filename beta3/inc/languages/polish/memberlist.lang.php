@@ -30,6 +30,8 @@ $l['sort_by_threads'] = "liczby wątków";
 $l['sort_by_referrals'] = "poleconych użytkowników";
 $l['order_asc'] = "rosnąco";
 $l['order_desc'] = "malejąco";
+$l['asc'] = "rosn.";
+$l['desc'] = "malej.";
 $l['forumteam'] = "Pokaż ekipę forum";
 $l['advanced_search'] = "Zaawansowane wyszukiwanie";
 $l['nav_memberlist_search'] = "Szukaj";
@@ -76,5 +78,3 @@ $l['w'] = 'W';
 $l['x'] = 'X';
 $l['y'] = 'Y';
 $l['z'] = 'Z';
-
-?>

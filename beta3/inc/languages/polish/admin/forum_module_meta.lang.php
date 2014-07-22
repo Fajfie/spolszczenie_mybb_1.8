@@ -17,5 +17,3 @@ $l['can_manage_forums'] = "Może zarządzać działami?";
 $l['can_manage_forum_announcements'] = "Może zarządzać ogłoszeniami w działach?";
 $l['can_moderate'] = "Może moderować posty, wątki i załączniki?";
 $l['can_manage_attachments'] = "Może zarządzać załącznikami?";
-
-?>

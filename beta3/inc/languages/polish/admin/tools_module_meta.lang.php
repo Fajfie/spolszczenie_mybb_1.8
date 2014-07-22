@@ -25,6 +25,7 @@ $l['moderator_log'] = "Logi moderacji";
 $l['user_email_log'] = "Logi e-maili";
 $l['system_mail_log'] = "Logi systemu e-mail";
 $l['user_warning_log'] = "Logi ostrzeżeń";
+$l['spam_log'] = "Logi spamerów";
 $l['statistics'] = "Statystyki";
 
 $l['can_access_system_health'] = "Może sprawdzać stan systemu?";
@@ -38,8 +39,7 @@ $l['can_manage_mod_logs'] = "Może zarządzać logami moderacji?";
 $l['can_manage_user_mail_log'] = "Może zarządzać logami e-maili?";
 $l['can_manage_system_mail_log'] = "Może zarządzać logami systemu e-mail?";
 $l['can_manage_user_warning_log'] = "Może zarządzać logami ostrzeżeń?";
+$l['can_manage_spam_log'] = "Może zarządzać logami spamerów?";
 $l['can_view_php_info'] = "Może przeglądać informacje o PHP?";
 $l['can_manage_file_verification'] = "Może zarządzać weryfikacją plików?";
 $l['can_view_statistics'] = "Może przeglądać statystyki?";
-
-?>

@@ -47,4 +47,4 @@ $l['online_user'] = "Aktualnie jest <b>1</b> użytkownik online.";
 $l['online_users'] = "Aktualnie jest <b>{1}</b> użytkowników online.";
 $l['online_counts'] = "<b>{1}</b> Użytkownik(ów) | <b>{2}</b> Gość(i)";
 $l['print_this_item'] = "Wydrukuj tę wiadomość";
-$l['send_to_friend'] = "Wyślij tę wiadomość znajomemu";?>
+$l['send_to_friend'] = "Wyślij tę wiadomość znajomemu";

@@ -89,4 +89,3 @@ $l['success_templates_checked'] = "Szablony zostały sprawdzone - nie odnalezion
 $l['success_all_tables_already_converted'] = "Wszystkie tabele zostały przekonwertowane lub już były w formacie UTF-8.";
 $l['success_table_converted'] = "Tabela \"{1}\" została przekonwertowana do formatu UTF-8.";
 $l['success_chmod'] = "Wszystkie pliki i katalogi mają odpowiednie uprawnienia CHMOD.";
-?>

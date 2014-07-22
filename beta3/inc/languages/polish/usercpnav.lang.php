@@ -32,4 +32,3 @@ $l['ucp_nav_view_profile'] = "Pokaż profil";
 $l['ucp_nav_home'] = "Podsumowanie";
 $l['ucp_nav_usergroups'] = "Grupy użytkowników";
 $l['ucp_nav_attachments'] = "Załączniki";
-?>

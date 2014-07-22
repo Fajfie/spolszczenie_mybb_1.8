@@ -10,4 +10,3 @@ $l['forum'] = "Dział:";
 $l['printable_version'] = "Wersja do druku";
 $l['pages'] = "Strony:";
 $l['thread'] = "Wątek:";
-?>

@@ -75,4 +75,3 @@ $l['success_profile_field_saved'] = "Dodatkowe pole w profilu zostało zapisane.
 $l['success_profile_field_deleted'] = "Dodatkowe pole w profilu zostało usunięte.";
 
 $l['confirm_profile_field_deletion'] = "Czy na pewno chcesz usunąć to dodatkowe pole w profilu?";
-?>

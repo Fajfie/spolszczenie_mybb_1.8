@@ -18,7 +18,7 @@ $l['manage_post_icons_desc'] = "Edytuj, usuwaj i zarządzaj ikonami postów.";
 
 $l['name_desc'] = "To jest nazwa dla ikonki postu.";
 $l['image_path'] = "Ścieżka do obrazu";
-$l['image_path_desc'] = "To jest ścieżka do obrazu ikonki postu.";
+$l['image_path_desc'] = "To jest ścieżka do obrazu ikonki postu. Jeżeli chcesz użyć innych ikon dla poszczególnych stylów, możesz skorzystać ze znacznika <strong>{theme}</strong>. W jego miejsce podstawiony zostanie katalog z obrazkami danego stylu.";
 $l['save_post_icon'] = "Zapisz ikonkę postów";
 $l['reset'] = "Resetuj";
 
@@ -45,4 +45,3 @@ $l['success_post_icon_updated'] = "Ikona postów została zaktualizowana.";
 $l['success_post_icon_deleted'] = "Wybrana ikona postów została usunięta.";
 
 $l['confirm_post_icon_deletion'] = "Czy na pewno chcesz usunąć tę ikonę postów?";
-?>

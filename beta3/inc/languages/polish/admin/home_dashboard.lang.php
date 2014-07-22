@@ -26,6 +26,8 @@ $l['awaiting_activation'] = "oczekujących na aktywację";
 $l['server_load'] = "Obciążenie serwera";
 $l['attachments'] = "Załączniki";
 $l['used'] = "użytego miejsca";
+$l['reported_posts'] = "Zgłoszone posty";
+$l['unread_reports'] = "Nieprzeczytane raporty";
 
 $l['version_check'] = "Sprawdź aktualizacje";
 $l['last_update_check_two_weeks'] = "<a href=\"{1}\">Sprawdź czy używasz najnowszej wersji MyBB</a> - od ostatniego sprawdzenia minęło więcej niż dwa tygodnie.";
@@ -51,5 +53,3 @@ $l['admin_notes'] = "Notatki administratorów";
 $l['save_notes'] = "Zapisz";
 
 $l['success_notes_updated'] = "Notatki zostały zaktualizowane.";
-
-?>

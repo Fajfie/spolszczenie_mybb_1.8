@@ -135,6 +135,7 @@ $l['you_forwarded'] = "Przesłano tę wiadomość dalej {1}";
 $l['select_from_buddies'] = "Wybierz z listy znajomych";
 $l['no_readmessages'] = "Aktualnie nie ma żadnej przeczytanej śledzonej przez Ciebie wiadomości.";
 $l['no_unreadmessages'] = "Aktualnie nie ma żadnej nieprzeczytanej śledzonej przez Ciebie wiadomości.";
+$l['stop_tracking_all'] = "Przestań śledzić wszystkie wiadomości";
 
 $l['enter_keywords'] = "Wpisz słowa kluczowe";
 $l['advanced_search'] = "Zaawansowane wyszukiwanie";
@@ -183,6 +184,7 @@ $l['error_invalidsearch'] = "Wpisano nieprawidłowe kryterium. Wróć i spróbuj
 
 $l['redirect_pmsaved'] = "Prywatna wiadomość została zapisana w folderze Szkice.";
 $l['redirect_pmstrackingstopped'] = "Śledzenie zaznaczonych PW zostało zatrzymane.";
+$l['redirect_allpmstrackingstopped'] = "Śledzenie wszystkich PW zostało zatrzymane.";
 $l['redirect_pmstrackingcanceled'] = "Zaznaczone nieprzeczytane PW zostały usunięte ze skrzynki odbiorczej.";
 $l['redirect_pmsmoved'] = "Zaznaczone prywatne wiadomości zostały przeniesione.";
 $l['redirect_pmsdeleted'] = "Zaznaczone prywatne wiadomości zostały usunięte.";
@@ -198,5 +200,3 @@ $l['quickreply_signature'] = "Sygnatura";
 $l['quickreply_disable_smilies'] = "Wyłącz uśmieszki";
 $l['quickreply_save_copy'] = "Zapisz kopię";
 $l['quickreply_read_receipt'] = "<strong>Zażądaj potwierdzenia przeczytania</strong>";
-
-?>

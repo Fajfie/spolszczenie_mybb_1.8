@@ -52,14 +52,14 @@ $l['error_alreadyingroup'] = "Wybrany użytkownik już należy do tej grupy.";
 $l['error_alreadyinvited'] = "Wybrany użytkownik został już zaproszony do tej grupy.";
 
 $l['user_invited'] = "Użytkownik został zaproszony do dołączenia do grupy.";
-$l['invite_expires'] = "Zaproszenie będzie ważne jeszcze przez {1} dni.";
-$l['does_not_expire'] = "Zaproszenie jest ważne bezterminowo.";
 $l['invite_pm_subject'] = "Nowe zaproszenie do grupy \"{1}\"";
 $l['invite_pm_message'] = "Masz nowe zaproszenie do dołączenia do grupy \"{1}\".
 
 Aby do niej dołączyć, przejdź do sekcji [url={2}/usercp.php?action=usergroups]Grupy użytkowników[/url] w panelu użytkownika i kliknij \"Akceptuj\".
 
-{3}";
+To zaproszenie jest ważne bezterminowo.";
+$l['invite_pm_message_expires'] = "Masz nowe zaproszenie do dołączenia do grupy \"{1}\".
 
+Aby do niej dołączyć, przejdź do sekcji [url={2}/usercp.php?action=usergroups]Grupy użytkowników[/url] w panelu użytkownika i kliknij \"Akceptuj\".
 
-?>
+To zaproszenie wygaśnie za {3} dni.";

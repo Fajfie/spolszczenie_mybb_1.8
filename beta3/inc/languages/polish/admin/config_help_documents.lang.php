@@ -58,5 +58,3 @@ $l['success_document_deleted'] = "Wybrany dokument został usunięty.";
 
 $l['confirm_section_deletion'] = "Czy na pewno chcesz usunąć tę sekcję?";
 $l['confirm_document_deletion'] = "Czy na pewno chcesz usunąć ten dokument?";
-
-?>

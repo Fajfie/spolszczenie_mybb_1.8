@@ -53,5 +53,3 @@ $l['time'] = "Godzina:";
 $l['set_time'] = "Ustaw datę";
 
 $l['announcement_preview'] = 'Podgląd ogłoszenia';
-
-?>

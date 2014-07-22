@@ -53,4 +53,3 @@ $l['thread_restored'] = "Przywrócono wątek";
 $l['post_restored'] = "Przywrócono post";
 
 $l['error_already_deleted'] = 'Wybrany post został już usunięty.';
-?>

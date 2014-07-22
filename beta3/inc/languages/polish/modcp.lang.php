@@ -326,5 +326,3 @@ $l['you_cannot_use_mod_queue'] = "Nie masz uprawnień do korzystania z kolejki m
 
 $l['post'] = 'Post';
 $l['search_user'] = "Szukaj użytkownika";
-
-?>

@@ -16,6 +16,8 @@ $l['replies'] = "Odpowiedzi";
 $l['views'] = "Wyświetleń";
 $l['lastpost'] = "Ostatni post";
 $l['rating'] = "Ocena";
+$l['prefix'] = "Prefiks:";
+$l['prefix_all'] = "Prefiks: dowolny";
 $l['markforum_read'] = "Oznacz ten dział jako przeczytany";
 $l['subscribe_forum'] = "Subskrybuj ten dział";
 $l['unsubscribe_forum'] = "Przestań subskrybować ten dział";
@@ -94,5 +96,3 @@ $l['clear_selection'] = "Wyczyść zaznaczenie.";
 $l['error_containsnoforums'] = "Dział, który aktualnie przeglądasz, nie zawiera poddziałów.";
 
 $l['inline_edit_description'] = '(Kliknij i przytrzymaj, aby edytować)';
-
-?>

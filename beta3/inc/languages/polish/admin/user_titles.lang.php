@@ -35,5 +35,3 @@ $l['user_title_deletion_confirmation'] = "Czy na pewno chcesz usunąć ten tytu�
 $l['manage_user_titles'] = "Tytuły użytkowników";
 $l['user_title'] = "Tytuł użytkownika";
 $l['no_user_titles'] = "Nie zdefiniowano żadnych tytułów użytkowników.";
-
-?>

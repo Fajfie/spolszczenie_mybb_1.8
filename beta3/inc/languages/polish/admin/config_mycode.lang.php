@@ -56,4 +56,3 @@ $l['success_activated_mycode'] = "Tag MyCode został aktywowany.";
 $l['confirm_mycode_deletion'] = "Czy na pewno chcesz usunąć ten tag MyCode?";
 
 $l['mycode_sandbox_test_error'] = 'Wystąpił błąd podczas zwracania wyników testu.';
-?>

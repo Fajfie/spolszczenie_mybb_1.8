@@ -18,10 +18,9 @@ $l['postdata_post_flooding_one_second'] = "Przed chwilą napisano inną wiadomo�
 $l['postdata_too_many_images'] = "Wprowadzona wiadomość zawiera {1} obrazków, a administrator ustalił limit {2} obrazków na wiadomość. Usuń niektóre obrazki z wiadomości.";
 $l['postdata_too_many_videos'] = "Wprowadzona wiadomość zawiera {1} plików wideo, a administrator ustalił limit {2} plików wideo na wiadomość. Usuń niektóre pliki wideo z wiadomości.";
 $l['postdata_invalid_prefix'] = 'Wybrany został nieprawidłowy prefiks. Wybierz poprawny prefiks.';
+$l['postdata_require_prefix'] = 'Przed dodaniem wątku w tym dziale musisz wybrać dla niego poprawny prefiks.';
 
 $l['thread_closed'] = "Wątek zamknięty";
 $l['thread_opened'] = "Wątek otwarty";
 $l['thread_stuck'] = "Wątek przypięty";
 $l['thread_unstuck'] = "Wątek odpięty";
-
-?>

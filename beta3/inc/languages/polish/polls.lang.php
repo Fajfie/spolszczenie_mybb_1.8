@@ -1,59 +1,58 @@
 <?php
 /**
  * MyBB 1.8 Polish Language Pack
- * Copyright © 2008-2014 MyBBoard.pl Team
+ * Copyright Â© 2008-2014 MyBBoard.pl Team
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['nav_postpoll'] = "Utwórz ankietê";
-$l['nav_editpoll'] = "Edytuj ankietê";
+$l['nav_postpoll'] = "UtwÃ³rz ankietÄ™";
+$l['nav_editpoll'] = "Edytuj ankietÄ™";
 $l['nav_pollresults'] = "Wyniki ankiety";
 
-$l['edit_poll'] = "Edytuj ankietê";
-$l['delete_poll'] = "Usuñ ankietê";
-$l['delete_q'] = "Usun¹æ?";
-$l['delete_note'] = "Aby usun¹æ tê ankietê, zaznacz pole po lewej i kliknij w przycisk \"Usuñ ankietê\".";
-$l['delete_note2'] = "<b>Uwaga:</b> Po usuniêciu ankiety nie bêdzie ju¿ mo¿liwoœci jej przywrócenia.";
+$l['edit_poll'] = "Edytuj ankietÄ™";
+$l['delete_poll'] = "UsuÅ„ ankietÄ™";
+$l['delete_q'] = "UsunÄ…Ä‡?";
+$l['delete_note'] = "Aby usunÄ…Ä‡ tÄ™ ankietÄ™, zaznacz pole po lewej i kliknij w przycisk \"UsuÅ„ ankietÄ™\".";
+$l['delete_note2'] = "<b>Uwaga:</b> Po usuniÄ™ciu ankiety nie bÄ™dzie juÅ¼ moÅ¼liwoÅ›ci jej przywrÃ³cenia.";
 $l['question'] = "Pytanie:";
 $l['num_options'] = "Liczba odpowiedzi:";
 $l['max_options'] = "Maksymalnie";
 $l['poll_options'] = "Odpowiedzi ankiety:";
-$l['update_options'] = "Aktualizuj liczbê odpowiedzi";
-$l['poll_options_note'] = "Odpowiedzi ankiety powinny byæ krótkie i zwiêz³e.";
+$l['update_options'] = "Aktualizuj liczbÄ™ odpowiedzi";
+$l['poll_options_note'] = "Odpowiedzi ankiety powinny byÄ‡ krÃ³tkie i zwiÄ™zÅ‚e.";
 $l['options'] = "Opcje:";
-$l['option_multiple'] = "<b>Ankieta wielokrotnego wyboru:</b> u¿ytkownik bêdzie móg³ wybraæ wiele odpowiedzi.";
-$l['option_public'] = "<b>Ankieta publiczna:</b> u¿ytkownicy bêd¹ mogli wzajemnie poznaæ swoje odpowiedzi.";
-$l['option_closed'] = "<b>Ankieta zamkniêta:</b> u¿ytkownicy nie bêd¹ mogli odpowiadaæ.";
-$l['poll_timeout'] = "Data wygaœniêcia:";
-$l['timeout_note'] = "Liczba dni do zakoñczenia g³osowania. <br />Jeœli wpiszesz 0, ankieta nigdy nie wygaœnie.";
+$l['option_multiple'] = "<b>Ankieta wielokrotnego wyboru:</b> uÅ¼ytkownik bÄ™dzie mÃ³gÅ‚ wybraÄ‡ wiele odpowiedzi.";
+$l['option_public'] = "<b>Ankieta publiczna:</b> uÅ¼ytkownicy bÄ™dÄ… mogli wzajemnie poznaÄ‡ swoje odpowiedzi.";
+$l['option_closed'] = "<b>Ankieta zamkniÄ™ta:</b> uÅ¼ytkownicy nie bÄ™dÄ… mogli odpowiadaÄ‡.";
+$l['poll_timeout'] = "Data wygaÅ›niÄ™cia:";
+$l['timeout_note'] = "Liczba dni do zakoÅ„czenia gÅ‚osowania. <br />JeÅ›li wpiszesz 0, ankieta nigdy nie wygaÅ›nie.";
 $l['days_after'] = "dni od";
-$l['update_poll'] = "Aktualizuj ankietê";
-$l['option'] = "OdpowiedŸ";
-$l['votes'] = "G³osów:";
-$l['post_new_poll'] = "Zapisz ankietê";
+$l['update_poll'] = "Aktualizuj ankietÄ™";
+$l['option'] = "OdpowiedÅº";
+$l['votes'] = "GÅ‚osÃ³w:";
+$l['post_new_poll'] = "Zapisz ankietÄ™";
 $l['days'] = "dni";
 $l['poll_results'] = "Wyniki ankiety";
 $l['poll_total'] = "Razem:";
-$l['poll_votes'] = "g³osów";
+$l['poll_votes'] = "gÅ‚osÃ³w";
 
-$l['redirect_pollposted'] = "Twoja ankieta zosta³a utworzona.<br />Teraz nast¹pi przeniesienie do w¹tku.";
-$l['redirect_pollpostedmoderated'] = "Twoja ankieta zosta³a utworzona, jednak przed opublikowaniem musi byæ zweryfikowana przez moderatora.<br />Teraz nast¹pi przeniesienie na forum.";
-$l['redirect_pollupdated'] = "Ankieta zosta³a zaktualizowana.<br />Teraz nast¹pi przeniesienie do w¹tku.";
-$l['redirect_votethanks'] = "Dziêkujemy za wype³nienie ankiety.<br />Teraz nast¹pi przeniesienie do w¹tku.";
-$l['redirect_unvoted'] = "Twój g³os w ankiecie zosta³ usuniêty.<br />Teraz nast¹pi przeniesienie do w¹tku.";
-$l['redirect_polldeleted'] = "Ankieta zosta³a usuniêta z w¹tku.<br />Teraz nast¹pi przeniesienie do w¹tku.";
+$l['redirect_pollposted'] = "Twoja ankieta zostaÅ‚a utworzona.<br />Teraz nastÄ…pi przeniesienie do wÄ…tku.";
+$l['redirect_pollpostedmoderated'] = "Twoja ankieta zostaÅ‚a utworzona, jednak przed opublikowaniem musi byÄ‡ zweryfikowana przez moderatora.<br />Teraz nastÄ…pi przeniesienie na forum.";
+$l['redirect_pollupdated'] = "Ankieta zostaÅ‚a zaktualizowana.<br />Teraz nastÄ…pi przeniesienie do wÄ…tku.";
+$l['redirect_votethanks'] = "DziÄ™kujemy za wypeÅ‚nienie ankiety.<br />Teraz nastÄ…pi przeniesienie do wÄ…tku.";
+$l['redirect_unvoted'] = "TwÃ³j gÅ‚os w ankiecie zostaÅ‚ usuniÄ™ty.<br />Teraz nastÄ…pi przeniesienie do wÄ…tku.";
+$l['redirect_polldeleted'] = "Ankieta zostaÅ‚a usuniÄ™ta z wÄ…tku.<br />Teraz nastÄ…pi przeniesienie do wÄ…tku.";
 
-$l['error_polloptiontoolong'] = "Jedna lub wiêcej odpowiedzi jest za d³uga. Wróæ i skróæ je.";
-$l['error_noquestionoptions'] = "Musisz wprowadziæ pytanie do ankiety lub wiêcej odpowiedzi. Minimalna liczba odpowiedzi to 2.<br />Wróæ i popraw ten b³¹d.";
-$l['error_pollalready'] = "Ten w¹tek ma ju¿ ankietê!";
-$l['error_nopolloptions'] = "Wybrana odpowiedŸ ankiety jest nieprawid³owa lub nie istnieje.";
-$l['error_alreadyvoted'] = "Wziêto ju¿ wczeœniej udzia³ w tej ankiecie.";
-$l['error_notvoted'] = "W tej ankiecie nie brano udzia³u.";
-$l['error_invalidpoll'] = "Wybrana ankieta nie istnieje lub jest nieprawid³owa.";
-$l['error_pollclosed'] = "Ta ankieta jest ju¿ zakoñczona.";
-$l['poll_time_limit'] = "Nie mo¿esz dodaæ ankiety do swojego w¹tku. Administrator na³o¿y³ limit czasowy na dodawanie ankiet i mo¿na je dodawaæ tylko w ci¹gu pierwszych {1} godzin od zamieszczenia w¹tku.";
+$l['error_polloptiontoolong'] = "Jedna lub wiÄ™cej odpowiedzi jest za dÅ‚uga. WrÃ³Ä‡ i skrÃ³Ä‡ je.";
+$l['error_noquestionoptions'] = "Musisz wprowadziÄ‡ pytanie do ankiety lub wiÄ™cej odpowiedzi. Minimalna liczba odpowiedzi to 2.<br />WrÃ³Ä‡ i popraw ten bÅ‚Ä…d.";
+$l['error_pollalready'] = "Ten wÄ…tek ma juÅ¼ ankietÄ™!";
+$l['error_nopolloptions'] = "Wybrana odpowiedÅº ankiety jest nieprawidÅ‚owa lub nie istnieje.";
+$l['error_alreadyvoted'] = "WziÄ™to juÅ¼ wczeÅ›niej udziaÅ‚ w tej ankiecie.";
+$l['error_notvoted'] = "W tej ankiecie nie brano udziaÅ‚u.";
+$l['error_invalidpoll'] = "Wybrana ankieta nie istnieje lub jest nieprawidÅ‚owa.";
+$l['error_pollclosed'] = "Ta ankieta jest juÅ¼ zakoÅ„czona.";
+$l['poll_time_limit'] = "Nie moÅ¼esz dodaÄ‡ ankiety do swojego wÄ…tku. Administrator naÅ‚oÅ¼yÅ‚ limit czasowy na dodawanie ankiet i moÅ¼na je dodawaÄ‡ tylko w ciÄ…gu pierwszych {1} godzin od zamieszczenia wÄ…tku.";
 
-$l['poll_deleted'] = "Usuniêto ankietê";
-$l['poll_edited'] = "Wyedytowano ankietê";
-?>
+$l['poll_deleted'] = "UsuniÄ™to ankietÄ™";
+$l['poll_edited'] = "Wyedytowano ankietÄ™";

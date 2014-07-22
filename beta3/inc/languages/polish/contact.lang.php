@@ -24,4 +24,5 @@ $l['subject_too_long'] = 'Temat wiadomości jest zbyt długi. Wpisz temat nie d�
 $l['message_too_short'] = 'Treść wiadomości jest zbyt krótka. Wpisz treść nie krótszą niż {1} znaków (aktualna długość to {2} znaków).';
 $l['message_too_long'] = 'Treść wiadomości jest zbyt długa. Wpisz treść nie dłuższą niż {1} znaków (aktualna długość to {2} znaków).';
 
-?>
+$l['error_stop_forum_spam_spammer'] = 'Twój adres IP lub e-mail znajduje się w bazie znanych spamerów. Z tego powodu próba kontaktu została zablokowana.';
+$l['error_stop_forum_spam_fetching'] = 'Nie mogliśmy upewnić sie, że nie jesteś spamerem. Prawdopodobnie jest to spowodowane problemami z połączeniem z bazą danych. Spróbuj ponownie później.';

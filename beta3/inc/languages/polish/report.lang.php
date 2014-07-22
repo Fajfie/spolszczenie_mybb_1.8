@@ -29,5 +29,3 @@ $l['error_report_length'] = "Wybierz powód zgłoszenia.";
 $l['error_invalid_report'] = "Zawartość nie istnieje lub nie można jej zgłosić.";
 $l['error_report_duplicate'] = "Ta zawartość została już zgłoszona przez innego użytkownika.<br />Możesz wysłać kolejne zgłoszenie, korzystając z poniższego formularza.";
 $l['report_reason_other_description'] = "Jeżeli wybrano opcję 'Inny powód', podaj powód zgłoszenia.";  
-
-?>

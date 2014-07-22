@@ -74,5 +74,3 @@ $l['success_task_run'] = "Zadanie zostało wykonane.";
 $l['confirm_task_deletion'] = "Czy na pewno chcesz usunąć to zadanie?";
 $l['confirm_task_enable'] = "<strong>UWAGA:</strong> Chcesz aktywować zadanie, które powinno być uruchamiane tylko i wyłącznie za pomocą cron (zobacz <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">Dokumentację MyBB</a> - po angielsku). Kontynuować?";
 $l['no_tasks'] = "Nie ma zaplanowanych zadań na tym forum.";
-
-?>

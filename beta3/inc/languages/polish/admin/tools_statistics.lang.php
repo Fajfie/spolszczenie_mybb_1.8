@@ -26,4 +26,3 @@ $l['decrease'] = "Spadek";
 
 $l['error_no_results_found_for_criteria'] = "Nie znaleziono wyników w podanym zakresie. Spróbuj ponownie z innym okresem czasu.";
 $l['error_no_statistics_available_yet'] = "Nie ma dostępnych statystyk dla Twojego forum.";
-?>

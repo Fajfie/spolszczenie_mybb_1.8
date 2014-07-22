@@ -22,5 +22,3 @@ $l['codemirror'] = "Włączyć Code Mirror?";
 $l['use_codemirror_desc'] = "Zaznacz \"Nie\", by wyłączyć Code Mirror (narzędzie służące do podświetlania składni podczas edycji stylów i szablonów), jeżeli masz problemy z wydajnym działaniem skryptu.";
 
 $l['success_preferences_updated'] = "Ustawienia zostały zaktualizowane.";
-
-?>

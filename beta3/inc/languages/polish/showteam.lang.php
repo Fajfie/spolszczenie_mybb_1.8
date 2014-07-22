@@ -23,4 +23,3 @@ $l['group_members'] = "Członkowie";
 $l['no_members'] = "W tej grupie nie ma użytkowników.";
 
 $l['error_noteamstoshow'] = "Nie ma nikogo do wyświetlenia.";
-?>

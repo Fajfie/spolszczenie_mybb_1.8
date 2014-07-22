@@ -22,7 +22,7 @@ $l['no_security_questions'] = "Nie dodano żadnych pytań zabezpieczających.";
 $l['question'] = "Pytanie";
 $l['question_desc'] = "Wprowadź treść pytania, na jakie trzeba będzie udzielić odpowiedzi podczas rejestracji.";
 $l['answers'] = "Odpowiedzi";
-$l['answers_desc'] = "Wprowadź odpowiedź (lub odpowiedzi) na wpisane wcześniej pytanie. Oddziel posczególne odpowiedzi pionową kreską (|).";
+$l['answers_desc'] = "Wprowadź odpowiedź (lub odpowiedzi) na wpisane wcześniej pytanie. Każda odpowiedź powinna się znaleźć w osobnej linii.";
 $l['active'] = "Aktywne";
 $l['save_question'] = "Zapisz pytanie";
 
@@ -37,5 +37,3 @@ $l['success_question_enabled'] = "Pytanie zostało włączone.";
 $l['success_question_deleted'] = "Pytanie zostało usunięte.";
 
 $l['confirm_question_deletion'] = "Czy na pewno chcesz usunąć to pytanie?";
-
-?>

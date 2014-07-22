@@ -156,11 +156,6 @@ $l['copy_settings_and_properties_desc'] = "Ma znaczenie jedynie wtedy, gdy dzia�
 $l['copy_user_group_permissions'] = "Kopiuj ustawienia uprawnień dla grup";
 $l['copy_user_group_permissions_desc'] = "Przytrzymaj CTRL by wybrać wiele grup.";
 
-$l['moderation_options'] = "Opcje moderacji";
-$l['mod_new_posts'] = "Moderuj nowe posty";
-$l['mod_new_threads'] = "Moderuj nowe wątki";
-$l['mod_new_attachments'] = "Moderuj nowe załączniki";
-$l['mod_after_edit'] = "Moderuj posty po edycji";
 $l['override_user_style'] = "Odbierz użytkownikowi możliwość wyboru stylu w tym dziale";
 $l['style_options'] = "Opcje stylu";
 $l['forum_specific_style'] = "Styl działu:";
@@ -221,6 +216,7 @@ $l['allow_thread_ratings'] = "Włącz możliwość oceniania tematów";
 $l['show_forum_jump'] = "Wyświetl dział w na liście \"Skocz do...\"";
 $l['use_postcounts'] = "Dodawaj posty napisane w tym dziale do liczników postów użytkowników";
 $l['use_threadcounts'] = "Dodawaj wątki napisane w tym dziale do liczników wątków użytkowników";
+$l['require_thread_prefix'] = "Wymagaj posiadania prefiksu przez każdy wątek";
 
 $l['use_permissions'] = "Użyj ustawień uprawnień";
 $l['use_permissions_desc'] = "Wybierz ustawienia uprawnień, które mają być używane dla tej grupy - dziedziczone lub własne.";
@@ -252,6 +248,7 @@ $l['error_invalid_destination_forum'] = "Nieprawidłowy dział docelowy.";
 $l['group_viewing'] = "Przeglądanie";
 $l['group_posting_rating'] = "Pisanie i ocenianie";
 $l['group_editing'] = "Edycja";
+$l['group_editing'] = "Moderacja";
 $l['group_polls'] = "Ankiety";
 $l['group_misc'] = "Różne";
 
@@ -271,9 +268,13 @@ $l['editing_field_candeleteposts'] = "Może usuwać własne posty?";
 $l['editing_field_candeletethreads'] = "Może usuwać własne wątki?";
 $l['editing_field_caneditattachments'] = "Może aktualizować własne załączniki?";
 
+$l['moderate_field_modposts'] = "Nowe posty są moderowane?";
+$l['moderate_field_modthreads'] = "Nowe wątki są moderowane?";
+$l['moderate_field_modattachments'] = "Nowe załączniki są moderowane";
+$l['moderate_field_mod_edit_posts'] = "Posty po edycji są moderowane?";
+
 $l['polls_field_canpostpolls'] = "Może tworzyć ankiety?";
 $l['polls_field_canvotepolls'] = "Może głosować w ankietach?";
 
 $l['misc_field_cansearch'] = "Może korzystać z wyszukiwarki?";
 
-?>

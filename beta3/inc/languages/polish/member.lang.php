@@ -161,6 +161,8 @@ $l['timeonline'] = "Spędzony czas online:";
 $l['timeonline_hidden'] = "(ukryte)";
 $l['registrations_disabled'] = "Rejestracja kont jest aktualnie wyłączona. Zapraszamy później.";
 $l['error_username_length'] = "Login jest nieprawidłowy - musi on zawierać od {1} do {2} znaków.";
+$l['error_stop_forum_spam_spammer'] = 'Twój adres IP lub e-mail znajduje się w bazie znanych spamerów. Jeżeli uważasz, że jest to błąd, skontaktuj się z administratorem.';
+$l['error_stop_forum_spam_fetching'] = 'Nie mogliśmy upewnić sie, że nie jesteś spamerem. Prawdopodobnie jest to spowodowane problemami z połączeniem z bazą danych. Spróbuj ponownie później.';
 
 $l['none_registered'] = "Niezarejestrowany";
 $l['not_specified'] = "Nie określono";
@@ -215,6 +217,7 @@ $l['js_validator_no_username'] = "Musisz podać login";
 $l['js_validator_invalid_email'] = "Musisz podać prawidłowy adres e-mail";
 $l['js_validator_email_match'] = "Podane adresy e-mail nie zgadzają się";
 $l['js_validator_no_image_text'] = "Musisz tutaj przepisać tekst z obrazka obok";
+$l['js_validator_no_security_question'] = "Musisz odpowiedzieć na powyższe pytanie";
 $l['js_validator_password_matches'] = "Podane hasła nie zgadzają się";
 $l['js_validator_password_complexity'] = "Sprawdzanie złożoności hasła";
 $l['js_validator_password_length'] = "Hasło musi zawierać przynajmniej {1} znaków";
@@ -239,4 +242,13 @@ $l['add_to_buddy_list'] = "Dodaj do listy znajomych";
 $l['remove_from_ignore_list'] = "Usuń z listy ignorowanych";
 $l['add_to_ignore_list'] = "Dodaj do listy ignorowanych";
 $l['report_user'] = "Zgłoś użytkownika";
-?>
+
+$l['newregistration_subject'] = "Nowa rejestracja na {1}";
+$l['newregistration_message'] = "{1},
+
+Nowy użytkownik zarejestrował się na {2} i oczekuje na aktywację swojego konta przez administratora.
+
+Nazwa użytkownika: {3}
+
+Dziękujemy,
+Ekipa {2}";

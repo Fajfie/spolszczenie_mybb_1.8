@@ -8,5 +8,3 @@
 
 $l['php_info'] = "PHP Info";
 $l['browser_no_iframe_support'] = "Twoja przeglądarka nie obsługuje ramek IFRAME";
-
-?>

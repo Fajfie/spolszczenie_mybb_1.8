@@ -47,5 +47,3 @@ $l['mark_as_ignored'] = "Ignoruj wszystkie";
 $l['mark_as_deleted'] = "Usuń wszystkie";
 $l['mark_as_approved'] = "Zatwierdź wszystkie";
 $l['perform_action'] = "Moderuj";
-
-?>

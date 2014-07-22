@@ -164,7 +164,7 @@ $l['error_invalid_template_set'] = "Wybrano niepoprawną paczkę.";
 $l['error_themes_attached_template_set'] = "Ta paczka nie może zostać usunięta - znajdują się w niej szablony, które są aktualnie w użyciu.";
 $l['error_missing_group_prefix'] = "Podaj prefiks dla grupy szablonów.";
 $l['error_missing_group_title'] = "Podaj nazwę dla tej grupy szablonów.";
-$l['error_duplicate_group_prefix'] = "Podany prefiks jest już w użyciu. Podaj inny prefiks.A template group already exists with this prefix. Please enter another prefix.";
+$l['error_duplicate_group_prefix'] = "Podany prefiks jest już w użyciu. Podaj inny prefiks.";
 $l['error_missing_template_group'] = "Nie znaleziono grupy szablonów o podanej nazwie.";
 $l['error_default_template_group'] = "Nie możesz edytować i usuwać domyślnych grup szablonów.";
 
@@ -175,4 +175,3 @@ $l['success_template_set_saved'] = "Paczka szablonów została zapisana.";
 $l['success_template_set_deleted'] = "Paczka szablonów została usunięta.";
 $l['success_template_group_saved'] = "Grupa szablonów została zapisana.";
 $l['success_template_group_deleted'] = "Grupa szablonów zostałą usunięta.";
-?>

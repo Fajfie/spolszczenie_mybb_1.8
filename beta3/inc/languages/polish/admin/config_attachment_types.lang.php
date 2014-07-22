@@ -42,5 +42,3 @@ $l['success_attachment_type_updated'] = "Typ załączników został zaktualizowa
 $l['success_attachment_type_deleted'] = "Typ załączników został usunięty.";
 
 $l['confirm_attachment_type_deletion'] = "Czy na pewno chcesz usunąć ten typ załączników?";
-
-?>

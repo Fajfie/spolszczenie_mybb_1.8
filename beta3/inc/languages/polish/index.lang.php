@@ -40,4 +40,3 @@ $l['online_guest_plural'] = "gości";
 $l['online_guest_singular'] = "gość";
 $l['online_note'] = "{1} {2} w ciągu ostatnich {3} minut: {4} {5} (w tym {6} {7}) oraz {8} {9}.";
 $l['subforums'] = "<strong>Poddziały:</strong>";
-?>

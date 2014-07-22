@@ -105,5 +105,3 @@ $l['in'] = "w kolejności";
 $l['button_delete_orphans'] = "Usuń wybrane załączniki";
 $l['button_delete_attachments'] = "Usuń wybrane załączniki";
 $l['button_find_attachments'] = "Znajdź załączniki";
-
-?>

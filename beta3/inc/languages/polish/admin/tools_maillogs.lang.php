@@ -26,6 +26,7 @@ $l['find_emails_by_user'] = "Znajdź wszystkie e-maile wysłane przez tego użyt
 $l['find'] = "Szukaj";
 $l['deleted_user'] = "Usunięty użytkownik";
 $l['email_sent_to_user'] = "Wysłane do użytkownika";
+$l['email_sent_using_contact_form'] = "Wysłane przez formularz kontaktowy";
 $l['no_logs'] = "Nie ma logów spełniających wybrane kryteria.";
 $l['filter_user_email_log'] = "Filtruj logi";
 $l['username_is'] = "Użytkownik";
@@ -34,5 +35,3 @@ $l['subject_contains'] = "Temat zawiera";
 $l['find_emails_to_user'] = "Znajdź wszystkie e-maile wysłane temu użytkownikowi"; 
 
 $l['error_invalid_user'] = "Nie ma takiego użytkownika.";
-
-?>

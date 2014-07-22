@@ -24,7 +24,7 @@ $l['image'] = "Obraz";
 $l['name'] = "Nazwa";
 $l['text_replace'] = "Tekst do zamiany";
 $l['image_path'] = "Ścieżka do obrazka";
-$l['image_path_desc'] = "To jest ścieżka do obrazka z emotikonem.";
+$l['image_path_desc'] = "To jest ścieżka do obrazka z emotikonem. Jeżeli chcesz użyć innych emotikon dla poszczególnych stylów, możesz skorzystać ze znacznika <strong>{theme}</strong>. W jego miejsce podstawiony zostanie katalog z obrazkami danego stylu.";
 $l['order'] = "Kolejność";
 $l['display_order'] = "Kolejność wyświetlania";
 $l['display_order_desc'] = "Kolejność, w której ten emotikon pojawi się na liście emotikonów. Ta liczba nie powinna być taka sama jak innego emotikona.";
@@ -40,16 +40,17 @@ $l['save_smilies'] = "Zapisz emotikony";
 $l['show_smilies'] = "Pokaż emotikony";
 $l['reset'] = "Resetuj";
 
-$l['error_missing_name'] = "Nie wpisano nazwy dla tego emotikona";
-$l['error_missing_text_replacement'] = "Nie wpisano tekstu do zamiany dla tego emotikona";
-$l['error_missing_path'] = "Nie wpisano ścieżki do tego emotikona";
-$l['error_missing_path_multiple'] = "Nie wpisano ścieżki";
-$l['error_missing_order'] = "Nie wpisano kolejności wyświetlania tego emotikona";
+$l['error_missing_name'] = "Nie wpisano nazwy dla tego emotikona.";
+$l['error_missing_text_replacement'] = "Nie wpisano tekstu do zamiany dla tego emotikona.";
+$l['error_missing_path'] = "Nie wpisano ścieżki do tego emotikona.";
+$l['error_missing_path_multiple'] = "Nie wpisano ścieżki.";
+$l['error_missing_order'] = "Nie wpisano kolejności wyświetlania tego emotikona.";
+$l['error_missing_order'] = "Nie wpisano prawidłowej kolejności wyświetlania tego emotikona.";
 $l['error_missing_clickable'] = "Nie wybrano czy ten emotikon ma być pokazywany na liście emotikonów";
 $l['error_no_smilies'] = "Nie ma emotikonów w podanym folderze lub wszystkie zostały już dodane.";
-$l['error_no_images'] = "Nie ma żadnych obrazków w podanym katalogu";
+$l['error_no_images'] = "Nie ma żadnych obrazków w podanym katalogu.";
 $l['error_none_included'] = "Nie wybrano żadnych emotikonów do dołączenia.";
-$l['error_invalid_path'] = "Nie wpisano poprawnej ścieżki";
+$l['error_invalid_path'] = "Nie wpisano poprawnej ścieżki.";
 $l['error_invalid_smilie'] = "Podany emotikon nie istnieje.";
 
 $l['success_smilie_added'] = "Emotikon został dodany.";
@@ -60,5 +61,3 @@ $l['success_smilie_deleted'] = "Wybrany emotikon został usunięty.";
 $l['success_mass_edit_updated'] = "Emotikony zostały zaktualizowane.";
 
 $l['confirm_smilie_deletion'] = "Czy na pewno chcesz usunąć tego emotikona?";
-
-?>

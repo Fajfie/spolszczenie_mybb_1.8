@@ -46,4 +46,12 @@ $l['redirect_newthread_poll'] = "<br />Teraz nastąpi przeniesienie do ustawień
 $l['redirect_newthread_moderation'] = "<br />Twój wątek przed opublikowaniem zostanie zweryfikowany przez moderatora. Teraz nastąpi przeniesienie do wątku.";
 $l['redirect_newthread_thread'] = "<br />Teraz nastąpi przeniesienie do nowego wątku.";
 $l['invalidthread'] = "Nie masz uprawnień do edytowania wybranego szkicu.";
+
+$l['error_stop_forum_spam_spammer'] = 'Twój adres IP lub e-mail znajduje się w bazie znanych spamerów. Jeżeli uważasz, że jest to błąd, powiadom o tym administratora.';
+$l['error_stop_forum_spam_fetching'] = 'Nie mogliśmy upewnić sie, że nie jesteś spamerem. Prawdopodobnie jest to spowodowane problemami z połączeniem z bazą danych. Spróbuj ponownie później.';
+$l['error_suspendedposting'] = "Odebrano Ci możliwość pisania postów. Blokada {1}.<br /><br />
+
+Data nałożenia ograniczenia: {2}";
+$l['error_suspendedposting_temporal'] = "zostanie zniesiona {1}";
+$l['error_suspendedposting_permanent'] = "jest permanentna";
 ?>

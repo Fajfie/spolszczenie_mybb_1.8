@@ -14,5 +14,3 @@ $l['error_invalidannouncement'] = "Wybrane ogłoszenie jest nieprawidłowe.";
 $l['announcement_edit'] = "Edytuj to ogłoszenie";
 $l['announcement_qdelete'] = "Usuń to ogłoszenie";
 $l['announcement_quickdelete_confirm'] = "Czy na pewno chcesz usunąć to ogłoszenie?";
-
-?>

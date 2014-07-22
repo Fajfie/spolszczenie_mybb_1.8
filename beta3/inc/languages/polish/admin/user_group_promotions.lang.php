@@ -1,89 +1,91 @@
 <?php
 /**
  * MyBB 1.8 Polish Language Pack
- * Copyright © 2008-2014 MyBBoard.pl Team
+ * Copyright Â© 2008-2014 MyBBoard.pl Team
  * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
  * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
  */
 
-$l['user_group_promotions'] = "System awansów";
-$l['user_group_promotions_desc'] = "Zarz¹dzaj systemem awansów u¿ytkowników forum.";
+$l['user_group_promotions'] = "System awansÃ³w";
+$l['user_group_promotions_desc'] = "ZarzÄ…dzaj systemem awansÃ³w uÅ¼ytkownikÃ³w forum.";
 $l['edit_promotion'] = "Edytuj awans";
-$l['edit_promotion_desc'] = "Edytuj awanse, które s¹ automatycznie przyznawane u¿ytkownikom na Twoim forum.";
+$l['edit_promotion_desc'] = "Edytuj awanse, ktÃ³re sÄ… automatycznie przyznawane uÅ¼ytkownikom na Twoim forum.";
 $l['add_new_promotion'] = "Nowy awans";
-$l['add_new_promotion_desc'] = "Twórz nowe awanse, które s¹ automatycznie przyznawane u¿ytkownikom na Twoim forum.";
+$l['add_new_promotion_desc'] = "TwÃ³rz nowe awanse, ktÃ³re sÄ… automatycznie przyznawane uÅ¼ytkownikom na Twoim forum.";
 
 $l['title'] = "Nazwa";
 $l['short_desc'] = "Opis";
-$l['post_count'] = "Iloœæ postów";
+$l['post_count'] = "IloÅ›Ä‡ postÃ³w";
+$l['thread_count'] = "IloÅ›Ä‡ wÄ…tkÃ³w";
 $l['reputation'] = "Punkty reputacji";
 $l['referrals'] = "Liczba poleconych";
 $l['time_registered'] = "Czas od rejestracji";
+$l['time_online'] = "Czas spÄ™dzony na forum";
 $l['promo_requirements'] = "Kryteria awansu";
-$l['promo_requirements_desc'] = "Wybierz kryteria brane pod uwagê do awansu. Przytrzymaj klawisz CTRL, aby zaznaczyæ wiêcej ni¿ jedno kryterium.";
-$l['greater_than_or_equal_to'] = "wiêksza lub równa";
-$l['greater_than'] = "wiêksza ni¿";
-$l['equal_to'] = "równa";
-$l['less_than_or_equal_to'] = "mniejsza lub równa";
-$l['less_than'] = "mniejsza ni¿";
-$l['reputation_count'] = "Liczba punktów reputacji";
-$l['reputation_count_desc'] = "Wpisz wymagan¹ liczbê punktów reputacji. Jeœli wybrano punkty reputacji jako kryterium do awansu, wpisana iloœæ bêdzie brana pod uwagê. Wybierz z listy relacjê wzglêdem wpisanej liczby.";
+$l['promo_requirements_desc'] = "Wybierz kryteria brane pod uwagÄ™ do awansu. Przytrzymaj klawisz CTRL, aby zaznaczyÄ‡ wiÄ™cej niÅ¼ jedno kryterium.";
+$l['greater_than_or_equal_to'] = "wiÄ™ksza lub rÃ³wna";
+$l['greater_than'] = "wiÄ™ksza niÅ¼";
+$l['equal_to'] = "rÃ³wna";
+$l['less_than_or_equal_to'] = "mniejsza lub rÃ³wna";
+$l['less_than'] = "mniejsza niÅ¼";
+$l['reputation_count'] = "Liczba punktÃ³w reputacji";
+$l['reputation_count_desc'] = "Wpisz wymaganÄ… liczbÄ™ punktÃ³w reputacji. JeÅ›li wybrano punkty reputacji jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz z listy relacjÄ™ wzglÄ™dem wpisanej liczby.";
 $l['referral_count'] = "Liczba poleconych";
-$l['referral_count_desc'] = "Wpisz wymagan¹ liczbê osób poleconych. Jeœli wybierzesz iloœæ poleconych jako kryterium do awansu, wpisana iloœæ bêdzie brana pod uwagê. Wybierz z listy relacjê wzglêdem wpisanej liczby.";
-$l['warning_points'] = "Liczba punktów ostrze¿eñ";
-$l['warning_points_desc'] = "Wpisz wymagan¹ liczbê punktów ostrze¿eñ. Jeœli wybrano punkty ostrze¿eñ jako kryterium do awansu, wpisana iloœæ bêdzie brana pod uwagê. Wybierz z listy relacjê wzglêdem wpisanej liczby.";
-$l['post_count_desc'] = "Wpisz wymagan¹ iloœæ postów. Jeœli wybrano iloœæ postów jako kryterium do awansu, wpisana iloœæ bêdzie brana pod uwagê. Wybierz z listy relacjê wzglêdem wpisanej iloœci.";
+$l['referral_count_desc'] = "Wpisz wymaganÄ… liczbÄ™ osÃ³b poleconych. JeÅ›li wybierzesz iloÅ›Ä‡ poleconych jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz z listy relacjÄ™ wzglÄ™dem wpisanej liczby.";
+$l['warning_points'] = "Liczba punktÃ³w ostrzeÅ¼eÅ„";
+$l['warning_points_desc'] = "Wpisz wymaganÄ… liczbÄ™ punktÃ³w ostrzeÅ¼eÅ„. JeÅ›li wybrano punkty ostrzeÅ¼eÅ„ jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz z listy relacjÄ™ wzglÄ™dem wpisanej liczby.";
+$l['post_count_desc'] = "Wpisz wymaganÄ… iloÅ›Ä‡ postÃ³w. JeÅ›li wybrano iloÅ›Ä‡ postÃ³w jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz z listy relacjÄ™ wzglÄ™dem wpisanej iloÅ›ci.";
+$l['thread_count_desc'] = "Wpisz wymaganÄ… iloÅ›Ä‡ wÄ…tkÃ³w. JeÅ›li wybrano iloÅ›Ä‡ wÄ…tkÃ³w jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz z listy relacjÄ™ wzglÄ™dem wpisanej iloÅ›ci.";
 $l['hours'] = "godzin";
 $l['days'] = "dni";
 $l['weeks'] = "tygodni";
-$l['months'] = "miesiêcy";
+$l['months'] = "miesiÄ™cy";
 $l['years'] = "lat";
-$l['time_registered_desc'] = "Wpisz wymagan¹ iloœæ godzin, dni, tygodni, miesiêcy lub lat. Jeœli wybrano czas od rejestracji jako kryterium do awansu, wpisana iloœæ bêdzie brana pod uwagê. Wybierz z listy relacjê wzglêdem wpisanej iloœci.";
+$l['time_registered_desc'] = "Wpisz wymaganÄ… iloÅ›Ä‡ godzin, dni, tygodni, miesiÄ™cy lub lat. JeÅ›li wybrano czas od rejestracji jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz z listy relacjÄ™ wzglÄ™dem wpisanej iloÅ›ci.";
+$l['time_online_desc'] = "Wpisz wymaganÄ… iloÅ›Ä‡ godzin, dni, tygodni, miesiÄ™cy lub lat, ktÃ³re uÅ¼ytkownik ma spÄ™dziÄ‡ na forum. JeÅ›li wybrano czas spÄ™dzony na forum jako kryterium do awansu, wpisana iloÅ›Ä‡ bÄ™dzie brana pod uwagÄ™. Wybierz, czy wpisana wartoÅ›Ä‡ ma oznaczaÄ‡ godziny, dni, tygodnie, miesiÄ…ce czy teÅ¼ lata.";
 $l['all_user_groups'] = 'Wszystkie grupy';
 $l['orig_user_group'] = 'Wymagana grupa';
-$l['orig_user_group_desc'] = "Wybierz grupê/grupy, do których musi nale¿eæ awansowany u¿ytkownik. Przytrzymaj klawisz CTRL, aby zaznaczyæ wiêcej ni¿ jedn¹ grupê. Wybierz 'Wszystkie grupy', jeœli awans ma byæ mo¿liwy dla ka¿dej grupy u¿ytkowników.";
+$l['orig_user_group_desc'] = "Wybierz grupÄ™/grupy, do ktÃ³rych musi naleÅ¼eÄ‡ awansowany uÅ¼ytkownik. Przytrzymaj klawisz CTRL, aby zaznaczyÄ‡ wiÄ™cej niÅ¼ jednÄ… grupÄ™. Wybierz 'Wszystkie grupy', jeÅ›li awans ma byÄ‡ moÅ¼liwy dla kaÅ¼dej grupy uÅ¼ytkownikÃ³w.";
 $l['new_user_group'] = 'Nowa grupa';
-$l['new_user_group_desc'] = "Wybierz grupê, do której zostanie przeniesiony awansowany u¿ytkownik.";
-$l['primary_user_group'] = 'G³ówna grupa';
+$l['new_user_group_desc'] = "Wybierz grupÄ™, do ktÃ³rej zostanie przeniesiony awansowany uÅ¼ytkownik.";
+$l['primary_user_group'] = 'GÅ‚Ã³wna grupa';
 $l['secondary_user_group'] = 'Dodatkowa grupa';
 $l['user_group_change_type'] = 'Zmieniana grupa';
-$l['user_group_change_type_desc'] = "Wybierz 'G³ówna grupa', jeœli ma zostaæ zmieniona g³ówna grupa u¿ytkownika. Wybierz 'Dodatkowa grupa', jeœli ma zostaæ zmieniona dodatkowa grupa u¿ytkownika, widoczna w profilu.";
-$l['enabled'] = "W³¹czony?";
-$l['enable_logging'] = "W³¹czone logi?";
-$l['promotion_logs'] = "Logi awansów";
-$l['view_promotion_logs'] = "Logi awansów";
-$l['view_promotion_logs_desc'] = 'Przegl¹daj logi awansów przyznawanych u¿ytkownikom.';
+$l['user_group_change_type_desc'] = "Wybierz 'GÅ‚Ã³wna grupa', jeÅ›li ma zostaÄ‡ zmieniona gÅ‚Ã³wna grupa uÅ¼ytkownika. Wybierz 'Dodatkowa grupa', jeÅ›li ma zostaÄ‡ zmieniona dodatkowa grupa uÅ¼ytkownika, widoczna w profilu.";
+$l['enabled'] = "WÅ‚Ä…czony?";
+$l['enable_logging'] = "WÅ‚Ä…czone logi?";
+$l['promotion_logs'] = "Logi awansÃ³w";
+$l['view_promotion_logs'] = "Logi awansÃ³w";
+$l['view_promotion_logs_desc'] = 'PrzeglÄ…daj logi awansÃ³w przyznawanych uÅ¼ytkownikom.';
 $l['promoted_user'] = "Awans dla";
 $l['time_promoted'] = "Data awansu";
-$l['no_promotion_logs'] = "Nie zalogowano ¿adnych awansów.";
-$l['promotion_manager'] = "Menad¿er awansów";
+$l['no_promotion_logs'] = "Nie zalogowano Å¼adnych awansÃ³w.";
+$l['promotion_manager'] = "MenadÅ¼er awansÃ³w";
 $l['promotion'] = "Awans";
-$l['disable_promotion'] = "Wy³¹cz awans";
-$l['enable_promotion'] = "W³¹cz awans";
-$l['delete_promotion'] = "Usuñ awans";
-$l['no_promotions_set'] = "Nie ustawiono ¿adnych awansów dla u¿ytkowników.";
+$l['disable_promotion'] = "WyÅ‚Ä…cz awans";
+$l['enable_promotion'] = "WÅ‚Ä…cz awans";
+$l['delete_promotion'] = "UsuÅ„ awans";
+$l['no_promotions_set'] = "Nie ustawiono Å¼adnych awansÃ³w dla uÅ¼ytkownikÃ³w.";
 $l['update_promotion'] = "Zapisz awans";
-$l['multiple_usergroups'] = "Wiele grup u¿ytkowników";
+$l['multiple_usergroups'] = "Wiele grup uÅ¼ytkownikÃ³w";
 $l['secondary'] = "Dodatkowa";
-$l['primary'] = "G³ówna";
+$l['primary'] = "GÅ‚Ã³wna";
 
 $l['error_no_promo_id'] = 'Nie podano identyfikatora awansu';
-$l['error_invalid_promo_id'] = 'Nie wpisano prawid³owego identyfikatora awansu';
+$l['error_invalid_promo_id'] = 'Nie wpisano prawidÅ‚owego identyfikatora awansu';
 
 $l['error_no_title'] = "Nie wpisano nazwy awansu";
 $l['error_no_desc'] = "Nie wpisano opisu awansu";
-$l['error_no_requirements'] = "Nie zaznaczono co najmniej jednego kryterium awansu dla u¿ytkownika";
-$l['error_no_orig_usergroup'] = "Nie zaznaczono co najmniej jednej wymaganej do awansu grupy u¿ytkowników";
-$l['error_no_new_usergroup'] = "Nie zaznaczono co najmniej jednej nowej grupy, do której bêdzie awansowa³ u¿ytkownik";
-$l['error_no_usergroup_change_type'] = "Nie zaznaczono typu zmienianej grupy, wymaganej do awansu dla u¿ytkownika";
+$l['error_no_requirements'] = "Nie zaznaczono co najmniej jednego kryterium awansu dla uÅ¼ytkownika";
+$l['error_no_orig_usergroup'] = "Nie zaznaczono co najmniej jednej wymaganej do awansu grupy uÅ¼ytkownikÃ³w";
+$l['error_no_new_usergroup'] = "Nie zaznaczono co najmniej jednej nowej grupy, do ktÃ³rej bÄ™dzie awansowaÅ‚ uÅ¼ytkownik";
+$l['error_no_usergroup_change_type'] = "Nie zaznaczono typu zmienianej grupy, wymaganej do awansu dla uÅ¼ytkownika";
 
-$l['success_promo_disabled'] = 'Awans zosta³ wy³¹czony.';
-$l['success_promo_deleted'] = 'Awans zosta³ usuniêty.';
-$l['success_promo_enabled'] = 'Awans zosta³ w³¹czony.';
-$l['success_promo_updated'] = 'Awans zosta³ zaktualizowany.';
-$l['success_promo_added'] = 'Awans zosta³ dodany.';
+$l['success_promo_disabled'] = 'Awans zostaÅ‚ wyÅ‚Ä…czony.';
+$l['success_promo_deleted'] = 'Awans zostaÅ‚ usuniÄ™ty.';
+$l['success_promo_enabled'] = 'Awans zostaÅ‚ wÅ‚Ä…czony.';
+$l['success_promo_updated'] = 'Awans zostaÅ‚ zaktualizowany.';
+$l['success_promo_added'] = 'Awans zostaÅ‚ dodany.';
 
-$l['confirm_promo_disable'] = "Czy na pewno chcesz wy³¹czyæ ten awans?";
-$l['confirm_promo_deletion'] = "Czy na pewno chcesz usun¹æ ten awans?";
-
-?>
+$l['confirm_promo_disable'] = "Czy na pewno chcesz wyÅ‚Ä…czyÄ‡ ten awans?";
+$l['confirm_promo_deletion'] = "Czy na pewno chcesz usunÄ…Ä‡ ten awans?";

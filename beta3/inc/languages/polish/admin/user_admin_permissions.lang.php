@@ -36,7 +36,7 @@ $l['edit_group'] = "Edytuj grupę";
 $l['default'] = "Standardowe";
 $l['group'] = "Grupa";
 
-$l['error_delete_super_admin'] = 'Nie możesz wykonać tej operacji na tym użytkowniku, dopóki jest super administratorem.<br /><br />Aby móc ją wykonać, dodaj swój identyfikator użytkownika do pliku inc/config.php.';
+$l['error_super_admin'] = 'Nie możesz wykonać tej operacji na tym użytkowniku, dopóki jest super administratorem.<br /><br />Aby móc ją wykonać, dodaj swój identyfikator użytkownika do pliku inc/config.php.';
 $l['error_delete_no_uid'] = 'Nie wpisano identyfikatora uprawnień użytkownika/grupy';
 $l['error_delete_invalid_uid'] = 'Nie wpisano prawidłowego identyfikatora uprawnień użytkownika/grupy';
 
@@ -44,6 +44,3 @@ $l['success_perms_deleted'] = 'Uprawnienia dla użytkownika/grupy zostały cofni
 
 $l['confirm_perms_deletion'] = "Czy na pewno chcesz cofnąć uprawnienia temu użytkownikowi/tej grupie?";
 $l['confirm_perms_deletion2'] = "Czy na pewno chcesz cofnąć uprawnienia temu użytkownikowi?";
-
-
-?>

@@ -7,6 +7,7 @@
  */
 
 $l['nav_stats'] = "Statystyki";
+$l['stats_disabled'] = "Statystyki zostały wyłączone przez administratora.";
 
 $l['board_stats'] = "Statystyki";
 $l['none'] = "Brak";
@@ -34,5 +35,3 @@ $l['not_enough_info_stats'] = "Aby można było wygenerować statystyki, potrzeb
 $l['replies'] = "odpowiedzi";
 $l['views'] = "wyświetleń";
 $l['top_referrer'] = "Najwięcej poleconych użytkowników: <strong>{1}</strong> (<strong>{2}</strong>)";  
-
-?>
