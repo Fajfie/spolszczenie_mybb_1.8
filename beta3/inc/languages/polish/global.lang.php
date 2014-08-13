@@ -341,7 +341,7 @@ $l['seconds_short'] = "s";
 
 $l['rel_in'] = "W ciągu ";
 $l['rel_ago'] = "temu";
-$l['rel_less_than'] = "Mniej niż";
+$l['rel_less_than'] = "Mniej niż ";
 $l['rel_time'] = "{1}{2} {3} {4}";
 $l['rel_minutes_single'] = "minutę";
 $l['rel_minutes_plural'] = "minut(y)";
