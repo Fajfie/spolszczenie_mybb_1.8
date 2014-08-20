@@ -142,4 +142,3 @@ $l['redirect_eventadded_moderation'] = "Wydarzenie zostało dodane, ale wymaga z
 $l['redirect_eventunapproved'] = "Wydarzenie zostało ukryte.<br />Teraz nastąpi przeniesienie do tego wydarzenia.";
 $l['redirect_eventapproved'] = "Wydarzenie zostało zaakceptowane.<br />Teraz nastąpi przeniesienie do tego wydarzenia.";
 $l['redirect_eventmoved'] = "Wydarzenie zostało przeniesione.<br />Teraz nastąpi przeniesienie do tego wydarzenia.";
-?>
