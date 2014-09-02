@@ -780,7 +780,7 @@ $l['setting_contact_maxmessagelength'] = "Maksymalna długość treści wiadomo�
 $l['setting_contact_maxmessagelength_desc'] = "Maksymalna liczba znaków w treści umożliwiająca wysłanie wiadomości. Wpisanie 0 spowoduje całkowite zniesienie ograniczenia.";
 
 $l['setting_purgespammergroups'] = "Uprawnione grupy";
-$l['setting_purgespammergroup_desc'] = "Wybierz grupy uprawnione do korzystania z systemu usuwania spamerów.";
+$l['setting_purgespammergroups_desc'] = "Wybierz grupy uprawnione do korzystania z systemu usuwania spamerów.";
 $l['setting_purgespammerpostlimit'] = "Limit postów";
 $l['setting_purgespammerpostlimit_desc'] = "Ta opcja uniemożliwia korzystanie z narzędzia wobec aktywnych użytkowników, posiadających liczbę postów większą od podanej poniżej. Wpisanie 0 spowoduje całkowite wyłączenie sprawdzania postów, przy czym jest to niezalecane.";
 $l['setting_purgespammerbandelete'] = "Banuj lub usuwaj spamerów";
@@ -788,7 +788,7 @@ $l['setting_purgespammerbandelete_desc'] = "Czy chcesz, aby spamerzy odnalezieni
 $l['setting_purgespammerbandelete_ban'] = "Banuj (permanentnie)";
 $l['setting_purgespammerbandelete_delete'] = "Usuwaj";
 $l['setting_purgespammerbangroup'] = "Grupa zbanowanych użytkowników";
-$l['setting_purgespammerbangroup_desc'] = "Wpsiz ID (nie nazwę) grupy użytkowników, do której mają trafiać zbanowani spamerzy. Domyślnie ustawione na 7, jako standardowy numer grupy zbanowanych użytkowników. Poprzednia opcja musi być ustawiona na 'Banuj', aby to ustawienie zadziałało prawidłowo.";
+$l['setting_purgespammerbangroup_desc'] = "Wpisz ID (nie nazwę) grupy użytkowników, do której mają trafiać zbanowani spamerzy. Domyślnie ustawione na 7, jako standardowy numer grupy zbanowanych użytkowników. Poprzednia opcja musi być ustawiona na 'Banuj', aby to ustawienie zadziałało prawidłowo.";
 $l['setting_purgespammerbanreason'] = "Powód bana";
 $l['setting_purgespammerbanreason_desc'] = "Wpisz powód, który ma być wyświetlany po zbanowaniu spamera.";
 $l['setting_purgespammerapikey'] = "Klucz API systemu Stop Forum Spam";
