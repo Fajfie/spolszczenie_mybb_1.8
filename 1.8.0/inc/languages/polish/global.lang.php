@@ -272,7 +272,7 @@ $l['postbit_purgespammer'] = "Usuń spamera";
 
 $l['postbit_button_reputation_add'] = 'Dodaj punkt reputacji';
 $l['postbit_button_website'] = 'Strona WWW';
-$l['postbit_button_email'] = 'Wyślij e-mail';
+$l['postbit_button_email'] = 'E-mail';
 $l['postbit_button_find'] = 'Szukaj';
 $l['postbit_button_report'] = 'Zgłoś';
 $l['postbit_button_quote'] = 'Odpowiedz';
