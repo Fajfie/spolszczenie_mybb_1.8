@@ -26,6 +26,7 @@ $l['name'] = "Identyfikator";
 $l['name_desc'] = "Ten unikalny identyfikator używany będzie w przypadkach, gdy trzeba będzie odwołać się do tego wpisu (w skryptach, tłumaczeniach i szablonach).";
 $l['group_name_desc'] = "Ten unikalny identyfikator będzie używany przez system tłumaczeń.";
 $l['text'] = "Tekst";
+$l['numeric_text'] = "Wartość liczbowa";
 $l['textarea'] = "Pole tekstowe";
 $l['yesno'] = "Wybór Tak / Nie";
 $l['onoff'] = "Wybór Włączone / Wyłączone";
