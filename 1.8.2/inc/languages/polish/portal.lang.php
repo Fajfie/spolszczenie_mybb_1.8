@@ -8,6 +8,7 @@
 
 $l['nav_portal'] = "Portal";
 $l['posted_by'] = "Napisane przez:";
+$1['forum'] = "Forum:";
 $l['replies'] = "Odpowiedzi";
 $l['no_replies'] = "Brak odpowiedzi";
 $l['latest_threads'] = "Ostatnie wątki";
@@ -48,3 +49,5 @@ $l['online_users'] = "Aktualnie jest <b>{1}</b> użytkowników online.";
 $l['online_counts'] = "<b>{1}</b> Użytkownik(ów) | <b>{2}</b> Gość(i)";
 $l['print_this_item'] = "Wydrukuj tę wiadomość";
 $l['send_to_friend'] = "Wyślij tę wiadomość znajomemu";
+$l['latest_announcements'] = "Ostatnie ogłoszenia";
+$l['portal_disabled'] = "Portal został wyłączony przez administratora.";

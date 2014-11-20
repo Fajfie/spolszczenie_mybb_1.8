@@ -14,7 +14,7 @@ $l['userdata_invalid_usertitle_length'] = "Wprowadzony tytuł użytkownika jest 
 $l['userdata_username_exists'] = "Wprowadzony login już istnieje. Podaj inny login.";
 
 $l['userdata_invalid_password_length'] = "Wprowadzone hasło ma nieodpowiednią ilość znaków. Podaj hasło o długości od {1} do {2} znaków.";
-$l['userdata_no_complex_characters'] = 'Podane hasło nie zawiera jednego lub więcej złożonych znaków. Podaj hasło, które zawiera jeden lub wiecej znaków złożonych.';
+$l['userdata_no_complex_characters'] = 'Podane hasło zawiera zbyt mało złożonych znaków. Podaj hasło, które zawiera co najmniej {1} znaków złożonych.';
 $l['userdata_passwords_dont_match'] = "Wprowadzone hasła nie są identyczne. Wpisz je ponownie.";
 $l['userdata_bad_password_security'] = 'Wprowadzone hasło jest takie samo jak login lub adres e-mail. Wybierz inne hasło.';
 

@@ -261,7 +261,7 @@ $l['usergroup_leaders'] = "Liderzy grupy:";
 $l['usergroups_joinable'] = "Grupy, do których możesz dołączyć";
 $l['join_conditions'] = "Warunki dołączenia";
 $l['join_group'] = "Dołącz do grupy";
-$l['join_group_applied'] = "Poproszono o członkostwo w grupie: {1}, {2}";
+$l['join_group_applied'] = "Poproszono o członkostwo w grupie: {1}";
 $l['pending_invitation'] = "Otrzymano zaproszenie do grupy: <a href=\"usercp.php?action=usergroups&amp;acceptinvite={1}&amp;my_post_key={2}\">Zaakceptuj zaproszenie</a>";  
 $l['usergroups_leader'] = "Grupy, którym przewodniczysz";
 $l['usergroup_members'] = "Użytkownicy grupy";

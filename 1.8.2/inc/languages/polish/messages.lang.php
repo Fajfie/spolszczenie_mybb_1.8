@@ -91,9 +91,9 @@ $l['emailsubject_randompassword'] = "Twoje hasło do {1}";
 $l['emailsubject_activateaccount'] = "Aktywacja konta na forum {1}";
 $l['emailsubject_forumsubscription'] = "Nowy wątek na forum {1}";
 $l['emailsubject_reportpost'] = "Zgłoszony post na forum {1}";
-$l['emailsubject_reachedpmquota'] = "Przekroczono limit PW";
+$l['emailsubject_reachedpmquota'] = "Przekroczono limit ({1}) PW";
 $l['emailsubject_changeemail'] = "Zmiana e-maila na forum {1}";
-$l['emailsubject_newpm'] = "Nowa prywatna wiadomość na forum {1}";
+$l['emailsubject_newpm'] = "Nowa prywatna wiadomość na forum {1} - {2}";
 $l['emailsubject_newjoinrequest'] = "Nowa prośba o przyjęcie do grupy na forum {1}";
 $l['emailsubject_sendtofriend'] = "Interesujący wątek na forum {1}";
 $l['emailsubject_changepassword'] = "Zmiana hasła na forum {1}";
@@ -303,7 +303,7 @@ Ekipa {2}";
 
 $l['email_subscription'] = "{1},
 
-{2} odpowiedział w wątku, który subskrybujesz. Temat wątku: \"{4}\".
+{2} odpowiedział w wątku, który subskrybujesz ({3}). Temat wątku: \"{4}\".
 
 Streszczenie odpowiedzi:
 ------------------------------------------
@@ -329,7 +329,7 @@ $l['email_reachedpmquota'] = "{1},
 
 To jest automatycznie wysłana wiadomość z forum {2}. Informujemy Cię, że Twoja skrzynka prywatnych wiadomości jest pełna.
 
-Ktoś próbował wysłać do Ciebie prywatną wiadomość na forum {2}. Niestety, z powodu przekroczenia przez Ciebie limitu miejsca, nie było to możliwe.
+Ktoś próbował wysłać do Ciebie prywatną wiadomość. Niestety, z powodu przekroczenia przez Ciebie limitu miejsca, nie było to możliwe.
 
 Odwiedź forum i usuń starsze prywatne wiadomości, pamiętając również o opróżnieniu \"Usuniętych\".
 
@@ -343,7 +343,7 @@ Poproszono o zmianę adresu e-mail na stronie {2} (szczegóły poniżej).
 Stary e-mail: {3}
 Nowy e-mail: {4}
 
-Jeśli te zmiany są prawidłowe, dokończ proces aktywacji przechodząc pod adres:
+Jeśli te zmiany są prawidłowe, dokończ proces aktywacji przechodząc na {2} pod adres:
 
 {5}/member.php?action=activate&uid={8}&code={6}
 

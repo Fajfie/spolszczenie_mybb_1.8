@@ -95,10 +95,10 @@ $l['search_user'] = "Szukaj użytkownika";
 
 $l['results'] = "wyniki";
 $l['mod_options'] = "Opcje moderatora";
-$l['find_all'] = "Znajdź wszystkie";
-$l['find_only_approved'] = "Znajdź tylko zaakceptowane";
-$l['find_only_unapproved'] = "Znajdź tylko ukryte";
-$l['find_only_softdeleted'] = "Znajdź tylko nietrwale usunięte";
+$l['display_all'] = "Pokaż wszystkie";
+$l['display_only_approved'] = "Pokaż tylko zaakceptowane";
+$l['display_only_unapproved'] = "Pokaż tylko ukryte";
+$l['display_only_softdeleted'] = "Pokaż tylko nietrwale usunięte";
 
 $l['redirect_searchresults'] = "Teraz nastąpi przeniesienie do wyników wyszukiwania.";
 

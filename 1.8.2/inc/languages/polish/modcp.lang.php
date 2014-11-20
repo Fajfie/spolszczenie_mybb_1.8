@@ -246,9 +246,9 @@ $l['suspend_posts'] = "Odbierz użytkownikowi możliwość pisania";
 $l['modpost_length'] = "Posty będą moderowane przez:";
 $l['suspost_length'] = "Odbierz użytkownikowi możliwość pisania na okres:";
 
-$l['moderateposts_for'] = "Posty moderowane do {1}, {2}.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
-$l['suspendposting_for'] = "Odebrana możliwość pisania do {1}, {2}.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
-$l['suspendsignature_for'] = "Sygnatura zawieszona do {1}, {2}.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
+$l['moderateposts_for'] = "Posty moderowane do {1}.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
+$l['suspendposting_for'] = "Odebrana możliwość pisania do {1}.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
+$l['suspendsignature_for'] = "Sygnatura zawieszona do {1}.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
 $l['suspendposting_perm'] = "Zawieszone na zawsze.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
 $l['moderateposts_perm'] = "Moderowane na zawsze.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";
 $l['suspendsignature_perm'] = "Zawieszona na zawsze.<br />Odznacz tę opcję, aby anulować ograniczenie lub przedłuż je poniżej.";

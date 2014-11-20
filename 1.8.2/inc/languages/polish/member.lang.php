@@ -215,7 +215,7 @@ $l['error_notloggedout'] = "Wystąpił błąd przy wylogowaniu. Może to być sp
 $l['error_regimageinvalid'] = "Wprowadzony kod z obrazka jest nieprawidłowy. Spróbuj ponownie.";
 $l['error_regimagerequired'] = "Uzupełnij kod weryfikujący aby kontynuować proces logowania. Przepisz kod identyczny jak ten na obrazku.";
 $l['error_spam_deny'] = "Możliwość rejestracji została zablokowana ze względu na podejrzenie, że jesteś spamerem. Jeżeli uważasz, że jest to błędem, skontaktuj się z administratorem.";
-$l['error_spam_deny_time'] = "Możliwość rejestracji została zablokowana ze względu na podejrzenie, że jesteś spamerem. Aby zapobiec automatycznym rejestracjom ustalono minimalny czas potrzebny na wypełnienie formularza, który wynosi {1} sekund. Jeżeli uważasz, że jest to błędem, skontaktuj się z administratorem..";
+$l['error_spam_deny_time'] = "Możliwość rejestracji została zablokowana ze względu na podejrzenie, że jesteś spamerem. Aby zapobiec automatycznym rejestracjom ustalono minimalny czas potrzebny na wypełnienie formularza, który wynosi {1} sekund(y); ta rejestracja trwała {2} sekund(y). Jeżeli uważasz, że jest to błędem, skontaktuj się z administratorem..";
 
 $l['js_validator_no_username'] = "Musisz podać login";
 $l['js_validator_invalid_email'] = "Musisz podać prawidłowy adres e-mail";

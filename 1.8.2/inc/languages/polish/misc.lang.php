@@ -90,7 +90,7 @@ $l['redirect_markforumsread'] = "Wybrane działy zostały oznaczone jako przeczy
 $l['redirect_forumpasscleared'] = "Przechowywane hasła zostały wyczyszczone.";
 $l['redirect_cookiescleared'] = "Wszystkie ciasteczka zostały wyczyszczone.";
 
-$l['error_invalidimtype'] = "Ten użytkownik nie określił w profilu swoich danych komunikatora {1}.";
+$l['error_invalidimtype'] = "Ten użytkownik nie określił w profilu swoich danych dla tego komunikatora.";
 $l['error_invalidhelpdoc'] = "Wybrany dokument pomocy nie istnieje.";
 
 $l['dst_settings_updated'] = "Ustawienia dotyczące czasu zimowego zostały automatycznie zaktualizowane.<br /><br />Teraz nastąpi przeniesienie na stronę główną forum.";

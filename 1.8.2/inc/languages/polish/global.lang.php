@@ -308,7 +308,7 @@ $l['off'] = "wyłączone";
 $l['unread_report'] = "Notatka dla moderatora: jest jeden nowy raportowany post.";
 $l['unread_reports'] = "Notatka dla moderatora: są nowe raportowane posty ({1}).";
 $l['pending_joinrequest'] = "Notatka dla lidera grupy: jest jedno zgłoszenie do grupy, której jesteś liderem.";
-$l['pending_joinrequests'] = "Notatka dla lidera grupy: jest (1) zgłoszeń do grupy, której jesteś liderem.";
+$l['pending_joinrequests'] = "Notatka dla lidera grupy: jest {1} zgłoszeń do grupy, której jesteś liderem.";
 
 $l['year'] = "Rok";
 $l['year_short'] = "r";
