@@ -8,7 +8,7 @@
 
 $l['nav_portal'] = "Portal";
 $l['posted_by'] = "Napisane przez:";
-$1['forum'] = "Forum:";
+$l['forum'] = "Forum:";
 $l['replies'] = "Odpowiedzi";
 $l['no_replies'] = "Brak odpowiedzi";
 $l['latest_threads'] = "Ostatnie wątki";
